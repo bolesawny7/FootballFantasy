@@ -1,6 +1,6 @@
 #include "userservice.h"
 #include <iostream>
-
+// vector<User> UserService::users;
 UserService::UserService(){}
 void UserService:: setUser(User user){
     users.push_back(user);

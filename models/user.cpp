@@ -2,8 +2,7 @@
 #include <string>
 User::User(signupStruct signupDto) {
     this->league = signupDto.league;
-    this->firstName = signupDto.firstName;
-    this->lastName = signupDto.lastName;
+    this->userName=signupDto.userName;
     this->email = signupDto.email;
     this->password = signupDto.password;
     this->gender = signupDto.gender;

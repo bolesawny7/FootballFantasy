@@ -8,8 +8,7 @@ class User
 private:
     string id;
     string league;
-    string firstName;
-    string lastName;
+    string userName;
     string email;
     string password;
     string gender;

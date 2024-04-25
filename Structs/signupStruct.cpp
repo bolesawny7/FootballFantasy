@@ -2,8 +2,7 @@
 using namespace std;
 struct signupStruct {
     string league;
-    string firstName;
-    string lastName;
+    string userName;
     string email;
     string password;
     string gender;

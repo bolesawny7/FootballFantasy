@@ -28,6 +28,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         services/auth.h services/auth.cpp
         models/user.h models/user.cpp
         signup.h signup.cpp signup.ui
+        assets.qrc
 
     )
 # Define target properties for Android with Qt 6 as:

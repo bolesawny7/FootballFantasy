@@ -16,28 +16,24 @@ Login::~Login()
     delete ui;
 }
 
-void Login::on_pushButton_clicked()
-{
-    loginStruct loginDto;
-    loginDto.email = ui->email->text().toStdString();
-    loginDto.password = ui->password->text().toStdString();
-    cout << auth.login(loginDto);
-}
-
-
-void Login::on_signupPage_clicked()
-{
-    Signup signup;
-    signup.setModal(true);
-    signup.exec();
-}
-
 
 void Login::on_loginButton_clicked()
 {
     loginStruct loginDto;
-    loginDto.email = ui->email->text().toStdString();
-    loginDto.password = ui->password->text().toStdString();
-    cout << auth.login(loginDto);
+    loginDto.email = ui->emailLabel->text().toStdString();
+    loginDto.password = ui->passwordLabel->text().toStdString();
+    cout << "here";
+}
+
+
+
+
+void Login::on_signup_clicked()
+{
+    Signup signup;
+    signup.setModal(true);
+    close();
+    signup.exec();
+
 }
 

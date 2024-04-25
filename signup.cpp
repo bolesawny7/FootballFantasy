@@ -17,17 +17,21 @@ Signup::~Signup()
 void Signup::on_signupButton_clicked()
 {
     signupStruct signupDto;
-    signupDto.league = ui->league->text().toStdString();
-    signupDto.firstName = ui->firstName->text().toStdString();
-    signupDto.lastName = ui->lastName->text().toStdString();
-    signupDto.email = ui->email->text().toStdString();
-    signupDto.password = ui->password->text().toStdString();
-    signupDto.gender = ui->gender->text().toStdString();
+    signupDto.league = ui->leagueComboBox->currentText().toStdString();
+    signupDto.userName = ui->userNameLineEdit->text().toStdString();
+    signupDto.email = ui->eMailLineEdit->text().toStdString();
+    signupDto.password = ui->eMailLineEdit->text().toStdString();
+    signupDto.gender = ui->genderComboBox->currentText().toStdString();
     auth.signup(signupDto);
 }
 
 void Signup::on_loginPage_clicked()
 {
-
+    Login login;
+    login.setModal(true);
+    close();
+    login.exec();
 }
+
+
 

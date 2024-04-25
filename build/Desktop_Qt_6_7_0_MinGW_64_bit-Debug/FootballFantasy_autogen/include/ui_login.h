@@ -12,77 +12,89 @@
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QDialog>
+#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QVBoxLayout>
+#include <QtWidgets/QTextBrowser>
+#include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
 
 class Ui_Login
 {
 public:
-    QLabel *label;
     QGroupBox *groupBox;
-    QVBoxLayout *verticalLayout;
-    QLabel *label_2;
-    QLineEdit *email;
-    QLabel *label_3;
-    QLineEdit *password;
-    QPushButton *pushButton;
-    QLabel *label_4;
-    QPushButton *loginPage;
+    QWidget *formLayoutWidget;
+    QFormLayout *formLayout;
+    QLabel *emailLabel;
+    QLineEdit *emailLineEdit;
+    QLabel *passwordLabel;
+    QLineEdit *passwordLineEdit;
+    QTextBrowser *textBrowser;
+    QPushButton *loginButton;
+    QTextBrowser *textBrowser_2;
+    QPushButton *signup;
 
     void setupUi(QDialog *Login)
     {
         if (Login->objectName().isEmpty())
             Login->setObjectName("Login");
         Login->resize(1347, 755);
-        label = new QLabel(Login);
-        label->setObjectName("label");
-        label->setGeometry(QRect(0, 0, 1261, 751));
-        label->setPixmap(QPixmap(QString::fromUtf8("images/background.png")));
+        Login->setStyleSheet(QString::fromUtf8("Login{\n"
+"	background-image: url(:/background/fantasy.png);\n"
+"}\n"
+""));
         groupBox = new QGroupBox(Login);
         groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(320, 170, 661, 271));
-        verticalLayout = new QVBoxLayout(groupBox);
-        verticalLayout->setObjectName("verticalLayout");
-        label_2 = new QLabel(groupBox);
-        label_2->setObjectName("label_2");
+        groupBox->setGeometry(QRect(260, 120, 851, 391));
+        formLayoutWidget = new QWidget(groupBox);
+        formLayoutWidget->setObjectName("formLayoutWidget");
+        formLayoutWidget->setGeometry(QRect(100, 150, 651, 81));
+        formLayout = new QFormLayout(formLayoutWidget);
+        formLayout->setObjectName("formLayout");
+        formLayout->setContentsMargins(0, 0, 0, 0);
+        emailLabel = new QLabel(formLayoutWidget);
+        emailLabel->setObjectName("emailLabel");
 
-        verticalLayout->addWidget(label_2);
+        formLayout->setWidget(0, QFormLayout::LabelRole, emailLabel);
 
-        email = new QLineEdit(groupBox);
-        email->setObjectName("email");
+        emailLineEdit = new QLineEdit(formLayoutWidget);
+        emailLineEdit->setObjectName("emailLineEdit");
 
-        verticalLayout->addWidget(email);
+        formLayout->setWidget(0, QFormLayout::FieldRole, emailLineEdit);
 
-        label_3 = new QLabel(groupBox);
-        label_3->setObjectName("label_3");
+        passwordLabel = new QLabel(formLayoutWidget);
+        passwordLabel->setObjectName("passwordLabel");
 
-        verticalLayout->addWidget(label_3);
+        formLayout->setWidget(1, QFormLayout::LabelRole, passwordLabel);
 
-        password = new QLineEdit(groupBox);
-        password->setObjectName("password");
+        passwordLineEdit = new QLineEdit(formLayoutWidget);
+        passwordLineEdit->setObjectName("passwordLineEdit");
 
-        verticalLayout->addWidget(password);
+        formLayout->setWidget(1, QFormLayout::FieldRole, passwordLineEdit);
 
-        pushButton = new QPushButton(groupBox);
-        pushButton->setObjectName("pushButton");
-
-        verticalLayout->addWidget(pushButton);
-
-        label_4 = new QLabel(groupBox);
-        label_4->setObjectName("label_4");
-
-        verticalLayout->addWidget(label_4);
-
-        loginPage = new QPushButton(groupBox);
-        loginPage->setObjectName("loginPage");
-
-        verticalLayout->addWidget(loginPage);
-
+        textBrowser = new QTextBrowser(groupBox);
+        textBrowser->setObjectName("textBrowser");
+        textBrowser->setGeometry(QRect(280, 60, 256, 81));
+        textBrowser->setStyleSheet(QString::fromUtf8("\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+""));
+        loginButton = new QPushButton(groupBox);
+        loginButton->setObjectName("loginButton");
+        loginButton->setGeometry(QRect(270, 240, 291, 41));
+        textBrowser_2 = new QTextBrowser(groupBox);
+        textBrowser_2->setObjectName("textBrowser_2");
+        textBrowser_2->setGeometry(QRect(110, 330, 181, 51));
+        textBrowser_2->setStyleSheet(QString::fromUtf8("\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+""));
+        signup = new QPushButton(groupBox);
+        signup->setObjectName("signup");
+        signup->setGeometry(QRect(292, 330, 161, 29));
 
         retranslateUi(Login);
 
@@ -92,13 +104,28 @@ public:
     void retranslateUi(QDialog *Login)
     {
         Login->setWindowTitle(QCoreApplication::translate("Login", "Dialog", nullptr));
-        label->setText(QString());
-        groupBox->setTitle(QCoreApplication::translate("Login", "Login", nullptr));
-        label_2->setText(QCoreApplication::translate("Login", "email", nullptr));
-        label_3->setText(QCoreApplication::translate("Login", "password", nullptr));
-        pushButton->setText(QCoreApplication::translate("Login", "Login", nullptr));
-        label_4->setText(QCoreApplication::translate("Login", "signup", nullptr));
-        loginPage->setText(QCoreApplication::translate("Login", "Signup", nullptr));
+        groupBox->setTitle(QString());
+        emailLabel->setText(QCoreApplication::translate("Login", "email", nullptr));
+        passwordLabel->setText(QCoreApplication::translate("Login", "password", nullptr));
+        textBrowser->setHtml(QCoreApplication::translate("Login", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:28pt; font-weight:700;\">Login</span></p></body></html>", nullptr));
+        loginButton->setText(QCoreApplication::translate("Login", "Login", nullptr));
+        textBrowser_2->setHtml(QCoreApplication::translate("Login", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">don't have an account?</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p></body></html>", nullptr));
+        signup->setText(QCoreApplication::translate("Login", "signup", nullptr));
     } // retranslateUi
 
 };

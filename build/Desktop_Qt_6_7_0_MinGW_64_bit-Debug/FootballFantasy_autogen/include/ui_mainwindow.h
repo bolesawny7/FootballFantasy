@@ -11,8 +11,6 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QGroupBox>
-#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -26,12 +24,9 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QLabel *label;
-    QGroupBox *groupBox;
+    QWidget *widget;
     QVBoxLayout *verticalLayout;
-    QLabel *label_2;
     QPushButton *loginButton;
-    QLabel *label_3;
     QPushButton *signupButton;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -41,34 +36,31 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(1292, 764);
+        MainWindow->setStyleSheet(QString::fromUtf8("MainWindow{\n"
+"background-image: url(:/background/fantasy.png);\n"
+"};"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        label = new QLabel(centralwidget);
-        label->setObjectName("label");
-        label->setGeometry(QRect(0, -30, 1261, 781));
-        label->setPixmap(QPixmap(QString::fromUtf8("images/background.png")));
-        groupBox = new QGroupBox(centralwidget);
-        groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(280, 180, 561, 351));
-        verticalLayout = new QVBoxLayout(groupBox);
+        widget = new QWidget(centralwidget);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(10, 370, 311, 171));
+        verticalLayout = new QVBoxLayout(widget);
         verticalLayout->setObjectName("verticalLayout");
-        label_2 = new QLabel(groupBox);
-        label_2->setObjectName("label_2");
-
-        verticalLayout->addWidget(label_2);
-
-        loginButton = new QPushButton(groupBox);
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        loginButton = new QPushButton(widget);
         loginButton->setObjectName("loginButton");
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Ignored);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(loginButton->sizePolicy().hasHeightForWidth());
+        loginButton->setSizePolicy(sizePolicy);
 
         verticalLayout->addWidget(loginButton);
 
-        label_3 = new QLabel(groupBox);
-        label_3->setObjectName("label_3");
-
-        verticalLayout->addWidget(label_3);
-
-        signupButton = new QPushButton(groupBox);
+        signupButton = new QPushButton(widget);
         signupButton->setObjectName("signupButton");
+        sizePolicy.setHeightForWidth(signupButton->sizePolicy().hasHeightForWidth());
+        signupButton->setSizePolicy(sizePolicy);
 
         verticalLayout->addWidget(signupButton);
 
@@ -89,11 +81,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        label->setText(QString());
-        groupBox->setTitle(QCoreApplication::translate("MainWindow", "home", nullptr));
-        label_2->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
         loginButton->setText(QCoreApplication::translate("MainWindow", "Login", nullptr));
-        label_3->setText(QCoreApplication::translate("MainWindow", "signup", nullptr));
         signupButton->setText(QCoreApplication::translate("MainWindow", "signup", nullptr));
     } // retranslateUi
 

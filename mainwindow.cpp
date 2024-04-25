@@ -15,6 +15,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_loginButton_clicked()
 {
     login = new Login(this);
+    close();
     login->show();
 }
 
@@ -22,6 +23,7 @@ void MainWindow::on_loginButton_clicked()
 void MainWindow::on_signupButton_clicked()
 {
     signup = new Signup(this);
+    close();
     signup->show();
 }
 

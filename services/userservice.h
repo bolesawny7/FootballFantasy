@@ -6,7 +6,7 @@ using namespace std;
 class UserService
 {
 private:
-    vector<User>users;
+     vector<User>users;
 public:
     UserService();
     void setUser(User user);
