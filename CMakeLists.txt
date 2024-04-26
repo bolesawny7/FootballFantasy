@@ -29,6 +29,14 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         models/user.h models/user.cpp
         signup.h signup.cpp signup.ui
         assets.qrc
+        models/player.h models/player.cpp
+        models/fantasyleague.h models/fantasyleague.cpp
+        models/footballer.h models/footballer.cpp
+        models/team.h models/team.cpp
+        models/league.h models/league.cpp
+        models/fixture.h models/fixture.cpp
+        Structs/PlayerStruct.cpp
+        Structs/FootballerStruct.cpp
 
     )
 # Define target properties for Android with Qt 6 as:
