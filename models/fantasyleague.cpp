@@ -1,3 +1,8 @@
 #include "fantasyleague.h"
+#include "string"
+FantasyLeague::FantasyLeague() {
 
-FantasyLeague::FantasyLeague() {}
+}
+class FantasyLeague{
+    int getLeagueId()const {return LeagueID};
+};
