@@ -186,6 +186,30 @@ FootballFantasy_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy_autogen.dir\build.make CMakeFiles/FootballFantasy_autogen.dir/build
 .PHONY : FootballFantasy_autogen/fast
 
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.obj: FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.obj
+
+# target to build an object file
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj
+
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.i: FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.i
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.i
+
+# target to preprocess a source file
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.i
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.i
+
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.s: FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.s
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.s
+
+# target to generate assembly for a file
+FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.s
+.PHONY : FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.s
+
 FootballFantasy_autogen/mocs_compilation.obj: FootballFantasy_autogen/mocs_compilation.cpp.obj
 .PHONY : FootballFantasy_autogen/mocs_compilation.obj
 
@@ -392,6 +416,9 @@ help:
 	@echo ... rebuild_cache
 	@echo ... FootballFantasy_autogen
 	@echo ... FootballFantasy
+	@echo ... FootballFantasy_autogen/EWIEGA46WW/qrc_assets.obj
+	@echo ... FootballFantasy_autogen/EWIEGA46WW/qrc_assets.i
+	@echo ... FootballFantasy_autogen/EWIEGA46WW/qrc_assets.s
 	@echo ... FootballFantasy_autogen/mocs_compilation.obj
 	@echo ... FootballFantasy_autogen/mocs_compilation.i
 	@echo ... FootballFantasy_autogen/mocs_compilation.s

@@ -20,8 +20,9 @@ Login::~Login()
 void Login::on_loginButton_clicked()
 {
     loginStruct loginDto;
-    loginDto.email = ui->emailLabel->text().toStdString();
-    loginDto.password = ui->passwordLabel->text().toStdString();
+    loginDto.email = ui->emailLineEdit->text().toStdString();
+    loginDto.password = ui->passwordLineEdit->text().toStdString();
+    cout << auth.login(loginDto);
     cout << "here";
 }
 

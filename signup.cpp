@@ -20,7 +20,7 @@ void Signup::on_signupButton_clicked()
     signupDto.league = ui->leagueComboBox->currentText().toStdString();
     signupDto.userName = ui->userNameLineEdit->text().toStdString();
     signupDto.email = ui->eMailLineEdit->text().toStdString();
-    signupDto.password = ui->eMailLineEdit->text().toStdString();
+    signupDto.password = ui->passwordLineEdit->text().toStdString();
     signupDto.gender = ui->genderComboBox->currentText().toStdString();
     auth.signup(signupDto);
 }

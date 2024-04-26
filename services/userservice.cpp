@@ -1,6 +1,6 @@
 #include "userservice.h"
 #include <iostream>
-// vector<User> UserService::users;
+ vector<User> UserService::users;
 UserService::UserService(){}
 void UserService:: setUser(User user){
     users.push_back(user);
@@ -14,7 +14,7 @@ bool UserService:: findUser(loginStruct loginDto){
         cout << users[i].getEmail() << endl;
     }
     for(int i = 0; i < users.size(); i++){
-        cout << users[i].getEmail() << " " << loginDto.email << loginDto.password << endl;
+        cout << users[i].getEmail() << endl << loginDto.email << endl << loginDto.password << endl << users[i].getPassword() << endl;
         if(users[i].getEmail() == loginDto.email){
             if(users[i].getPassword() == loginDto.password)
                 return true;
