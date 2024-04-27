@@ -1,10 +1,17 @@
 #ifndef LEAGUE_H
 #define LEAGUE_H
+#include "string"
+#include <vector>
+using namespace std;
 
-class League
+class League : team
 {
+private:
+    string LeagueID;
+    string Name;
+
 public:
-    League();
+
 };
 
 #endif // LEAGUE_H

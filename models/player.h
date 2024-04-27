@@ -1,10 +1,20 @@
 #ifndef PLAYER_H
 #define PLAYER_H
-
-class Player
+#include"string"
+#include <vector>
+#include "footballer.h"
+#include "../Structs/PlayerStruct.cpp"
+#include "../Structs/FootballerStruct.cpp"
+using namespace std;
+class Player : user
 {
+private:
+    int Budget;
+    string PlayerID;
+    string FantasyTeamName;
+    vector<FootballerStruct> FantasyTeamFootballers;
 public:
-    Player();
+
 };
 
 #endif // PLAYER_H
