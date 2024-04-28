@@ -1,6 +1,7 @@
 #include "login.h"
 #include "ui_login.h"
 #include "signup.h"
+#include "home.h"
 #include <iostream>
 using namespace std;
 
@@ -24,6 +25,10 @@ void Login::on_loginButton_clicked()
     loginDto.password = ui->passwordLineEdit->text().toStdString();
     cout << auth.login(loginDto);
     cout << "here";
+    Home home;
+    home.setModal(true);
+    close();
+    home.exec();
 }
 
 

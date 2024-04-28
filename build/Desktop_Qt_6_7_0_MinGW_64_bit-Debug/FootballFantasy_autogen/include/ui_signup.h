@@ -14,7 +14,6 @@
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFormLayout>
-#include <QtWidgets/QFrame>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -27,6 +26,12 @@ QT_BEGIN_NAMESPACE
 class Ui_Signup
 {
 public:
+    QLabel *label;
+    QTextBrowser *textBrowser;
+    QGroupBox *groupBox;
+    QPushButton *signupButton;
+    QTextBrowser *textBrowser_2;
+    QPushButton *loginPage;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
     QLabel *leagueLabel;
@@ -39,13 +44,10 @@ public:
     QLineEdit *passwordLineEdit;
     QLabel *genderLabel;
     QComboBox *genderComboBox;
-    QFrame *frame;
-    QLabel *label;
-    QTextBrowser *textBrowser;
-    QGroupBox *groupBox;
-    QPushButton *signupButton;
-    QTextBrowser *textBrowser_2;
-    QPushButton *loginPage;
+    QLabel *favouriteTeamLabel;
+    QComboBox *favouriteTeamComboBox;
+    QLabel *roleLabel;
+    QComboBox *roleComboBox;
 
     void setupUi(QDialog *Signup)
     {
@@ -62,9 +64,44 @@ public:
 "	background-image: url(:/background/fantasy.png);\n"
 "}\n"
 ""));
-        formLayoutWidget = new QWidget(Signup);
+        label = new QLabel(Signup);
+        label->setObjectName("label");
+        label->setGeometry(QRect(530, 130, 231, 81));
+        textBrowser = new QTextBrowser(Signup);
+        textBrowser->setObjectName("textBrowser");
+        textBrowser->setGeometry(QRect(550, 150, 256, 71));
+        textBrowser->setStyleSheet(QString::fromUtf8("\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+""));
+        groupBox = new QGroupBox(Signup);
+        groupBox->setObjectName("groupBox");
+        groupBox->setGeometry(QRect(310, 100, 741, 471));
+        groupBox->setStyleSheet(QString::fromUtf8("border-color: rgb(255, 255, 255);"));
+        signupButton = new QPushButton(groupBox);
+        signupButton->setObjectName("signupButton");
+        signupButton->setEnabled(true);
+        signupButton->setGeometry(QRect(130, 380, 522, 29));
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Fixed);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(signupButton->sizePolicy().hasHeightForWidth());
+        signupButton->setSizePolicy(sizePolicy1);
+        signupButton->setMinimumSize(QSize(122, 0));
+        signupButton->setMaximumSize(QSize(522, 16777215));
+        textBrowser_2 = new QTextBrowser(groupBox);
+        textBrowser_2->setObjectName("textBrowser_2");
+        textBrowser_2->setGeometry(QRect(210, 420, 181, 31));
+        textBrowser_2->setStyleSheet(QString::fromUtf8("\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"border:none;\n"
+""));
+        loginPage = new QPushButton(groupBox);
+        loginPage->setObjectName("loginPage");
+        loginPage->setGeometry(QRect(410, 420, 161, 29));
+        formLayoutWidget = new QWidget(groupBox);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(370, 240, 601, 187));
+        formLayoutWidget->setGeometry(QRect(80, 130, 601, 241));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setLabelAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
@@ -125,50 +162,31 @@ public:
 
         formLayout->setWidget(4, QFormLayout::FieldRole, genderComboBox);
 
-        frame = new QFrame(formLayoutWidget);
-        frame->setObjectName("frame");
-        frame->setFrameShape(QFrame::StyledPanel);
-        frame->setFrameShadow(QFrame::Raised);
+        favouriteTeamLabel = new QLabel(formLayoutWidget);
+        favouriteTeamLabel->setObjectName("favouriteTeamLabel");
 
-        formLayout->setWidget(5, QFormLayout::LabelRole, frame);
+        formLayout->setWidget(5, QFormLayout::LabelRole, favouriteTeamLabel);
 
-        label = new QLabel(Signup);
-        label->setObjectName("label");
-        label->setGeometry(QRect(530, 130, 231, 81));
-        textBrowser = new QTextBrowser(Signup);
-        textBrowser->setObjectName("textBrowser");
-        textBrowser->setGeometry(QRect(550, 170, 256, 71));
-        textBrowser->setStyleSheet(QString::fromUtf8("\n"
-"	background-color: rgba(0, 0, 0, 0);\n"
-"border:none;\n"
-""));
-        groupBox = new QGroupBox(Signup);
-        groupBox->setObjectName("groupBox");
-        groupBox->setGeometry(QRect(310, 100, 741, 451));
-        groupBox->setStyleSheet(QString::fromUtf8("border-color: rgb(255, 255, 255);"));
-        signupButton = new QPushButton(groupBox);
-        signupButton->setObjectName("signupButton");
-        signupButton->setEnabled(true);
-        signupButton->setGeometry(QRect(110, 320, 522, 29));
-        QSizePolicy sizePolicy1(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Fixed);
-        sizePolicy1.setHorizontalStretch(0);
-        sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(signupButton->sizePolicy().hasHeightForWidth());
-        signupButton->setSizePolicy(sizePolicy1);
-        signupButton->setMinimumSize(QSize(122, 0));
-        signupButton->setMaximumSize(QSize(522, 16777215));
-        textBrowser_2 = new QTextBrowser(groupBox);
-        textBrowser_2->setObjectName("textBrowser_2");
-        textBrowser_2->setGeometry(QRect(180, 410, 181, 31));
-        textBrowser_2->setStyleSheet(QString::fromUtf8("\n"
-"	background-color: rgba(0, 0, 0, 0);\n"
-"border:none;\n"
-""));
-        loginPage = new QPushButton(groupBox);
-        loginPage->setObjectName("loginPage");
-        loginPage->setGeometry(QRect(370, 410, 161, 29));
+        favouriteTeamComboBox = new QComboBox(formLayoutWidget);
+        favouriteTeamComboBox->addItem(QString());
+        favouriteTeamComboBox->addItem(QString());
+        favouriteTeamComboBox->setObjectName("favouriteTeamComboBox");
+
+        formLayout->setWidget(5, QFormLayout::FieldRole, favouriteTeamComboBox);
+
+        roleLabel = new QLabel(formLayoutWidget);
+        roleLabel->setObjectName("roleLabel");
+
+        formLayout->setWidget(6, QFormLayout::LabelRole, roleLabel);
+
+        roleComboBox = new QComboBox(formLayoutWidget);
+        roleComboBox->addItem(QString());
+        roleComboBox->addItem(QString());
+        roleComboBox->setObjectName("roleComboBox");
+
+        formLayout->setWidget(6, QFormLayout::FieldRole, roleComboBox);
+
         groupBox->raise();
-        formLayoutWidget->raise();
         label->raise();
         textBrowser->raise();
 
@@ -180,18 +198,6 @@ public:
     void retranslateUi(QDialog *Signup)
     {
         Signup->setWindowTitle(QCoreApplication::translate("Signup", "Dialog", nullptr));
-        leagueLabel->setText(QCoreApplication::translate("Signup", "league", nullptr));
-        leagueComboBox->setItemText(0, QCoreApplication::translate("Signup", "premier league", nullptr));
-        leagueComboBox->setItemText(1, QCoreApplication::translate("Signup", "La liga", nullptr));
-        leagueComboBox->setItemText(2, QCoreApplication::translate("Signup", "Seria A", nullptr));
-
-        userNameLabel->setText(QCoreApplication::translate("Signup", "User name", nullptr));
-        eMailLabel->setText(QCoreApplication::translate("Signup", "E-mail", nullptr));
-        passwordLabel->setText(QCoreApplication::translate("Signup", "password", nullptr));
-        genderLabel->setText(QCoreApplication::translate("Signup", "Gender", nullptr));
-        genderComboBox->setItemText(0, QCoreApplication::translate("Signup", "male", nullptr));
-        genderComboBox->setItemText(1, QCoreApplication::translate("Signup", "female", nullptr));
-
         label->setText(QString());
         textBrowser->setHtml(QCoreApplication::translate("Signup", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
@@ -212,6 +218,26 @@ public:
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">already have an account?</p></body></html>", nullptr));
         loginPage->setText(QCoreApplication::translate("Signup", "Login", nullptr));
+        leagueLabel->setText(QCoreApplication::translate("Signup", "league", nullptr));
+        leagueComboBox->setItemText(0, QCoreApplication::translate("Signup", "premier league", nullptr));
+        leagueComboBox->setItemText(1, QCoreApplication::translate("Signup", "La liga", nullptr));
+        leagueComboBox->setItemText(2, QCoreApplication::translate("Signup", "Seria A", nullptr));
+
+        userNameLabel->setText(QCoreApplication::translate("Signup", "User name", nullptr));
+        eMailLabel->setText(QCoreApplication::translate("Signup", "E-mail", nullptr));
+        passwordLabel->setText(QCoreApplication::translate("Signup", "password", nullptr));
+        genderLabel->setText(QCoreApplication::translate("Signup", "Gender", nullptr));
+        genderComboBox->setItemText(0, QCoreApplication::translate("Signup", "male", nullptr));
+        genderComboBox->setItemText(1, QCoreApplication::translate("Signup", "female", nullptr));
+
+        favouriteTeamLabel->setText(QCoreApplication::translate("Signup", "favourite Team", nullptr));
+        favouriteTeamComboBox->setItemText(0, QCoreApplication::translate("Signup", "liverpool", nullptr));
+        favouriteTeamComboBox->setItemText(1, QCoreApplication::translate("Signup", "Man city", nullptr));
+
+        roleLabel->setText(QCoreApplication::translate("Signup", "role", nullptr));
+        roleComboBox->setItemText(0, QCoreApplication::translate("Signup", "user", nullptr));
+        roleComboBox->setItemText(1, QCoreApplication::translate("Signup", "admin", nullptr));
+
     } // retranslateUi
 
 };
