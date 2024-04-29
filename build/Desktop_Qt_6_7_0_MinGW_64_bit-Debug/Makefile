@@ -234,6 +234,78 @@ FootballFantasy_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.s
 .PHONY : FootballFantasy_autogen/mocs_compilation.cpp.s
 
+Structs/FootballerStruct.obj: Structs/FootballerStruct.cpp.obj
+.PHONY : Structs/FootballerStruct.obj
+
+# target to build an object file
+Structs/FootballerStruct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj
+.PHONY : Structs/FootballerStruct.cpp.obj
+
+Structs/FootballerStruct.i: Structs/FootballerStruct.cpp.i
+.PHONY : Structs/FootballerStruct.i
+
+# target to preprocess a source file
+Structs/FootballerStruct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.i
+.PHONY : Structs/FootballerStruct.cpp.i
+
+Structs/FootballerStruct.s: Structs/FootballerStruct.cpp.s
+.PHONY : Structs/FootballerStruct.s
+
+# target to generate assembly for a file
+Structs/FootballerStruct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.s
+.PHONY : Structs/FootballerStruct.cpp.s
+
+Structs/PlayerStruct.obj: Structs/PlayerStruct.cpp.obj
+.PHONY : Structs/PlayerStruct.obj
+
+# target to build an object file
+Structs/PlayerStruct.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj
+.PHONY : Structs/PlayerStruct.cpp.obj
+
+Structs/PlayerStruct.i: Structs/PlayerStruct.cpp.i
+.PHONY : Structs/PlayerStruct.i
+
+# target to preprocess a source file
+Structs/PlayerStruct.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.i
+.PHONY : Structs/PlayerStruct.cpp.i
+
+Structs/PlayerStruct.s: Structs/PlayerStruct.cpp.s
+.PHONY : Structs/PlayerStruct.s
+
+# target to generate assembly for a file
+Structs/PlayerStruct.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.s
+.PHONY : Structs/PlayerStruct.cpp.s
+
+home.obj: home.cpp.obj
+.PHONY : home.obj
+
+# target to build an object file
+home.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/home.cpp.obj
+.PHONY : home.cpp.obj
+
+home.i: home.cpp.i
+.PHONY : home.i
+
+# target to preprocess a source file
+home.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/home.cpp.i
+.PHONY : home.cpp.i
+
+home.s: home.cpp.s
+.PHONY : home.s
+
+# target to generate assembly for a file
+home.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/home.cpp.s
+.PHONY : home.cpp.s
+
 login.obj: login.cpp.obj
 .PHONY : login.obj
 
@@ -305,6 +377,150 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
+
+models/fantasyleague.obj: models/fantasyleague.cpp.obj
+.PHONY : models/fantasyleague.obj
+
+# target to build an object file
+models/fantasyleague.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj
+.PHONY : models/fantasyleague.cpp.obj
+
+models/fantasyleague.i: models/fantasyleague.cpp.i
+.PHONY : models/fantasyleague.i
+
+# target to preprocess a source file
+models/fantasyleague.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.i
+.PHONY : models/fantasyleague.cpp.i
+
+models/fantasyleague.s: models/fantasyleague.cpp.s
+.PHONY : models/fantasyleague.s
+
+# target to generate assembly for a file
+models/fantasyleague.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.s
+.PHONY : models/fantasyleague.cpp.s
+
+models/fixture.obj: models/fixture.cpp.obj
+.PHONY : models/fixture.obj
+
+# target to build an object file
+models/fixture.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj
+.PHONY : models/fixture.cpp.obj
+
+models/fixture.i: models/fixture.cpp.i
+.PHONY : models/fixture.i
+
+# target to preprocess a source file
+models/fixture.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fixture.cpp.i
+.PHONY : models/fixture.cpp.i
+
+models/fixture.s: models/fixture.cpp.s
+.PHONY : models/fixture.s
+
+# target to generate assembly for a file
+models/fixture.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fixture.cpp.s
+.PHONY : models/fixture.cpp.s
+
+models/footballer.obj: models/footballer.cpp.obj
+.PHONY : models/footballer.obj
+
+# target to build an object file
+models/footballer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj
+.PHONY : models/footballer.cpp.obj
+
+models/footballer.i: models/footballer.cpp.i
+.PHONY : models/footballer.i
+
+# target to preprocess a source file
+models/footballer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/footballer.cpp.i
+.PHONY : models/footballer.cpp.i
+
+models/footballer.s: models/footballer.cpp.s
+.PHONY : models/footballer.s
+
+# target to generate assembly for a file
+models/footballer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/footballer.cpp.s
+.PHONY : models/footballer.cpp.s
+
+models/league.obj: models/league.cpp.obj
+.PHONY : models/league.obj
+
+# target to build an object file
+models/league.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/league.cpp.obj
+.PHONY : models/league.cpp.obj
+
+models/league.i: models/league.cpp.i
+.PHONY : models/league.i
+
+# target to preprocess a source file
+models/league.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/league.cpp.i
+.PHONY : models/league.cpp.i
+
+models/league.s: models/league.cpp.s
+.PHONY : models/league.s
+
+# target to generate assembly for a file
+models/league.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/league.cpp.s
+.PHONY : models/league.cpp.s
+
+models/player.obj: models/player.cpp.obj
+.PHONY : models/player.obj
+
+# target to build an object file
+models/player.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/player.cpp.obj
+.PHONY : models/player.cpp.obj
+
+models/player.i: models/player.cpp.i
+.PHONY : models/player.i
+
+# target to preprocess a source file
+models/player.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/player.cpp.i
+.PHONY : models/player.cpp.i
+
+models/player.s: models/player.cpp.s
+.PHONY : models/player.s
+
+# target to generate assembly for a file
+models/player.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/player.cpp.s
+.PHONY : models/player.cpp.s
+
+models/team.obj: models/team.cpp.obj
+.PHONY : models/team.obj
+
+# target to build an object file
+models/team.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/team.cpp.obj
+.PHONY : models/team.cpp.obj
+
+models/team.i: models/team.cpp.i
+.PHONY : models/team.i
+
+# target to preprocess a source file
+models/team.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/team.cpp.i
+.PHONY : models/team.cpp.i
+
+models/team.s: models/team.cpp.s
+.PHONY : models/team.s
+
+# target to generate assembly for a file
+models/team.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/team.cpp.s
+.PHONY : models/team.cpp.s
 
 models/user.obj: models/user.cpp.obj
 .PHONY : models/user.obj
@@ -422,6 +638,15 @@ help:
 	@echo ... FootballFantasy_autogen/mocs_compilation.obj
 	@echo ... FootballFantasy_autogen/mocs_compilation.i
 	@echo ... FootballFantasy_autogen/mocs_compilation.s
+	@echo ... Structs/FootballerStruct.obj
+	@echo ... Structs/FootballerStruct.i
+	@echo ... Structs/FootballerStruct.s
+	@echo ... Structs/PlayerStruct.obj
+	@echo ... Structs/PlayerStruct.i
+	@echo ... Structs/PlayerStruct.s
+	@echo ... home.obj
+	@echo ... home.i
+	@echo ... home.s
 	@echo ... login.obj
 	@echo ... login.i
 	@echo ... login.s
@@ -431,6 +656,24 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... models/fantasyleague.obj
+	@echo ... models/fantasyleague.i
+	@echo ... models/fantasyleague.s
+	@echo ... models/fixture.obj
+	@echo ... models/fixture.i
+	@echo ... models/fixture.s
+	@echo ... models/footballer.obj
+	@echo ... models/footballer.i
+	@echo ... models/footballer.s
+	@echo ... models/league.obj
+	@echo ... models/league.i
+	@echo ... models/league.s
+	@echo ... models/player.obj
+	@echo ... models/player.i
+	@echo ... models/player.s
+	@echo ... models/team.obj
+	@echo ... models/team.i
+	@echo ... models/team.s
 	@echo ... models/user.obj
 	@echo ... models/user.i
 	@echo ... models/user.s
