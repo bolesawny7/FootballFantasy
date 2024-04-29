@@ -1,3 +1,5 @@
 #include "fixture.h"
 
-Fixture::Fixture() {}
+Fixture::Fixture() {
+
+}
