@@ -6,6 +6,9 @@ User::User(signupStruct signupDto) {
     this->email = signupDto.email;
     this->password = signupDto.password;
     this->gender = signupDto.gender;
+    this->favTeam=signupDto.favTeam;
+    this->role=signupDto.role;
+
 }
 
 string User:: getEmail(){

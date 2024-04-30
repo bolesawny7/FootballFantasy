@@ -28,111 +28,6 @@
 }
 </string>
   </property>
-  <widget class="QWidget" name="formLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>370</x>
-     <y>240</y>
-     <width>601</width>
-     <height>187</height>
-    </rect>
-   </property>
-   <layout class="QFormLayout" name="formLayout">
-    <property name="labelAlignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
-    </property>
-    <property name="formAlignment">
-     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-    </property>
-    <item row="0" column="0">
-     <widget class="QLabel" name="leagueLabel">
-      <property name="text">
-       <string>league</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QComboBox" name="leagueComboBox">
-      <item>
-       <property name="text">
-        <string>premier league</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>La liga</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>Seria A</string>
-       </property>
-      </item>
-     </widget>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="userNameLabel">
-      <property name="text">
-       <string>User name</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QLineEdit" name="userNameLineEdit"/>
-    </item>
-    <item row="2" column="0">
-     <widget class="QLabel" name="eMailLabel">
-      <property name="text">
-       <string>E-mail</string>
-      </property>
-     </widget>
-    </item>
-    <item row="2" column="1">
-     <widget class="QLineEdit" name="eMailLineEdit"/>
-    </item>
-    <item row="3" column="0">
-     <widget class="QLabel" name="passwordLabel">
-      <property name="text">
-       <string>password</string>
-      </property>
-     </widget>
-    </item>
-    <item row="3" column="1">
-     <widget class="QLineEdit" name="passwordLineEdit"/>
-    </item>
-    <item row="4" column="0">
-     <widget class="QLabel" name="genderLabel">
-      <property name="text">
-       <string>Gender</string>
-      </property>
-     </widget>
-    </item>
-    <item row="4" column="1">
-     <widget class="QComboBox" name="genderComboBox">
-      <item>
-       <property name="text">
-        <string>male</string>
-       </property>
-      </item>
-      <item>
-       <property name="text">
-        <string>female</string>
-       </property>
-      </item>
-     </widget>
-    </item>
-    <item row="5" column="0">
-     <widget class="QFrame" name="frame">
-      <property name="frameShape">
-       <enum>QFrame::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Raised</enum>
-      </property>
-     </widget>
-    </item>
-   </layout>
-  </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
@@ -150,7 +45,7 @@
    <property name="geometry">
     <rect>
      <x>550</x>
-     <y>170</y>
+     <y>150</y>
      <width>256</width>
      <height>71</height>
     </rect>
@@ -178,7 +73,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <x>310</x>
      <y>100</y>
      <width>741</width>
-     <height>451</height>
+     <height>471</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -193,8 +88,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </property>
     <property name="geometry">
      <rect>
-      <x>110</x>
-      <y>320</y>
+      <x>130</x>
+      <y>380</y>
       <width>522</width>
       <height>29</height>
      </rect>
@@ -224,8 +119,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QTextBrowser" name="textBrowser_2">
     <property name="geometry">
      <rect>
-      <x>180</x>
-      <y>410</y>
+      <x>210</x>
+      <y>420</y>
       <width>181</width>
       <height>31</height>
      </rect>
@@ -250,8 +145,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QPushButton" name="loginPage">
     <property name="geometry">
      <rect>
-      <x>370</x>
-      <y>410</y>
+      <x>410</x>
+      <y>420</y>
       <width>161</width>
       <height>29</height>
      </rect>
@@ -260,9 +155,145 @@ li.checked::marker { content: &quot;\2612&quot;; }
      <string>Login</string>
     </property>
    </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>130</y>
+      <width>601</width>
+      <height>241</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="labelAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+     </property>
+     <property name="formAlignment">
+      <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="leagueLabel">
+       <property name="text">
+        <string>league</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="leagueComboBox">
+       <item>
+        <property name="text">
+         <string>premier league</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>La liga</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Seria A</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="userNameLabel">
+       <property name="text">
+        <string>User name</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="userNameLineEdit"/>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="eMailLabel">
+       <property name="text">
+        <string>E-mail</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="eMailLineEdit"/>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="passwordLabel">
+       <property name="text">
+        <string>password</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="passwordLineEdit"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="genderLabel">
+       <property name="text">
+        <string>Gender</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="genderComboBox">
+       <item>
+        <property name="text">
+         <string>male</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>female</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="favouriteTeamLabel">
+       <property name="text">
+        <string>favourite Team</string>
+       </property>
+      </widget>
+     </item>
+     <item row="5" column="1">
+      <widget class="QComboBox" name="favouriteTeamComboBox">
+       <item>
+        <property name="text">
+         <string>liverpool</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Man city</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="roleLabel">
+       <property name="text">
+        <string>role</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="1">
+      <widget class="QComboBox" name="roleComboBox">
+       <item>
+        <property name="text">
+         <string>user</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>admin</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
   </widget>
   <zorder>groupBox</zorder>
-  <zorder>formLayoutWidget</zorder>
   <zorder>label</zorder>
   <zorder>textBrowser</zorder>
  </widget>

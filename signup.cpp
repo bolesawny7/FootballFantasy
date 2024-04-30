@@ -22,6 +22,8 @@ void Signup::on_signupButton_clicked()
     signupDto.email = ui->eMailLineEdit->text().toStdString();
     signupDto.password = ui->passwordLineEdit->text().toStdString();
     signupDto.gender = ui->genderComboBox->currentText().toStdString();
+    signupDto.favTeam = ui->favouriteTeamComboBox->currentText().toStdString();
+    signupDto.role = ui->roleComboBox->currentText().toStdString();
     auth.signup(signupDto);
 }
 

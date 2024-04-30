@@ -8,7 +8,7 @@ class FantasyLeague
 public:
     string LeagueID;
     string LeagueName;
-    vector <> Players[];
+    vector <Footballer> Players[];
 };
 
 #endif // FANTASYLEAGUE_H

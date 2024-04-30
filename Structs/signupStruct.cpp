@@ -6,4 +6,7 @@ struct signupStruct {
     string email;
     string password;
     string gender;
+    string favTeam;
+    string role;
+
 };

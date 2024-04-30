@@ -12,6 +12,9 @@ private:
     string email;
     string password;
     string gender;
+    string favTeam;
+    string role;
+
 public:
     User(signupStruct signupDto);
     string getEmail();

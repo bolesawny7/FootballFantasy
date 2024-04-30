@@ -3,17 +3,17 @@
 #include"string"
 #include <vector>
 #include "footballer.h"
+#include "user.h"
 #include "../Structs/PlayerStruct.cpp"
 #include "../Structs/FootballerStruct.cpp"
 using namespace std;
-class Player : user
-{
+class Player :public User {
 private:
     int Budget;
     string PlayerID;
     string FantasyTeamName;
     vector<FootballerStruct> FantasyTeamFootballers;
-public:
+// public:
 
 };
 

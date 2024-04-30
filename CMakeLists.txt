@@ -37,6 +37,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         models/fixture.h models/fixture.cpp
         Structs/PlayerStruct.cpp
         Structs/FootballerStruct.cpp
+        home.h home.cpp home.ui
+
 
     )
 # Define target properties for Android with Qt 6 as:
