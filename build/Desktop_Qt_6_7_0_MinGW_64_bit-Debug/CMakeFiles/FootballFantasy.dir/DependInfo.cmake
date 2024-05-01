@@ -24,6 +24,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/projects/FootballFantasy/models/team.cpp" "CMakeFiles/FootballFantasy.dir/models/team.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/models/team.cpp.obj.d"
   "D:/projects/FootballFantasy/models/user.cpp" "CMakeFiles/FootballFantasy.dir/models/user.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/models/user.cpp.obj.d"
   "D:/projects/FootballFantasy/services/auth.cpp" "CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj.d"
+  "D:/projects/FootballFantasy/services/footballer.cpp" "CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj.d"
   "D:/projects/FootballFantasy/services/userservice.cpp" "CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj.d"
   "D:/projects/FootballFantasy/signup.cpp" "CMakeFiles/FootballFantasy.dir/signup.cpp.obj" "gcc" "CMakeFiles/FootballFantasy.dir/signup.cpp.obj.d"
   )

@@ -368,20 +368,19 @@ CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj:
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/home.h \
-  D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/mainwindow.h \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h \
-  D:/Projects/FootballFantasy/signup.h \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/home.h \
+  D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/mainwindow.h \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h \
+  D:/projects/FootballFantasy/signup.h \
   FootballFantasy_autogen/EWIEGA46WW/moc_home.cpp \
   FootballFantasy_autogen/EWIEGA46WW/moc_login.cpp \
   FootballFantasy_autogen/EWIEGA46WW/moc_mainwindow.cpp \
-  FootballFantasy_autogen/EWIEGA46WW/moc_signup.cpp \
-  FootballFantasy_autogen/mocs_compilation.cpp
+  FootballFantasy_autogen/EWIEGA46WW/moc_signup.cpp
 
 CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj: D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -1019,8 +1018,7 @@ CMakeFiles/FootballFantasy.dir/home.cpp.obj: D:/projects/FootballFantasy/home.cp
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   FootballFantasy_autogen/include/ui_home.h \
-  D:/Projects/FootballFantasy/home.cpp \
-  D:/Projects/FootballFantasy/home.h
+  D:/projects/FootballFantasy/home.h
 
 CMakeFiles/FootballFantasy.dir/login.cpp.obj: D:/projects/FootballFantasy/login.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
@@ -1441,16 +1439,15 @@ CMakeFiles/FootballFantasy.dir/login.cpp.obj: D:/projects/FootballFantasy/login.
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
   FootballFantasy_autogen/include/ui_login.h \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h \
-  D:/Projects/FootballFantasy/home.h \
-  D:/Projects/FootballFantasy/login.cpp \
-  D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/signup.h
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h \
+  D:/projects/FootballFantasy/home.h \
+  D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/signup.h
 
 CMakeFiles/FootballFantasy.dir/main.cpp.obj: D:/projects/FootballFantasy/main.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
@@ -1829,15 +1826,14 @@ CMakeFiles/FootballFantasy.dir/main.cpp.obj: D:/projects/FootballFantasy/main.cp
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h \
-  D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/main.cpp \
-  D:/Projects/FootballFantasy/mainwindow.h \
-  D:/Projects/FootballFantasy/signup.h
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h \
+  D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/mainwindow.h \
+  D:/projects/FootballFantasy/signup.h
 
 CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj: D:/projects/FootballFantasy/mainwindow.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
@@ -2231,16 +2227,15 @@ CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj: D:/projects/FootballFantasy/m
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
   FootballFantasy_autogen/include/ui_mainwindow.h \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h \
-  D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/mainwindow.cpp \
-  D:/Projects/FootballFantasy/mainwindow.h \
-  D:/Projects/FootballFantasy/signup.h
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h \
+  D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/mainwindow.h \
+  D:/projects/FootballFantasy/signup.h
 
 CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: D:/projects/FootballFantasy/models/fantasyleague.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2355,15 +2350,14 @@ CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: D:/projects/Footbal
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/fantasyleague.cpp \
-  D:/Projects/FootballFantasy/models/fantasyleague.h \
-  D:/Projects/FootballFantasy/models/footballer.h \
-  D:/Projects/FootballFantasy/models/player.h \
-  D:/Projects/FootballFantasy/models/user.h
+  D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/fantasyleague.h \
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/player.h \
+  D:/projects/FootballFantasy/models/user.h
 
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: D:/projects/FootballFantasy/models/fixture.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2473,8 +2467,7 @@ CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: D:/projects/FootballFanta
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/models/fixture.cpp \
-  D:/Projects/FootballFantasy/models/fixture.h
+  D:/projects/FootballFantasy/models/fixture.h
 
 CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj: D:/projects/FootballFantasy/models/footballer.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2584,8 +2577,7 @@ CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj: D:/projects/FootballFa
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/models/footballer.cpp \
-  D:/Projects/FootballFantasy/models/footballer.h
+  D:/projects/FootballFantasy/models/footballer.h
 
 CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: D:/projects/FootballFantasy/models/league.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2700,9 +2692,9 @@ CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: D:/projects/FootballFantas
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/models/league.cpp \
-  D:/Projects/FootballFantasy/models/league.h \
-  D:/Projects/FootballFantasy/models/team.h
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/league.h \
+  D:/projects/FootballFantasy/models/team.h
 
 CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: D:/projects/FootballFantasy/models/player.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2744,6 +2736,7 @@ CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: D:/projects/FootballFantas
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/string_view.tcc \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
+  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cctype \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/clocale \
@@ -2785,6 +2778,7 @@ CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: D:/projects/FootballFantas
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_secapi.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_stat64.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_timeval.h \
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/assert.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt_startup.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
@@ -2817,14 +2811,13 @@ CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: D:/projects/FootballFantas
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/footballer.h \
-  D:/Projects/FootballFantasy/models/player.cpp \
-  D:/Projects/FootballFantasy/models/player.h \
-  D:/Projects/FootballFantasy/models/user.h
+  D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/player.h \
+  D:/projects/FootballFantasy/models/user.h
 
 CMakeFiles/FootballFantasy.dir/models/team.cpp.obj: D:/projects/FootballFantasy/models/team.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -2939,8 +2932,8 @@ CMakeFiles/FootballFantasy.dir/models/team.cpp.obj: D:/projects/FootballFantasy/
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/models/team.cpp \
-  D:/Projects/FootballFantasy/models/team.h
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/team.h
 
 CMakeFiles/FootballFantasy.dir/models/user.cpp.obj: D:/projects/FootballFantasy/models/user.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -3050,10 +3043,9 @@ CMakeFiles/FootballFantasy.dir/models/user.cpp.obj: D:/projects/FootballFantasy/
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/user.cpp \
-  D:/Projects/FootballFantasy/models/user.h
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/user.h
 
 CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj: D:/projects/FootballFantasy/services/auth.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -3196,12 +3188,14 @@ CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj: D:/projects/FootballFantas
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.cpp \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h
+
+CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj: D:/projects/FootballFantasy/services/footballer.cpp \
+  D:/projects/FootballFantasy/services/footballer.h
 
 CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj: D:/projects/FootballFantasy/services/userservice.cpp \
   C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed/limits.h \
@@ -3344,11 +3338,10 @@ CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj: D:/projects/Footbal
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/userservice.cpp \
-  D:/Projects/FootballFantasy/services/userservice.h
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/userservice.h
 
 CMakeFiles/FootballFantasy.dir/signup.cpp.obj: D:/projects/FootballFantasy/signup.cpp \
   C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
@@ -3769,15 +3762,14 @@ CMakeFiles/FootballFantasy.dir/signup.cpp.obj: D:/projects/FootballFantasy/signu
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
   FootballFantasy_autogen/include/ui_signup.h \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/userservice.h \
-  D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/signup.cpp \
-  D:/Projects/FootballFantasy/signup.h
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/userservice.h \
+  D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/signup.h
 
 
 FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp:
@@ -3787,8 +3779,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qbytearrayview.h:
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h:
 
 FootballFantasy_autogen/mocs_compilation.cpp:
-
-D:/Projects/FootballFantasy/models/fixture.cpp:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qanystringview.h:
 
@@ -3854,8 +3844,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/shar
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qarraydatapointer.h:
 
-D:/Projects/FootballFantasy/services/userservice.h:
-
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/alloc_traits.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qiterator.h:
@@ -3918,6 +3906,8 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qcontainertools_impl.h:
 
+D:/projects/FootballFantasy/models/fantasyleague.h:
+
 C:/Qt/6.7.0/mingw_64/include/QtCore/qcoreevent.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qscopeguard.h:
@@ -3974,8 +3964,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qnumeric.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qglobal.h:
 
-D:/Projects/FootballFantasy/mainwindow.h:
-
 C:/Qt/6.7.0/mingw_64/include/QtCore/qiterable.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qlogging.h:
@@ -3989,6 +3977,8 @@ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgroupbox.h:
 C:/Qt/6.7.0/mingw_64/include/QtCore/qtversion.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qlist.h:
+
+D:/projects/FootballFantasy/services/footballer.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qmap.h:
 
@@ -4015,8 +4005,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qobjectdefs.h:
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/specfun.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qobjectdefs_impl.h:
-
-D:/Projects/FootballFantasy/signup.cpp:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qoverload.h:
 
@@ -4104,8 +4092,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qtaggedpointer.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qtclasshelpermacros.h:
 
-D:/Projects/FootballFantasy/models/team.cpp:
-
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/range_access.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qtconfiginclude.h:
@@ -4154,8 +4140,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exce
 
 C:/Qt/6.7.0/mingw_64/include/QtCore/qtresource.h:
 
-D:/Projects/FootballFantasy/main.cpp:
-
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/stdio.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_raw_storage_iter.h:
@@ -4167,8 +4151,6 @@ C:/Qt/6.7.0/mingw_64/include/QtCore/qttranslation.h:
 C:/Qt/6.7.0/mingw_64/include/QtCore/qtversionchecks.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ostream:
-
-D:/Projects/FootballFantasy/login.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/locale.h:
 
@@ -4258,8 +4240,6 @@ C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiexports.h:
 
 FootballFantasy_autogen/EWIEGA46WW/moc_login.cpp:
 
-D:/Projects/FootballFantasy/services/auth.h:
-
 C:/Qt/6.7.0/mingw_64/include/QtGui/qtguiglobal.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/atomic_lockfree_defines.h:
@@ -4326,6 +4306,8 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/exec
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward/binders.h:
 
+D:/projects/FootballFantasy/services/userservice.h:
+
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bit:
 
 D:/projects/FootballFantasy/services/userservice.cpp:
@@ -4353,6 +4335,8 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/cxxabi_init_exception.h:
+
+D:/projects/FootballFantasy/Structs/loginStruct.cpp:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h:
 
@@ -4434,8 +4418,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_heap.h:
 
-D:/Projects/FootballFantasy/models/league.cpp:
-
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemdelegate.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_iterator_base_funcs.h:
@@ -4447,6 +4429,8 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cstdint:
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h:
+
+D:/projects/FootballFantasy/models/fixture.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/pstl/glue_algorithm_defs.h:
 
@@ -4511,8 +4495,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/numer
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/type_traits.h:
-
-D:/Projects/FootballFantasy/models/fantasyleague.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd:
 
@@ -4584,11 +4566,11 @@ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_off_t.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h:
 
+D:/projects/FootballFantasy/services/footballer.cpp:
+
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h:
-
-D:/Projects/FootballFantasy/signup.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h:
 
@@ -4602,13 +4584,13 @@ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qframe.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stddef.h:
 
+D:/projects/FootballFantasy/models/player.h:
+
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/stdint.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw.h:
-
-D:/Projects/FootballFantasy/models/fixture.h:
 
 D:/projects/FootballFantasy/main.cpp:
 
@@ -4623,8 +4605,6 @@ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_mingw_stdarg.h:
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/_timeval.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/corecrt_startup.h:
-
-D:/Projects/FootballFantasy/models/user.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/crtdefs.h:
 
@@ -4652,8 +4632,6 @@ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
-D:/Projects/FootballFantasy/models/player.cpp:
-
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qapplication.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sec_api/string_s.h:
@@ -4668,23 +4646,25 @@ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/string.h:
 
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/timeb.h:
 
-D:/Projects/FootballFantasy/mainwindow.cpp:
-
 C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h:
 
-D:/Projects/FootballFantasy/Structs/loginStruct.cpp:
+D:/projects/FootballFantasy/Structs/signupStruct.cpp:
 
-C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLayout:
+D:/projects/FootballFantasy/home.h:
 
-C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemview.h:
-
-D:/Projects/FootballFantasy/Structs/signupStruct.cpp:
-
-D:/Projects/FootballFantasy/home.h:
-
-FootballFantasy_autogen/EWIEGA46WW/moc_home.cpp:
+D:/projects/FootballFantasy/login.h:
 
 D:/projects/FootballFantasy/Structs/FootballerStruct.cpp:
+
+D:/projects/FootballFantasy/mainwindow.h:
+
+D:/projects/FootballFantasy/models/user.h:
+
+D:/projects/FootballFantasy/services/auth.h:
+
+D:/projects/FootballFantasy/signup.h:
+
+FootballFantasy_autogen/EWIEGA46WW/moc_home.cpp:
 
 D:/projects/FootballFantasy/home.cpp:
 
@@ -4714,8 +4694,6 @@ C:/Qt/6.7.0/mingw_64/include/QtGui/qtextcursor.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication:
 
-D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp:
-
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/QHeaderView:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/QListView:
@@ -4728,7 +4706,11 @@ C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h:
 
-D:/Projects/FootballFantasy/models/league.h:
+D:/projects/FootballFantasy/models/footballer.h:
+
+C:/Qt/6.7.0/mingw_64/include/QtWidgets/QLayout:
+
+C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractitemview.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractslider.h:
 
@@ -4742,15 +4724,11 @@ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabbar.h:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
 
-D:/Projects/FootballFantasy/home.cpp:
-
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtextbrowser.h:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/QStatusBar:
 
 D:/projects/FootballFantasy/login.cpp:
-
-D:/Projects/FootballFantasy/models/user.cpp:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qformlayout.h:
 
@@ -4764,10 +4742,6 @@ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream:
 
 C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream:
 
-D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp:
-
-D:/Projects/FootballFantasy/login.cpp:
-
 D:/projects/FootballFantasy/mainwindow.cpp:
 
 C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmenu.h:
@@ -4776,21 +4750,13 @@ C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmenubar.h:
 
 FootballFantasy_autogen/include/ui_mainwindow.h:
 
-D:/Projects/FootballFantasy/models/fantasyleague.cpp:
+D:/projects/FootballFantasy/models/league.h:
 
-D:/Projects/FootballFantasy/models/footballer.h:
-
-D:/Projects/FootballFantasy/models/player.h:
-
-D:/Projects/FootballFantasy/models/footballer.cpp:
-
-D:/Projects/FootballFantasy/services/userservice.cpp:
-
-D:/Projects/FootballFantasy/models/team.h:
+D:/projects/FootballFantasy/models/team.h:
 
 D:/projects/FootballFantasy/models/player.cpp:
 
-D:/Projects/FootballFantasy/services/auth.cpp:
+C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert:
 
 D:/projects/FootballFantasy/signup.cpp:
 

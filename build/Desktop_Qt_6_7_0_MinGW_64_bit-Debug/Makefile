@@ -570,6 +570,30 @@ services/auth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/auth.cpp.s
 .PHONY : services/auth.cpp.s
 
+services/footballer.obj: services/footballer.cpp.obj
+.PHONY : services/footballer.obj
+
+# target to build an object file
+services/footballer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj
+.PHONY : services/footballer.cpp.obj
+
+services/footballer.i: services/footballer.cpp.i
+.PHONY : services/footballer.i
+
+# target to preprocess a source file
+services/footballer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.i
+.PHONY : services/footballer.cpp.i
+
+services/footballer.s: services/footballer.cpp.s
+.PHONY : services/footballer.s
+
+# target to generate assembly for a file
+services/footballer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.s
+.PHONY : services/footballer.cpp.s
+
 services/userservice.obj: services/userservice.cpp.obj
 .PHONY : services/userservice.obj
 
@@ -680,6 +704,9 @@ help:
 	@echo ... services/auth.obj
 	@echo ... services/auth.i
 	@echo ... services/auth.s
+	@echo ... services/footballer.obj
+	@echo ... services/footballer.i
+	@echo ... services/footballer.s
 	@echo ... services/userservice.obj
 	@echo ... services/userservice.i
 	@echo ... services/userservice.s

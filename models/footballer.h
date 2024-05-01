@@ -14,7 +14,6 @@ private:
 public:
     Footballer();
     Footballer(string Name,int price,string position);
-    ~Footballer();
     //getters
     string getFootballerName();
     string getFootballerPosition();

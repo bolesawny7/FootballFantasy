@@ -38,6 +38,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         Structs/PlayerStruct.cpp
         Structs/FootballerStruct.cpp
         home.h home.cpp home.ui
+        services/footballer.h services/footballer.cpp
 
 
     )

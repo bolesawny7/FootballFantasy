@@ -118,4 +118,6 @@ CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: \
  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/projects/FootballFantasy/Structs/FootballerStruct.cpp
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
+ C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/assert.h

@@ -2,24 +2,25 @@
 #define TEAM_H
 #include "string"
 #include <vector>
+#include "footballer.h"
 using namespace std;
 class Team
 {
 private:
-    string teamID;
     string name;
-    string leagueID;
     static int idCounter;
-    const int id = idCounter;
+    const int teamID = idCounter;
+    vector<pair<Footballer, int>> teamFootballers;
 
 public:
     Team(string name);
     ~Team();
     string getTeamName();
     int getTeamId();
-    string setTeamName(string name);
-    string setLeagueId(int id);
-    string getLeagueId();
+    void setTeamName(string name);
+    void setLeagueId(int id);
+    vector<pair<Footballer, int>> getTeamFootballers();
+    void setTeamFootballers();
 };
 
 #endif // TEAM_H

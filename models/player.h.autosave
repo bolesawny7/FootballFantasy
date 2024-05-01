@@ -1,0 +1,28 @@
+#ifndef PLAYER_H
+#define PLAYER_H
+#include"string"
+#include <vector>
+#include "footballer.h"
+#include "user.h"
+#include "../Structs/PlayerStruct.cpp"
+#include "../Structs/FootballerStruct.cpp"
+using namespace std;
+class Player :public User {
+private:
+    int PlayerID = idCounter;
+    static int idCounter;
+    int Budget;
+    vector <Footballer> team;
+    string FantasyTeamName;
+    vector<FootballerStruct> FantasyTeamFootballers;
+ public:
+    Player();
+    ~Player();
+    void setBudget();
+    int getBudget();
+    int getId();
+    vector getTeam()
+
+};
+
+#endif // PLAYER_H

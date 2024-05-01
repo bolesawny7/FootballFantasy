@@ -9,11 +9,19 @@
 using namespace std;
 class Player :public User {
 private:
-    int Budget;
-    string PlayerID;
-    string FantasyTeamName;
-    vector<FootballerStruct> FantasyTeamFootballers;
-// public:
+    int PlayerID = idCounter;
+    static int idCounter;
+    int budget;
+    string fantasyTeamName;
+    vector<Footballer> fantasyTeamFootballers;
+ public:
+    Player(string fantasyTeamName);
+    ~Player();
+    void setBudget(int budget);
+    int getBudget();
+    int getId();
+    vector<Footballer> getFantasyTeamFootballers();
+    void setPlayer(Footballer footballer);
 
 };
 

@@ -31,6 +31,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/FootballFantasy.dir/models/user.cpp.obj.d"
   "CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj"
   "CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj.d"
+  "CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj"
+  "CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj.d"
   "CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj"
   "CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj.d"
   "CMakeFiles/FootballFantasy.dir/signup.cpp.obj"

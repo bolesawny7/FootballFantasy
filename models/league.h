@@ -7,10 +7,9 @@ using namespace std;
 
 class League {
 private:
-    string LeagueID;
     string Name;
     static int idCounter;
-    const int id=idCounter;
+    int leagueId = idCounter;
 public:
     League(string name);
     ~League();

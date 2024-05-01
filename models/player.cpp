@@ -1,2 +1,30 @@
 #include "player.h"
-// Player::Player() {}
+#include "user.h"
+#include <cassert>
+
+int Player::idCounter = 0;
+
+Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
+Player::~Player() {}
+
+void Player::setBudget(int budget) {
+    this->budget = budget;
+}
+
+int Player::getBudget() {
+    return budget;
+}
+
+int Player::getId() {
+    return PlayerID;
+}
+
+vector<Footballer> Player::getFantasyTeamFootballers() {
+    return fantasyTeamFootballers;
+}
+
+void Player::setPlayer(Footballer footballer) {
+    assert(footballer.getFootballerPrice() <= budget);
+    fantasyTeamFootballers.push_back(footballer);
+    this->setBudget(this->getBudget() - footballer.getFootballerPrice());
+}
