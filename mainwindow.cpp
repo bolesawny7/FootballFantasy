@@ -22,7 +22,6 @@ void MainWindow::on_loginButton_clicked()
     login = new Login(this);
     close();
     login->show();
-
 }
 
 

@@ -13,9 +13,10 @@ vector<Team> fileServices::loadTeam(){
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
+    qDebug() << thisFilePathAbs.absolutePath();
     QFile file(thisFilePathAbs.absolutePath()+"/data/teams.json");
 
-    qDebug() << thisFilePathAbs.absolutePath();
+
 
     if(file.open(QIODevice::ReadOnly)){
         QByteArray Bytes = file.readAll();
@@ -31,23 +32,24 @@ vector<Team> fileServices::loadTeam(){
         else {
             qDebug() << "no error";
         }
-        // if (Document.isArray())
-        // {
-        //     QJsonArray arr = Document.array();
+        if (Document.isArray())
+        {
+            QJsonArray arr = Document.array();
 
-        //     int id;
-        //     QJsonObject team;
-        //     QString teamName;
+            int id;
+            QJsonObject team;
+            QString teamName;
 
-        //     for(auto i:arr)
-        //     {
-        //         team = i.toObject();
-        //         teamName = team.value("team_name").toString();
-        //         string name = teamName.toStdString();
-        //         Team newteam(name);
-        //         teams.push_back(newteam);
-        //     }
-        // }
+            for(auto i:arr)
+            {
+                team = i.toObject();
+                teamName = team.value("team_name").toString();
+                qDebug() << team.value("team_name").toString();
+                string name = teamName.toStdString();
+                Team newteam(name);
+                teams.push_back(newteam);
+            }
+        }
         return teams;
     }
 }
