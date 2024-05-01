@@ -14,7 +14,6 @@ private:
 
 public:
     Team(string name);
-    ~Team();
     string getTeamName();
     int getTeamId();
     void setTeamName(string name);

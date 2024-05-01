@@ -1,4 +1,5 @@
 #include "team.h"
+
 int Team:: idCounter = 1;
  Team::Team(string name) {
     this->name = name;
