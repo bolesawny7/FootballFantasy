@@ -2,18 +2,19 @@
 #define FOOTBALLER_H
 #include "string"
 using namespace std;
+#include <vector>
 class Footballer
 {
 private:
     string Name;
     int Price;
-    string TeamID;
+    string Team;
     string Position;
     static int idCounter;
     const int id = idCounter;
 public:
     Footballer();
-    Footballer(string Name,int price,string position);
+    Footballer(string Name,int price,string position,string team);
     //getters
     string getFootballerName();
     string getFootballerPosition();

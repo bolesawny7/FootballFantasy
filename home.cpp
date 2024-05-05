@@ -1,5 +1,6 @@
 #include "home.h"
 #include "ui_home.h"
+#include "myteam.h"
 
 Home::Home(QWidget *parent)
     : QDialog(parent)
@@ -15,9 +16,9 @@ Home::~Home()
 
 void Home::on_pushButton_3_clicked()
 {
-    QGridLayout* layout = new QGridLayout(this);
-    QWidget* login = new QWidget(this);
-    layout->addWidget(login, 0, 0);
-    ui->content->setLayout(layout);
+    myteam team;
+    team.setModal(true);
+    close();
+    team.exec();
 }
 

@@ -7,16 +7,15 @@ int Player::idCounter = 0;
 Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
 Player::~Player() {}
 
-void Player::setBudget(int budget) {
-    this->budget = budget;
-}
-
 int Player::getBudget() {
     return budget;
 }
 
 int Player::getId() {
     return PlayerID;
+}
+void Player::setBudget(int budget) {
+    this->budget=budget;
 }
 
 vector<Footballer> Player::getFantasyTeamFootballers() {

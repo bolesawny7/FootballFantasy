@@ -1,92 +1,29 @@
 FootballFantasy_autogen/timestamp: \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCXXInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeFindDependencyMacro.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeGenericSystem.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeRCInformation.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeSystem.cmake.in \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CheckCXXCompilerFlag.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CheckCXXSourceCompiles.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CheckIncludeFileCXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/CheckLibraryExists.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/GNU.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/FindPackageMessage.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/FindThreads.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/FindVulkan.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/GNUInstallDirs.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Internal/CheckCompilerFlag.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Internal/CheckFlagCommonConfig.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Internal/CheckSourceCompiles.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake \
-	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake \
@@ -580,50 +517,53 @@ FootballFantasy_autogen/timestamp: \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
 	C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-	E:/New\ folder/FootballFantasy/CMakeLists.txt \
-	E:/New\ folder/FootballFantasy/Structs/FootballerStruct.cpp \
-	E:/New\ folder/FootballFantasy/Structs/PlayerStruct.cpp \
-	E:/New\ folder/FootballFantasy/Structs/loginStruct.cpp \
-	E:/New\ folder/FootballFantasy/Structs/signupStruct.cpp \
-	E:/New\ folder/FootballFantasy/assets.qrc \
-	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
-	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake \
-	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeRCCompiler.cmake \
-	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeSystem.cmake \
-	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
-	E:/New\ folder/FootballFantasy/home.cpp \
-	E:/New\ folder/FootballFantasy/home.h \
-	E:/New\ folder/FootballFantasy/login.cpp \
-	E:/New\ folder/FootballFantasy/login.h \
-	E:/New\ folder/FootballFantasy/main.cpp \
-	E:/New\ folder/FootballFantasy/mainwindow.cpp \
-	E:/New\ folder/FootballFantasy/mainwindow.h \
-	E:/New\ folder/FootballFantasy/models/fantasyleague.cpp \
-	E:/New\ folder/FootballFantasy/models/fantasyleague.h \
-	E:/New\ folder/FootballFantasy/models/fixture.cpp \
-	E:/New\ folder/FootballFantasy/models/fixture.h \
-	E:/New\ folder/FootballFantasy/models/footballer.cpp \
-	E:/New\ folder/FootballFantasy/models/footballer.h \
-	E:/New\ folder/FootballFantasy/models/league.cpp \
-	E:/New\ folder/FootballFantasy/models/league.h \
-	E:/New\ folder/FootballFantasy/models/player.cpp \
-	E:/New\ folder/FootballFantasy/models/player.h \
-	E:/New\ folder/FootballFantasy/models/team.cpp \
-	E:/New\ folder/FootballFantasy/models/team.h \
-	E:/New\ folder/FootballFantasy/models/user.cpp \
-	E:/New\ folder/FootballFantasy/models/user.h \
-	E:/New\ folder/FootballFantasy/services/auth.cpp \
-	E:/New\ folder/FootballFantasy/services/auth.h \
-	E:/New\ folder/FootballFantasy/services/fileservices.cpp \
-	E:/New\ folder/FootballFantasy/services/fileservices.h \
-	E:/New\ folder/FootballFantasy/services/footballer.cpp \
-	E:/New\ folder/FootballFantasy/services/footballer.h \
-	E:/New\ folder/FootballFantasy/services/userservice.cpp \
-	E:/New\ folder/FootballFantasy/services/userservice.h \
-	E:/New\ folder/FootballFantasy/signup.cpp \
-	E:/New\ folder/FootballFantasy/signup.h \
-	E:/New\ folder/FootballFantasy/home.ui \
-	E:/New\ folder/FootballFantasy/login.ui \
-	E:/New\ folder/FootballFantasy/mainwindow.ui \
-	E:/New\ folder/FootballFantasy/signup.ui \
+	E:/New\ folder/FootballFantasy3/CMakeLists.txt \
+	E:/New\ folder/FootballFantasy3/Structs/FootballerStruct.cpp \
+	E:/New\ folder/FootballFantasy3/Structs/PlayerStruct.cpp \
+	E:/New\ folder/FootballFantasy3/Structs/loginStruct.cpp \
+	E:/New\ folder/FootballFantasy3/Structs/signupStruct.cpp \
+	E:/New\ folder/FootballFantasy3/assets.qrc \
+	E:/New\ folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
+	E:/New\ folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake \
+	E:/New\ folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeRCCompiler.cmake \
+	E:/New\ folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeSystem.cmake \
+	E:/New\ folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+	E:/New\ folder/FootballFantasy3/home.cpp \
+	E:/New\ folder/FootballFantasy3/home.h \
+	E:/New\ folder/FootballFantasy3/login.cpp \
+	E:/New\ folder/FootballFantasy3/login.h \
+	E:/New\ folder/FootballFantasy3/main.cpp \
+	E:/New\ folder/FootballFantasy3/mainwindow.cpp \
+	E:/New\ folder/FootballFantasy3/mainwindow.h \
+	E:/New\ folder/FootballFantasy3/models/fantasyleague.cpp \
+	E:/New\ folder/FootballFantasy3/models/fantasyleague.h \
+	E:/New\ folder/FootballFantasy3/models/fixture.cpp \
+	E:/New\ folder/FootballFantasy3/models/fixture.h \
+	E:/New\ folder/FootballFantasy3/models/footballer.cpp \
+	E:/New\ folder/FootballFantasy3/models/footballer.h \
+	E:/New\ folder/FootballFantasy3/models/league.cpp \
+	E:/New\ folder/FootballFantasy3/models/league.h \
+	E:/New\ folder/FootballFantasy3/models/player.cpp \
+	E:/New\ folder/FootballFantasy3/models/player.h \
+	E:/New\ folder/FootballFantasy3/models/team.cpp \
+	E:/New\ folder/FootballFantasy3/models/team.h \
+	E:/New\ folder/FootballFantasy3/models/user.cpp \
+	E:/New\ folder/FootballFantasy3/models/user.h \
+	E:/New\ folder/FootballFantasy3/myteam.cpp \
+	E:/New\ folder/FootballFantasy3/myteam.h \
+	E:/New\ folder/FootballFantasy3/services/auth.cpp \
+	E:/New\ folder/FootballFantasy3/services/auth.h \
+	E:/New\ folder/FootballFantasy3/services/fileservices.cpp \
+	E:/New\ folder/FootballFantasy3/services/fileservices.h \
+	E:/New\ folder/FootballFantasy3/services/footballer.cpp \
+	E:/New\ folder/FootballFantasy3/services/footballer.h \
+	E:/New\ folder/FootballFantasy3/services/userservice.cpp \
+	E:/New\ folder/FootballFantasy3/services/userservice.h \
+	E:/New\ folder/FootballFantasy3/signup.cpp \
+	E:/New\ folder/FootballFantasy3/signup.h \
+	E:/New\ folder/FootballFantasy3/home.ui \
+	E:/New\ folder/FootballFantasy3/login.ui \
+	E:/New\ folder/FootballFantasy3/mainwindow.ui \
+	E:/New\ folder/FootballFantasy3/myteam.ui \
+	E:/New\ folder/FootballFantasy3/signup.ui \
 	C:/Program\ Files/CMake/bin/cmake.exe

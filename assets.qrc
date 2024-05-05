@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/background">
         <file>fantasy.png</file>
+        <file>fantasy fielde dited.png</file>
     </qresource>
 </RCC>

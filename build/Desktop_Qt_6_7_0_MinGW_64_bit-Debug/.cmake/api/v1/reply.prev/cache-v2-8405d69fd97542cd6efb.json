@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "e:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug"
+			"value" : "e:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -203,7 +203,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-DQT_QML_DEBUG"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_DEBUG",
@@ -231,7 +231,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : "-DQT_QML_DEBUG"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_CXX_FLAGS_MINSIZEREL",
@@ -479,7 +479,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
+			"value" : "E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -563,7 +563,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "E:/New folder/FootballFantasy"
+			"value" : "E:/New folder/FootballFantasy3"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1063,7 +1063,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
+			"value" : "E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake"
 		},
 		{
 			"name" : "CMAKE_PROJECT_NAME",
@@ -1563,7 +1563,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug"
+			"value" : "E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug"
 		},
 		{
 			"name" : "FootballFantasy_IS_TOP_LEVEL",
@@ -1587,7 +1587,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "E:/New folder/FootballFantasy"
+			"value" : "E:/New folder/FootballFantasy3"
 		},
 		{
 			"name" : "HAVE_STDATOMIC",

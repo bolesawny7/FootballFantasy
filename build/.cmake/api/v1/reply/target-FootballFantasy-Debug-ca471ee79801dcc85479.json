@@ -268,7 +268,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always"
+					"fragment" : "-g -std=gnu++17 -fdiagnostics-color=always"
 				}
 			],
 			"defines" : 
@@ -322,7 +322,7 @@
 			[
 				{
 					"backtrace" : 0,
-					"path" : "E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include"
+					"path" : "E:/New folder/FootballFantasy3/build/FootballFantasy_autogen/include"
 				},
 				{
 					"backtrace" : 14,
@@ -388,11 +388,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "FootballFantasy_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "FootballFantasy_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "FootballFantasy_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "FootballFantasy::@6890427a1f51a3e7e1df",
@@ -415,7 +415,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-DQT_QML_DEBUG -g",
+				"fragment" : "-g",
 				"role" : "flags"
 			},
 			{
@@ -576,7 +576,7 @@
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp",
+			"path" : "build/FootballFantasy_autogen/mocs_compilation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -790,50 +790,50 @@
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_mainwindow.h",
+			"path" : "build/FootballFantasy_autogen/include/ui_mainwindow.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_login.h",
+			"path" : "build/FootballFantasy_autogen/include/ui_login.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_signup.h",
+			"path" : "build/FootballFantasy_autogen/include/ui_signup.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_home.h",
+			"path" : "build/FootballFantasy_autogen/include/ui_home.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp",
+			"path" : "build/FootballFantasy_autogen/timestamp",
 			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 0,
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp",
+			"path" : "build/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp.rule",
+			"path" : "build/FootballFantasy_autogen/timestamp.rule",
 			"sourceGroupIndex" : 3
 		},
 		{
 			"backtrace" : 0,
 			"isGenerated" : true,
-			"path" : "build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.rule",
+			"path" : "build/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

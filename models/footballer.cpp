@@ -1,7 +1,7 @@
 #include "footballer.h"
 int Footballer::idCounter=1;
 
-Footballer::Footballer(string name,int price,string position){
+Footballer::Footballer(string name,int price,string position,string team){
     this->Name=name;
     this->Price=price;
     this->Position=position;
@@ -25,8 +25,8 @@ void Footballer::setFootballerposition(string position){
 void Footballer::setFootballerPrice(int price){
     this->Price=price;
 };
-void Footballer::setFootballerTeam(string teamId){
-    this->TeamID=teamId;
+void Footballer::setFootballerTeam(string team){
+    this->Team=team;
 };
 int Footballer::getFootballerId(){
     return id;

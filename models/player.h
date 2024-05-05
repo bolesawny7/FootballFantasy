@@ -11,7 +11,7 @@ class Player :public User {
 private:
     int PlayerID = idCounter;
     static int idCounter;
-    int budget;
+    int budget=80;
     string fantasyTeamName;
     vector<Footballer> fantasyTeamFootballers;
  public:

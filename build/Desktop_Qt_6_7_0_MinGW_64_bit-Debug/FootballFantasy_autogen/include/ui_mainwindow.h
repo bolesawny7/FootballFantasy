@@ -24,7 +24,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *loginButton;
     QPushButton *signupButton;
@@ -41,13 +41,13 @@ public:
 "};"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
-        widget = new QWidget(centralwidget);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(10, 370, 311, 171));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(centralwidget);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(10, 370, 311, 171));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        loginButton = new QPushButton(widget);
+        loginButton = new QPushButton(layoutWidget);
         loginButton->setObjectName("loginButton");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Ignored);
         sizePolicy.setHorizontalStretch(0);
@@ -57,7 +57,7 @@ public:
 
         verticalLayout->addWidget(loginButton);
 
-        signupButton = new QPushButton(widget);
+        signupButton = new QPushButton(layoutWidget);
         signupButton->setObjectName("signupButton");
         sizePolicy.setHeightForWidth(signupButton->sizePolicy().hasHeightForWidth());
         signupButton->setSizePolicy(sizePolicy);
