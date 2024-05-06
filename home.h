@@ -18,10 +18,6 @@ public:
 private slots:
     void on_pushButton_3_clicked();
 
-    void on_pushButton_3_toggled(bool checked);
-
-    void on_pushButton_3_clicked(bool checked);
-
 private:
     Ui::Home *ui;
 };

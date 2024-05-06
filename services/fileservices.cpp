@@ -103,7 +103,7 @@ vector<Footballer> fileServices::loadFootballers(string position){
                 playerPosition=player.value("position").toString();
                 playerCost=player.value("cost").toInt();
                 qDebug() << player.value("team").toString();
-                Footballer player(playerName.toStdString(),playerCost,playerPosition.toStdString(),playerTeam.toStdString());
+                Footballer player(playerName.toStdString(),playerCost,playerPosition.toStdString());
                 if(player.getFootballerPosition() =="GK"){
                     league.goalkeepers.push_back(player);
                 }
