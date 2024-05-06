@@ -1,5 +1,6 @@
 #ifndef FIXTURE_H
 #define FIXTURE_H
+#include "team.h"
 #include "string"
 
 using namespace std;
@@ -7,13 +8,21 @@ using namespace std;
 class Fixture
 {
 private:
-    string FixtureID;
-    string HomeTeamID;
-    string AwayTeamID;
+    static int idCounter;
+    int fixtureId ;
+    Team homeTeam;
+    Team awayTeam;
     string matchDate;
 
 public:
-    Fixture();
+    /* -> constructors <-*/
+    Fixture(Team homeTeam, Team awayTeam, string matchDate);
+
+    /* -> getters <- */
+    int getFixtureId();
+    Team getHomeTeam();
+    Team getAwayTeam();
+    string getMatchDate();
 };
 
 #endif // FIXTURE_H

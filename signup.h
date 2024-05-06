@@ -20,9 +20,6 @@ private slots:
     void on_signupButton_clicked();
 
     void on_loginPage_clicked();
-
-    void on_pushButton_clicked();
-
 private:
     Ui::Signup *ui;
     Auth auth;

@@ -5,7 +5,6 @@ class adminservice
 {
 public:
     adminservice();
-    bool addPlayer();
     bool addPointsToPlayer(int footballerId);
 
 };

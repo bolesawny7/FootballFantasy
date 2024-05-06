@@ -1,13 +1,17 @@
 #include "footballer.h"
-int Footballer::idCounter=1;
+#include "team.h"
 
-Footballer::Footballer(string name,int price,string position){
+/*-> constructor <-*/
+Footballer::Footballer(string name, int price, string position): footballerId(idCounter++){
     this->Name=name;
     this->Price=price;
     this->Position=position;
 };
 
-// //getters
+/*-> initialize static counter <-*/
+int Footballer::idCounter = 1;
+
+/*-> getters <-*/
 string Footballer::getFootballerName(){
     return Name;
 };
@@ -17,17 +21,18 @@ string Footballer::getFootballerPosition(){
 int Footballer::getFootballerPrice(){
     return Price;
 };
-// string getFootballerTeam();
-// //setters
+// Team getFootballerTeam();
+
+/*-> setters <-*/
 void Footballer::setFootballerposition(string position){
     this->Position=position;
 };
 void Footballer::setFootballerPrice(int price){
     this->Price=price;
 };
-void Footballer::setFootballerTeam(string teamId){
-    this->TeamID=teamId;
+void Footballer::setFootballerTeam(int teamId){
+    this->teamId = teamId;
 };
 int Footballer::getFootballerId(){
-    return id;
+    return footballerId;
 };

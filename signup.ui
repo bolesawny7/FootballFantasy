@@ -256,18 +256,7 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </widget>
      </item>
      <item row="5" column="1">
-      <widget class="QComboBox" name="favouriteTeamComboBox">
-       <item>
-        <property name="text">
-         <string>liverpool</string>
-        </property>
-       </item>
-       <item>
-        <property name="text">
-         <string>Man city</string>
-        </property>
-       </item>
-      </widget>
+      <widget class="QComboBox" name="favouriteTeamComboBox"/>
      </item>
      <item row="6" column="0">
       <widget class="QLabel" name="roleLabel">

@@ -1,30 +1,33 @@
 #ifndef FOOTBALLER_H
 #define FOOTBALLER_H
+// #include "team.h"
 #include "string"
 using namespace std;
 class Footballer
 {
 private:
+    static int idCounter;
+    const int footballerId;
     string Name;
     int Price;
-    string TeamID;
     string Position;
-    static int idCounter;
-    const int id = idCounter;
+    int teamId;
 public:
+    /*-> constructor <-*/
     Footballer();
     Footballer(string Name,int price,string position);
-    ~Footballer();
-    //getters
+
+    /*-> getters <-*/
     string getFootballerName();
     string getFootballerPosition();
     int getFootballerPrice();
-    string getFootballerTeam();
+    // Team getFootballerTeam();
     int getFootballerId();
-    //setters
+
+    /*-> setters <-*/
     void setFootballerposition(string position);
     void setFootballerPrice(int price);
-    void setFootballerTeam(string teamid);
+    void setFootballerTeam(int teamId);
 };
 
 #endif // FOOTBALLER_H

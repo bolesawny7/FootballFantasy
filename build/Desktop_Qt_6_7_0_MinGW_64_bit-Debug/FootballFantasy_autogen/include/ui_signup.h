@@ -168,8 +168,6 @@ public:
         formLayout->setWidget(5, QFormLayout::LabelRole, favouriteTeamLabel);
 
         favouriteTeamComboBox = new QComboBox(formLayoutWidget);
-        favouriteTeamComboBox->addItem(QString());
-        favouriteTeamComboBox->addItem(QString());
         favouriteTeamComboBox->setObjectName("favouriteTeamComboBox");
 
         formLayout->setWidget(5, QFormLayout::FieldRole, favouriteTeamComboBox);
@@ -231,9 +229,6 @@ public:
         genderComboBox->setItemText(1, QCoreApplication::translate("Signup", "female", nullptr));
 
         favouriteTeamLabel->setText(QCoreApplication::translate("Signup", "favourite Team", nullptr));
-        favouriteTeamComboBox->setItemText(0, QCoreApplication::translate("Signup", "liverpool", nullptr));
-        favouriteTeamComboBox->setItemText(1, QCoreApplication::translate("Signup", "Man city", nullptr));
-
         roleLabel->setText(QCoreApplication::translate("Signup", "role", nullptr));
         roleComboBox->setItemText(0, QCoreApplication::translate("Signup", "user", nullptr));
         roleComboBox->setItemText(1, QCoreApplication::translate("Signup", "admin", nullptr));

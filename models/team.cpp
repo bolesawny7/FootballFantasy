@@ -1,4 +1,5 @@
 #include "team.h"
+
 int Team:: idCounter = 1;
  Team::Team(string name) {
     this->name = name;
@@ -7,17 +8,20 @@ int Team:: idCounter = 1;
  string Team:: getTeamName(){
      return name;
  };
- string Team:: setTeamName(string name){
+ void Team:: setTeamName(string name){
      this->name = name;
  };
 
- string Team:: setLeagueId(int id){
-     this->leagueID = id;
- };
- string Team:: getLeagueId(){
-     return leagueID;
- };
-
  int Team:: getTeamId(){
-     return id;
+     return teamID;
  }
+
+ vector<pair<Footballer, int>> Team:: getTeamFootballers(){
+     return teamFootballers;
+ }
+
+ void Team:: setTeamFootballers(){
+     //iterate over all players and compare their teamId with this team id - rsc
+ }
+
+

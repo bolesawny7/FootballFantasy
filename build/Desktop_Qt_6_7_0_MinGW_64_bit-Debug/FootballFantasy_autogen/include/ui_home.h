@@ -38,7 +38,6 @@ public:
     QHBoxLayout *horizontalLayout;
     QPushButton *LeaguesButton;
     QPushButton *pushButton_3;
-    QPushButton *pushButton_5;
     QPushButton *pushButton;
 
     void setupUi(QDialog *Home)
@@ -128,15 +127,6 @@ public:
 
         horizontalLayout->addWidget(pushButton_3);
 
-        pushButton_5 = new QPushButton(layoutWidget);
-        pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setStyleSheet(QString::fromUtf8("\n"
-"color: rgb(55, 0, 60);\n"
-"background-color: rgb(0, 255, 135);\n"
-"border-radius-top: 20px;"));
-
-        horizontalLayout->addWidget(pushButton_5);
-
         pushButton = new QPushButton(layoutWidget);
         pushButton->setObjectName("pushButton");
         pushButton->setStyleSheet(QString::fromUtf8("\n"
@@ -203,7 +193,6 @@ public:
 "<p align=\"center\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:14pt; font-weight:700; color:#00ff87;\"><br /></p></body></html>", nullptr));
         LeaguesButton->setText(QCoreApplication::translate("Home", "Leagues", nullptr));
         pushButton_3->setText(QCoreApplication::translate("Home", "My Team", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("Home", "My Leagues", nullptr));
         pushButton->setText(QCoreApplication::translate("Home", "Logout", nullptr));
     } // retranslateUi
 
