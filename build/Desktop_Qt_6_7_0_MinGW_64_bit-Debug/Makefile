@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\projects\FootballFantasy
+CMAKE_SOURCE_DIR = D:\Projects\FootballFantasy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -546,6 +546,30 @@ models/user.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/user.cpp.s
 .PHONY : models/user.cpp.s
 
+myteam.obj: myteam.cpp.obj
+.PHONY : myteam.obj
+
+# target to build an object file
+myteam.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/myteam.cpp.obj
+.PHONY : myteam.cpp.obj
+
+myteam.i: myteam.cpp.i
+.PHONY : myteam.i
+
+# target to preprocess a source file
+myteam.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/myteam.cpp.i
+.PHONY : myteam.cpp.i
+
+myteam.s: myteam.cpp.s
+.PHONY : myteam.s
+
+# target to generate assembly for a file
+myteam.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/myteam.cpp.s
+.PHONY : myteam.cpp.s
+
 services/auth.obj: services/auth.cpp.obj
 .PHONY : services/auth.obj
 
@@ -569,6 +593,30 @@ services/auth.s: services/auth.cpp.s
 services/auth.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/auth.cpp.s
 .PHONY : services/auth.cpp.s
+
+services/fileservices.obj: services/fileservices.cpp.obj
+.PHONY : services/fileservices.obj
+
+# target to build an object file
+services/fileservices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj
+.PHONY : services/fileservices.cpp.obj
+
+services/fileservices.i: services/fileservices.cpp.i
+.PHONY : services/fileservices.i
+
+# target to preprocess a source file
+services/fileservices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.i
+.PHONY : services/fileservices.cpp.i
+
+services/fileservices.s: services/fileservices.cpp.s
+.PHONY : services/fileservices.s
+
+# target to generate assembly for a file
+services/fileservices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.s
+.PHONY : services/fileservices.cpp.s
 
 services/footballer.obj: services/footballer.cpp.obj
 .PHONY : services/footballer.obj
@@ -701,9 +749,15 @@ help:
 	@echo ... models/user.obj
 	@echo ... models/user.i
 	@echo ... models/user.s
+	@echo ... myteam.obj
+	@echo ... myteam.i
+	@echo ... myteam.s
 	@echo ... services/auth.obj
 	@echo ... services/auth.i
 	@echo ... services/auth.s
+	@echo ... services/fileservices.obj
+	@echo ... services/fileservices.i
+	@echo ... services/fileservices.s
 	@echo ... services/footballer.obj
 	@echo ... services/footballer.i
 	@echo ... services/footballer.s
