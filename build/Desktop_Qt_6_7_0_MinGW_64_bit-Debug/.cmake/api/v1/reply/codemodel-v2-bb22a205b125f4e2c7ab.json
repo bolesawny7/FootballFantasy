@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-3539fc0459e814616d9d.json",
+					"jsonFile" : "directory-.-Debug-8d78991411dfa0cc2140.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FootballFantasy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FootballFantasy-Debug-76ab7524ceb182e7fd0f.json",
+					"jsonFile" : "target-FootballFantasy-Debug-932f542cac30708da4cf.json",
 					"name" : "FootballFantasy",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-		"source" : "E:/New folder/FootballFantasy3"
+		"build" : "E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "E:/New folder/FootballFantasy"
 	},
 	"version" : 
 	{

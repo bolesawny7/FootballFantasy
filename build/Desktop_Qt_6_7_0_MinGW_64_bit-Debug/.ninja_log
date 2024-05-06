@@ -1,117 +1,78 @@
 # ninja log v5
-4	632	7366139830511395	build.ninja	f9e66b66073c8177
-226	3389	7365553493814741	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	39086f962116d7ee
-5	126	7365671577911918	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-5	126	7365671577911918	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-155	876	7365656228471663	CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj	59e2731f9e99ca68
-229	3283	7365553492736223	CMakeFiles/FootballFantasy.dir/main.cpp.obj	6df6b8af53fbb23c
+4	123	7366155575978365	FootballFantasy_autogen/timestamp	9425d89dbebaa472
+4	123	7366155575978365	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
+4	632	7367276040909100	build.ninja	f9e66b66073c8177
+597	3514	7366146813607794	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	39086f962116d7ee
 231	1268	7365553472547610	CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj	9642d56237b72b9c
+616	1096	7366146789442812	CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj	59e2731f9e99ca68
+229	3283	7365553492736223	CMakeFiles/FootballFantasy.dir/main.cpp.obj	6df6b8af53fbb23c
 244	919	7365553468167925	CMakeFiles/FootballFantasy.dir/models/user.cpp.obj	d783f5723031bb9
-138	2033	7365671599000846	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
+131	2057	7366155597409438	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
 248	1363	7365553473490840	CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj	86d9b90e5ddcca3c
-141	2419	7365671602870998	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
 160	750	7365656227422447	CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj	5e1acfb62087d0d7
-135	2135	7365671600007433	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-2420	2757	7365671606219766	FootballFantasy.exe	663b547c85c1a0c6
+137	2394	7366155600781477	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
+134	2142	7366155598269908	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
+2442	2757	7366155604389405	FootballFantasy.exe	663b547c85c1a0c6
 143	226	7365553462171564	FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	57e70331d14bf57
 945	2661	7365553486527959	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj	767c8c64be73fcca
-5	139	7360364337354040	E:/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	6952d94336cd3b0c
 785	857	7360219337566923	E:/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	7d84e59308c7f684
+5	139	7360364337354040	E:/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	6952d94336cd3b0c
 5	139	7360364337354040	E:/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	6952d94336cd3b0c
 169	765	7365578736950925	CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj	87db9fe800bec664
 273	925	7365553468350037	CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj	666a231b48793154
 919	1556	7365553475226901	CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj	e3838baf46ee4ff6
 151	804	7365656227819105	CMakeFiles/FootballFantasy.dir/models/team.cpp.obj	ba2af1f33764599c
-147	917	7365656229073800	CMakeFiles/FootballFantasy.dir/models/player.cpp.obj	8af1e0717ae71e3e
 5	166	7365544090771791	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	c1ae61dd90de6e50
+139	527	7366155582131170	CMakeFiles/FootballFantasy.dir/models/player.cpp.obj	8af1e0717ae71e3e
 165	856	7365656228483027	CMakeFiles/FootballFantasy.dir/models/league.cpp.obj	ad9ce31a875dbe08
-5	126	7365671577911918	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-144	2390	7365671602582308	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
+141	2442	7366155601279825	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
+4	123	7366155575978365	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
 5	166	7365544090771791	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	c1ae61dd90de6e50
 143	222	7365543741738646	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	52ae3231d806c703
 932	1133	7365553470975268	CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj	9a59d9ff8ae3f93b
 166	4599	7365669028777542	CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj	fc2528c961e384ea
-5	126	7365671577911918	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-143	226	7365553462171564	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	57e70331d14bf57
-148	2257	7365671601246294	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e5d821d67c69f754
-5	597	7366146783944309	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-5	597	7366146783944309	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-5	597	7366146783944309	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-5	597	7366146783944309	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-616	1096	7366146789442812	CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj	59e2731f9e99ca68
-611	1214	7366146790611745	CMakeFiles/FootballFantasy.dir/models/player.cpp.obj	8af1e0717ae71e3e
-603	3495	7366146813423081	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-597	3514	7366146813607794	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	39086f962116d7ee
-600	3683	7366146815309408	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-607	3892	7366146817394285	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-621	3947	7366146817962376	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-4	139	7366152575913081	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	139	7366152575913081	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	139	7366152575913081	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	139	7366152575913081	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-150	2815	7366152606445786	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-147	2816	7366152606465919	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-152	2995	7366152608264832	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-155	3002	7366152608344594	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-4	158	7366152804052894	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	158	7366152804052894	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	158	7366152804052894	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	158	7366152804052894	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-171	2202	7366152827038179	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-167	2376	7366152828805095	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-179	2637	7366152831400550	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-175	2691	7366152831938756	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-4	145	7366153247334331	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	145	7366153247334331	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	145	7366153247334331	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	145	7366153247334331	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-157	2172	7366153269968965	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-154	2423	7366153272485901	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-164	2649	7366153274771384	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-161	2725	7366153275528848	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-4	125	7366154338469624	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	125	7366154338469624	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	125	7366154338469624	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	125	7366154338469624	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-135	2228	7366154361561159	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-133	2351	7366154362815087	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-139	2599	7366154365293696	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-142	2625	7366154365552208	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-5	140	7366154734441837	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-5	140	7366154734441837	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-5	140	7366154734441837	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-5	140	7366154734441837	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-149	2273	7366154758076422	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-153	2372	7366154759067192	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-166	2608	7366154761421385	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e5d821d67c69f754
-159	2627	7366154761628554	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-156	2655	7366154761892306	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-4	124	7366155299338794	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	124	7366155299338794	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	124	7366155299338794	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	124	7366155299338794	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-132	2053	7366155320736141	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-134	2185	7366155322033611	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-142	2371	7366155323938872	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-145	2412	7366155324337556	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e5d821d67c69f754
-137	2431	7366155324526891	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-4	127	7366155509338266	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	127	7366155509338266	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	127	7366155509338266	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	127	7366155509338266	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-134	1993	7366155530107408	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-137	2161	7366155531798903	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
-145	2341	7366155533601393	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-148	2399	7366155534188922	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e5d821d67c69f754
-142	2418	7366155534365060	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-4	123	7366155575978365	FootballFantasy_autogen/timestamp	9425d89dbebaa472
-4	123	7366155575978365	FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-4	123	7366155575978365	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	9425d89dbebaa472
 4	123	7366155575978365	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	9425d89dbebaa472
-139	527	7366155582131170	CMakeFiles/FootballFantasy.dir/models/player.cpp.obj	8af1e0717ae71e3e
-131	2057	7366155597409438	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	6e825c5aa21b9d32
-134	2142	7366155598269908	CMakeFiles/FootballFantasy.dir/login.cpp.obj	984d01555429d9aa
+143	226	7365553462171564	E:/New folder/FootballFantasy3/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	57e70331d14bf57
 144	2376	7366155600602073	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e5d821d67c69f754
-137	2394	7366155600781477	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	b4b3404144c7c0a4
-141	2442	7366155601279825	CMakeFiles/FootballFantasy.dir/home.cpp.obj	cc1720afeb47db56
-2442	2757	7366155604389405	FootballFantasy.exe	663b547c85c1a0c6
+4	1185	7367276097558069	FootballFantasy_autogen/timestamp	c1ae61dd90de6e50
+4	1185	7367276097558069	FootballFantasy_autogen/mocs_compilation.cpp	c1ae61dd90de6e50
+4	1185	7367276097558069	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	c1ae61dd90de6e50
+4	1185	7367276097558069	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	c1ae61dd90de6e50
+1187	1275	7367276098989357	FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	52ae3231d806c703
+1187	1275	7367276098989357	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp	52ae3231d806c703
+1309	1882	7367276105020590	CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj	8c57f996697c96cd
+1326	2075	7367276106326899	CMakeFiles/FootballFantasy.dir/models/team.cpp.obj	5062f06ac85baf22
+1299	2082	7367276106778699	CMakeFiles/FootballFantasy.dir/models/player.cpp.obj	a14eab60614aa704
+1289	2189	7367276106838032	CMakeFiles/FootballFantasy.dir/services/auth.cpp.obj	72bf564cc55cfadb
+1353	2196	7367276107139593	CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj	45bc26bbbdf1e9a6
+1332	2258	7367276108288773	CMakeFiles/FootballFantasy.dir/models/league.cpp.obj	1b759cdd2768e262
+1321	2264	7367276108411708	CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj	23d4749db65ddc0f
+1293	2278	7367276108535193	CMakeFiles/FootballFantasy.dir/models/user.cpp.obj	9fd932d4772ad254
+1286	2384	7367276109960455	CMakeFiles/FootballFantasy.dir/services/userservice.cpp.obj	89ce56b8adef8339
+1882	2634	7367276110886904	CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj	e4e4b45709722181
+2197	2635	7367276112339670	CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj	6f134521100870b3
+2076	2656	7367276112737508	CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj	f706b8c1bb35f2d2
+2264	4461	7367276129476045	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj	bc0e062930653eff
+1281	4982	7367276136071569	CMakeFiles/FootballFantasy.dir/main.cpp.obj	7ea996674993a989
+1275	5059	7367276136810361	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	8e11541a52178d06
+1283	5324	7367276139471643	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	945eebbcae400454
+1279	5488	7367276141122206	CMakeFiles/FootballFantasy.dir/login.cpp.obj	72e2b002d32f971b
+1313	5891	7367276145158846	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	f170e68a300d4baa
+2190	6114	7367276147376888	CMakeFiles/FootballFantasy.dir/home.cpp.obj	d99614dd1105d4c2
+2259	6133	7367276147540724	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e8dd881c1e80edc5
+2083	7464	7367276160874492	CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj	5f5966c26822ab2f
+6	1602	7367276257412312	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	8e11541a52178d06
+6	1585	7367276352454667	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	8e11541a52178d06
+1586	1925	7367276355803477	FootballFantasy.exe	663b547c85c1a0c6
+7	910	7367276730342114	FootballFantasy_autogen/timestamp	c1ae61dd90de6e50
+7	910	7367276730342114	FootballFantasy_autogen/mocs_compilation.cpp	c1ae61dd90de6e50
+7	910	7367276730342114	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/timestamp	c1ae61dd90de6e50
+7	910	7367276730342114	E:/New folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp	c1ae61dd90de6e50
+925	4346	7367276765130875	CMakeFiles/FootballFantasy.dir/main.cpp.obj	7ea996674993a989
+911	4379	7367276765453657	CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj	8e11541a52178d06
+914	4666	7367276768321817	CMakeFiles/FootballFantasy.dir/mainwindow.cpp.obj	945eebbcae400454
+921	4860	7367276770221654	CMakeFiles/FootballFantasy.dir/login.cpp.obj	72e2b002d32f971b
+937	5090	7367276772561509	CMakeFiles/FootballFantasy.dir/myteam.cpp.obj	e8dd881c1e80edc5
+932	5115	7367276772839102	CMakeFiles/FootballFantasy.dir/home.cpp.obj	d99614dd1105d4c2
+928	5235	7367276774037320	CMakeFiles/FootballFantasy.dir/signup.cpp.obj	f170e68a300d4baa
+5235	5580	7367276777468537	FootballFantasy.exe	663b547c85c1a0c6

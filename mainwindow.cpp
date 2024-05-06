@@ -2,6 +2,7 @@
 #include "./ui_mainwindow.h"
 #include "./services/fileservices.h"
 #include "./models/team.h"
+#include "signup.h"
 #include <iostream>
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

@@ -17,13 +17,8 @@ public:
     ~Login();
 
 private slots:
-    void on_pushButton_clicked();
-
-    void on_signupPage_clicked();
 
     void on_loginButton_clicked();
-
-    void on_signupButton_clicked();
 
     void on_signup_clicked();
 
