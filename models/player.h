@@ -15,7 +15,7 @@ private:
     string fantasyTeamName;
     int gameWeekPoints;
     vector<Footballer> fantasyTeamFootballers;
- public:
+public:
     Player(string fantasyTeamName);
     ~Player();
     void setBudget(int budget);
@@ -25,6 +25,7 @@ private:
     void setGameWeekPoints(int points);
     int getGameWeekPoints();
     void setPlayer(Footballer footballer);
+    void updateTeam(Footballer oldFootballerId , Footballer newFootballerId);
 
 };
 
