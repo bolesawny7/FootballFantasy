@@ -2,11 +2,11 @@
 #include "team.h"
 
 /*-> constructor <-*/
-Footballer::Footballer(string name, float price, string position,string TeamName): footballerId(idCounter++){
+Footballer::Footballer(string name, int price, string position, string teamName): footballerId(idCounter++){
     this->Name=name;
     this->Price=price;
     this->Position=position;
-    this->team=TeamName;
+    this->teamName = teamName;
 };
 
 /*-> initialize static counter <-*/
@@ -19,12 +19,16 @@ string Footballer::getFootballerName(){
 string Footballer::getFootballerPosition(){
     return Position;
 };
-float Footballer::getFootballerPrice(){
+int Footballer::getFootballerPrice(){
     return Price;
 };
-string Footballer::getFootballerTeam(){
-    return team;
-};
+int Footballer:: getGameWeekPoints(){
+    return gameweekPoints;
+}
+string Footballer:: getFootballerTeam(){
+    return teamName;
+}
+// Team getFootballerTeam();
 
 /*-> setters <-*/
 void Footballer::setFootballerposition(string position){
@@ -33,7 +37,13 @@ void Footballer::setFootballerposition(string position){
 void Footballer::setFootballerPrice(int price){
     this->Price=price;
 };
-
+void Footballer::setFootballerTeam(int teamId){
+    this->teamId = teamId;
+};
 int Footballer::getFootballerId(){
     return footballerId;
 };
+void Footballer:: setGameWeekPoints(int points){
+    this->gameweekPoints = points;
+    this->totalPoints += gameweekPoints;
+}

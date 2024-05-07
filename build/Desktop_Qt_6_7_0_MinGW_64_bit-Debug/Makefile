@@ -56,10 +56,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\FootballFantasy
+CMAKE_SOURCE_DIR = D:\projects\FootballFantasy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -131,9 +131,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -570,6 +570,30 @@ myteam.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/myteam.cpp.s
 .PHONY : myteam.cpp.s
 
+searching.obj: searching.cpp.obj
+.PHONY : searching.obj
+
+# target to build an object file
+searching.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/searching.cpp.obj
+.PHONY : searching.cpp.obj
+
+searching.i: searching.cpp.i
+.PHONY : searching.i
+
+# target to preprocess a source file
+searching.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/searching.cpp.i
+.PHONY : searching.cpp.i
+
+searching.s: searching.cpp.s
+.PHONY : searching.s
+
+# target to generate assembly for a file
+searching.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/searching.cpp.s
+.PHONY : searching.cpp.s
+
 services/auth.obj: services/auth.cpp.obj
 .PHONY : services/auth.obj
 
@@ -618,29 +642,29 @@ services/fileservices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.s
 .PHONY : services/fileservices.cpp.s
 
-services/footballer.obj: services/footballer.cpp.obj
-.PHONY : services/footballer.obj
+services/transferservices.obj: services/transferservices.cpp.obj
+.PHONY : services/transferservices.obj
 
 # target to build an object file
-services/footballer.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.obj
-.PHONY : services/footballer.cpp.obj
+services/transferservices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj
+.PHONY : services/transferservices.cpp.obj
 
-services/footballer.i: services/footballer.cpp.i
-.PHONY : services/footballer.i
+services/transferservices.i: services/transferservices.cpp.i
+.PHONY : services/transferservices.i
 
 # target to preprocess a source file
-services/footballer.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.i
-.PHONY : services/footballer.cpp.i
+services/transferservices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.i
+.PHONY : services/transferservices.cpp.i
 
-services/footballer.s: services/footballer.cpp.s
-.PHONY : services/footballer.s
+services/transferservices.s: services/transferservices.cpp.s
+.PHONY : services/transferservices.s
 
 # target to generate assembly for a file
-services/footballer.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/footballer.cpp.s
-.PHONY : services/footballer.cpp.s
+services/transferservices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.s
+.PHONY : services/transferservices.cpp.s
 
 services/userservice.obj: services/userservice.cpp.obj
 .PHONY : services/userservice.obj
@@ -752,15 +776,18 @@ help:
 	@echo ... myteam.obj
 	@echo ... myteam.i
 	@echo ... myteam.s
+	@echo ... searching.obj
+	@echo ... searching.i
+	@echo ... searching.s
 	@echo ... services/auth.obj
 	@echo ... services/auth.i
 	@echo ... services/auth.s
 	@echo ... services/fileservices.obj
 	@echo ... services/fileservices.i
 	@echo ... services/fileservices.s
-	@echo ... services/footballer.obj
-	@echo ... services/footballer.i
-	@echo ... services/footballer.s
+	@echo ... services/transferservices.obj
+	@echo ... services/transferservices.i
+	@echo ... services/transferservices.s
 	@echo ... services/userservice.obj
 	@echo ... services/userservice.i
 	@echo ... services/userservice.s

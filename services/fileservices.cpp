@@ -29,7 +29,7 @@ vector<Team> fileServices::loadTeam(){
 
         if(JsonError.error != QJsonParseError::NoError){
             qDebug() << "Error is : " << JsonError.errorString();
-            return league.teams;
+            return league.getTeams();
         }
         else {
             qDebug() << "no error";
@@ -49,10 +49,10 @@ vector<Team> fileServices::loadTeam(){
                 qDebug() << team.value("team_name").toString();
                 string name = teamName.toStdString();
                 Team newteam(name);
-                league.teams.push_back(newteam);
+                league.setNewTeam(newteam);
             }
         }
-        return league.teams;
+        return league.getTeams();
     }
 }
 
@@ -95,43 +95,43 @@ vector<Footballer> fileServices::loadFootballers(string position){
     "position": "GK",
     "points": 0,
     "cost": "£5.7"*/
-            for(auto i:arr)
-            {
-                player = i.toObject();
-                playerName = player.value("name").toString();
-                playerTeam=player.value("team").toString();
-                playerPosition=player.value("position").toString();
-                playerCost=player.value("cost").toString();
-                string cost=playerCost.toStdString();
-                qDebug() << player.value("cost").toString();
-                Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
-                if(player.getFootballerPosition() =="GK"){
-                    league.goalkeepers.push_back(player);
-                }
-                else if(player.getFootballerPosition()=="DF"){
-                    league.defenders.push_back(player);
-                }
-                else if(player.getFootballerPosition()=="MF"){
-                    league.midfielders.push_back(player);
-                }
-                else {
-                    league.attackers.push_back(player);
-                }
-            }
+            // for(auto i:arr)
+            // {
+            //     player = i.toObject();
+            //     playerName = player.value("name").toString();
+            //     playerTeam=player.value("team").toString();
+            //     playerPosition=player.value("position").toString();
+            //     playerCost=player.value("cost").toString();
+            //     string cost=playerCost.toStdString();
+            //     qDebug() << player.value("cost").toString();
+            //     Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
+            //     if(player.getFootballerPosition() =="GK"){
+            //         league.goalkeepers.push_back(player);
+            //     }
+            //     else if(player.getFootballerPosition()=="DF"){
+            //         league.defenders.push_back(player);
+            //     }
+            //     else if(player.getFootballerPosition()=="MF"){
+            //         league.midfielders.push_back(player);
+            //     }
+            //     else {
+            //         league.attackers.push_back(player);
+            //     }
+            // }
         }
     }
-    if(position=="GK"){
-        return league.goalkeepers;
-    }
-    else if (position=="DF"){
-        return league.defenders;
-    }
-    else if(position=="MF"){
-        return league.midfielders;
-    }
-    else if (position=="ST")
-    {
-        return league.attackers;
-    }
+    // if(position=="GK"){
+    //     return league.goalkeepers;
+    // }
+    // else if (position=="DF"){
+    //     return league.defenders;
+    // }
+    // else if(position=="MF"){
+    //     return league.midfielders;
+    // }
+    // else if (position=="ST")
+    // {
+    //     return league.attackers;
+    // }
 
 }
