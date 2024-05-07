@@ -12,12 +12,13 @@ private:
     static int idCounter;
     int leagueId = idCounter;
     string Name;
-    static map <string, vector<Footballer>> footballers;
-    static vector <Team> teams;
+    map <string, vector<Footballer>> footballers;
+
 public:
 
     /*-> constructor <-*/
     League(string name);
+    vector <Team> teams;
 
     /*-> getters <-*/
     int getLeagueId();
@@ -29,7 +30,6 @@ public:
     /*-> setters <-*/
     void setPlayer(Footballer footballer);
     void updateFootballerPrice(string position, Footballer footballer, int newPrice);
-    multimap <int, Footballer, greater<int>> getFootballersByPosition(string position);
     void setPoints();
     void setNewTeam(Team team);
 
