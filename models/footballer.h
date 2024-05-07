@@ -9,19 +9,19 @@ private:
     static int idCounter;
     const int footballerId;
     string Name;
-    int Price;
+    float Price;
     string Position;
-    int teamId;
+    string team;
 public:
     /*-> constructor <-*/
     Footballer();
-    Footballer(string Name,int price,string position);
+    Footballer(string Name,float price,string position,string teamName);
 
     /*-> getters <-*/
     string getFootballerName();
     string getFootballerPosition();
-    int getFootballerPrice();
-    // Team getFootballerTeam();
+    float getFootballerPrice();
+    string getFootballerTeam();
     int getFootballerId();
 
     /*-> setters <-*/

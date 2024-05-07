@@ -4,6 +4,7 @@
 #include "./models/footballer.h"
 #include "./services/fileservices.h"
 #include "./models/player.h"
+#include "./home.h"
 myteam::myteam(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::myteam)
@@ -51,5 +52,14 @@ void myteam::on_save_clicked()
     // newplayer.setPlayer(ui->firststMidfielderComboBox);
     // newplayer.setPlayer(ui->secondMidfielderComboBox);
     // newplayer.setPlayer(ui->attackerComboBox);
+}
+
+
+void myteam::on_LeaguesButton_clicked()
+{
+     Home home;
+    home.setModal(true);
+    close();
+    home.exec();
 }
 

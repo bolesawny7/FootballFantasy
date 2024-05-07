@@ -28,8 +28,8 @@ class Ui_myteam
 public:
     QWidget *layoutWidget;
     QHBoxLayout *horizontalLayout;
-    QPushButton *LeaguesButton;
     QPushButton *pushButton_3;
+    QPushButton *LeaguesButton;
     QPushButton *pushButton;
     QWidget *formLayoutWidget;
     QVBoxLayout *verticalLayout;
@@ -81,15 +81,6 @@ public:
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setSizeConstraint(QLayout::SetNoConstraint);
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        LeaguesButton = new QPushButton(layoutWidget);
-        LeaguesButton->setObjectName("LeaguesButton");
-        LeaguesButton->setStyleSheet(QString::fromUtf8("\n"
-"color: rgb(55, 0, 60);\n"
-"background-color: rgb(0, 255, 135);\n"
-"border-radius-top: 20px;"));
-
-        horizontalLayout->addWidget(LeaguesButton);
-
         pushButton_3 = new QPushButton(layoutWidget);
         pushButton_3->setObjectName("pushButton_3");
         pushButton_3->setStyleSheet(QString::fromUtf8("\n"
@@ -98,6 +89,15 @@ public:
 "border-radius-top: 20px;"));
 
         horizontalLayout->addWidget(pushButton_3);
+
+        LeaguesButton = new QPushButton(layoutWidget);
+        LeaguesButton->setObjectName("LeaguesButton");
+        LeaguesButton->setStyleSheet(QString::fromUtf8("\n"
+"color: rgb(55, 0, 60);\n"
+"background-color: rgb(0, 255, 135);\n"
+"border-radius-top: 20px;"));
+
+        horizontalLayout->addWidget(LeaguesButton);
 
         pushButton = new QPushButton(layoutWidget);
         pushButton->setObjectName("pushButton");
@@ -248,8 +248,8 @@ public:
     void retranslateUi(QDialog *myteam)
     {
         myteam->setWindowTitle(QCoreApplication::translate("myteam", "Dialog", nullptr));
-        LeaguesButton->setText(QCoreApplication::translate("myteam", "Leagues", nullptr));
         pushButton_3->setText(QCoreApplication::translate("myteam", "My Team", nullptr));
+        LeaguesButton->setText(QCoreApplication::translate("myteam", "transfers", nullptr));
         pushButton->setText(QCoreApplication::translate("myteam", "Logout", nullptr));
         goalkeeperLabel->setText(QCoreApplication::translate("myteam", "goalkeeper", nullptr));
         secondndDefenderLabel->setText(QCoreApplication::translate("myteam", "defender", nullptr));

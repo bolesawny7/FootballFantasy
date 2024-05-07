@@ -18,6 +18,8 @@ public:
 private slots:
     void on_save_clicked();
 
+    void on_LeaguesButton_clicked();
+
 private:
     Ui::myteam *ui;
 };

@@ -2,6 +2,7 @@
 #include "ui_login.h"
 #include "signup.h"
 #include "home.h"
+#include "myteam.h"
 #include <iostream>
 using namespace std;
 
@@ -24,10 +25,10 @@ void Login::on_loginButton_clicked()
     loginDto.email = ui->emailLineEdit->text().toStdString();
     loginDto.password = ui->passwordLineEdit->text().toStdString();
     if(auth.login(loginDto) == 1){
-        Home home;
-        home.setModal(true);
+        myteam team;
+        team.setModal(true);
         close();
-        home.exec();
+        team.exec();
     }
 }
 

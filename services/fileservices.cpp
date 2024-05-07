@@ -89,7 +89,7 @@ vector<Footballer> fileServices::loadFootballers(string position){
             QString playerName;
             QString playerTeam;
             QString playerPosition;
-            int playerCost;
+            QString playerCost;
             /*    "name": "A.Becker",
     "team": "Liverpool",
     "position": "GK",
@@ -101,9 +101,10 @@ vector<Footballer> fileServices::loadFootballers(string position){
                 playerName = player.value("name").toString();
                 playerTeam=player.value("team").toString();
                 playerPosition=player.value("position").toString();
-                playerCost=player.value("cost").toInt();
-                qDebug() << player.value("team").toString();
-                Footballer player(playerName.toStdString(),playerCost,playerPosition.toStdString());
+                playerCost=player.value("cost").toString();
+                string cost=playerCost.toStdString();
+                qDebug() << player.value("cost").toString();
+                Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
                 if(player.getFootballerPosition() =="GK"){
                     league.goalkeepers.push_back(player);
                 }

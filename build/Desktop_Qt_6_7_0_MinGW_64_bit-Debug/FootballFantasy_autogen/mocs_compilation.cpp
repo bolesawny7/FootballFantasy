@@ -3,4 +3,5 @@
 #include "EWIEGA46WW/moc_login.cpp"
 #include "EWIEGA46WW/moc_mainwindow.cpp"
 #include "EWIEGA46WW/moc_myteam.cpp"
+#include "EWIEGA46WW/moc_searching.cpp"
 #include "EWIEGA46WW/moc_signup.cpp"
