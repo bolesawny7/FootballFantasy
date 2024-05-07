@@ -9,8 +9,8 @@ class Team
 private:
     string name;
     static int idCounter;
-    const int teamID = idCounter;
-    vector<pair<Footballer, int>> teamFootballers;
+    int teamID = idCounter;
+    // vector<pair<Footballer, int>> teamFootballers;
 
 public:
     Team(string name);
@@ -18,7 +18,7 @@ public:
     int getTeamId();
     void setTeamName(string name);
     void setLeagueId(int id);
-    vector<pair<Footballer, int>> getTeamFootballers();
+    // vector<pair<Footballer, int>> getTeamFootballers();
     void setTeamFootballers();
 };
 

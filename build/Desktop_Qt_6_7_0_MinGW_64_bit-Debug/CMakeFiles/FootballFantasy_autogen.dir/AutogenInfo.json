@@ -327,6 +327,12 @@
 	"HEADERS" : 
 	[
 		[
+			"E:/New folder/FootballFantasy/favleague.h",
+			"MU",
+			"EWIEGA46WW/moc_favleague.cpp",
+			null
+		],
+		[
 			"E:/New folder/FootballFantasy/home.h",
 			"MU",
 			"EWIEGA46WW/moc_home.cpp",
@@ -506,6 +512,7 @@
 			null
 		],
 		[ "E:/New folder/FootballFantasy/Structs/PlayerStruct.cpp", "MU", null ],
+		[ "E:/New folder/FootballFantasy/favleague.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/home.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/login.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/main.cpp", "MU", null ],

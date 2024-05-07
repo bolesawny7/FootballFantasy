@@ -43,6 +43,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         myteam.h myteam.cpp myteam.ui
         services/transferservices.h services/transferservices.cpp
         searching.h searching.cpp searching.ui
+        favleague.h favleague.cpp favleague.ui
+
 
 
     )

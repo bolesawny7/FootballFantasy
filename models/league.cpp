@@ -36,6 +36,8 @@ vector<Footballer> League::singlePosition(string position){
     return pos;
 }
 
+
+
 // void League::updateFootballerPrice(string position, Footballer footballer, int newPrice) {
 //     for (auto& footballerPair : footballers) {
 //         if (footballerPair.first == position) {

@@ -591,6 +591,8 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeRCCompiler.cmake \
 	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeSystem.cmake \
 	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+	E:/New\ folder/FootballFantasy/favleague.cpp \
+	E:/New\ folder/FootballFantasy/favleague.h \
 	E:/New\ folder/FootballFantasy/home.cpp \
 	E:/New\ folder/FootballFantasy/home.h \
 	E:/New\ folder/FootballFantasy/login.cpp \
@@ -626,6 +628,7 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/services/userservice.h \
 	E:/New\ folder/FootballFantasy/signup.cpp \
 	E:/New\ folder/FootballFantasy/signup.h \
+	E:/New\ folder/FootballFantasy/favleague.ui \
 	E:/New\ folder/FootballFantasy/home.ui \
 	E:/New\ folder/FootballFantasy/login.ui \
 	E:/New\ folder/FootballFantasy/mainwindow.ui \

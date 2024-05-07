@@ -6,8 +6,24 @@
 #include "../models/team.h"
 #include "../models/league.h"
 #include "../models/footballer.h"
-League league("premier league");
-fileServices::fileServices() {}
+
+
+// League league("premier league");
+
+vector <League> fileServices::leagues;
+League fileServices::favLeague("");
+
+fileServices::fileServices() {
+    leagues.push_back(League("Premier League"));
+    leagues.push_back(League("La Liga"));
+    leagues.push_back(League("Seria A"));
+}
+
+vector <League> fileServices:: getLeagues(){
+    return leagues;
+}
+
+
 vector<Team> fileServices::loadTeam(){
 
     QString thisFilePathString=qApp->applicationDirPath();
@@ -30,7 +46,7 @@ vector<Team> fileServices::loadTeam(){
 
         if(JsonError.error != QJsonParseError::NoError){
             qDebug() << "Error is : " << JsonError.errorString();
-            return league.getTeams();
+            return favLeague.getTeams();
         }
         else {
             qDebug() << "no error";
@@ -50,12 +66,13 @@ vector<Team> fileServices::loadTeam(){
                 qDebug() << team.value("team_name").toString();
                 string name = teamName.toStdString();
                 Team newteam(name);
-                league.setNewTeam(newteam);
+                favLeague.setNewTeam(newteam);
             }
         }
-        return league.getTeams();
+        return favLeague.getTeams();
     }
 }
+
 
 map <string, vector<Footballer>>  fileServices::loadFootballers(){
     QString thisFilePathString=qApp->applicationDirPath();
@@ -117,11 +134,11 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
             }
         }
     }
-    league.setFootballers("GK",goalkeepers);
-    league.setFootballers("DF",defenders);
-    league.setFootballers("MF",midfielders);
-    league.setFootballers("ST",attackers);
-    return league.getFootballerData();
+    favLeague.setFootballers("GK",goalkeepers);
+    favLeague.setFootballers("DF",defenders);
+    favLeague.setFootballers("MF",midfielders);
+    favLeague.setFootballers("ST",attackers);
+    return favLeague.getFootballerData();
 }
 
 
@@ -133,7 +150,7 @@ void fileServices::writeteams(){
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
     QJsonArray teams;
-    for(auto newteam:league.getTeams()){
+    for(auto newteam:favLeague.getTeams()){
 
         QJsonObject team;
 
@@ -153,5 +170,14 @@ void fileServices::writeteams(){
     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
         file.write(doc.toJson(QJsonDocument::Indented));
         file.close();
+    }
+}
+
+League fileServices::getLeagueByName(string Lname){
+    for(auto league:fileServices::leagues){
+        if(league.getLeagueName()==Lname){
+            fileServices::favLeague=league;
+            return league;
+        }
     }
 }
