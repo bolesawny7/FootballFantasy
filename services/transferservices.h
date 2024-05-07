@@ -6,7 +6,7 @@ class transferservices
 {
 public:
     transferservices();
-    vector <Footballer> playerSearch(QString playerName);
+    vector <Footballer> playerSearch(QString position,QString playerName);
 };
 
 #endif // TRANSFERSERVICES_H

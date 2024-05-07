@@ -15,8 +15,9 @@ vector<Team> fileServices::loadTeam(){
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
-    qDebug() << thisFilePathAbs.absolutePath();
+    qDebug() << thisFilePathAbs.absolutePath()+"/data/teams.json";
     QFile file(thisFilePathAbs.absolutePath()+"/data/teams.json");
+
 
 
 
@@ -56,7 +57,7 @@ vector<Team> fileServices::loadTeam(){
     }
 }
 
-vector<Footballer> fileServices::loadFootballers(string position){
+map <string, vector<Footballer>>  fileServices::loadFootballers(){
     QString thisFilePathString=qApp->applicationDirPath();
     QFileInfo thisFilePath(thisFilePathString);
     QString thebathabsouluted=thisFilePath.absolutePath();
@@ -64,9 +65,10 @@ vector<Footballer> fileServices::loadFootballers(string position){
 
     qDebug() << thisFilePathAbs.absolutePath();
     QFile file(thisFilePathAbs.absolutePath()+"/data/players.json");
-
-
-
+    vector <Footballer> goalkeepers;
+    vector <Footballer> defenders;
+    vector <Footballer> midfielders;
+    vector <Footballer> attackers;
     if(file.open(QIODevice::ReadOnly)){
         QByteArray Bytes = file.readAll();
         file.close();
@@ -95,43 +97,34 @@ vector<Footballer> fileServices::loadFootballers(string position){
     "position": "GK",
     "points": 0,
     "cost": "£5.7"*/
-            // for(auto i:arr)
-            // {
-            //     player = i.toObject();
-            //     playerName = player.value("name").toString();
-            //     playerTeam=player.value("team").toString();
-            //     playerPosition=player.value("position").toString();
-            //     playerCost=player.value("cost").toString();
-            //     string cost=playerCost.toStdString();
-            //     qDebug() << player.value("cost").toString();
-            //     Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
-            //     if(player.getFootballerPosition() =="GK"){
-            //         league.goalkeepers.push_back(player);
-            //     }
-            //     else if(player.getFootballerPosition()=="DF"){
-            //         league.defenders.push_back(player);
-            //     }
-            //     else if(player.getFootballerPosition()=="MF"){
-            //         league.midfielders.push_back(player);
-            //     }
-            //     else {
-            //         league.attackers.push_back(player);
-            //     }
-            // }
+            for(auto i:arr)
+            {
+                player = i.toObject();
+                playerName = player.value("name").toString();
+                playerTeam=player.value("team").toString();
+                playerPosition=player.value("position").toString();
+                playerCost=player.value("cost").toString();
+                string cost=playerCost.toStdString();
+                // qDebug() << player.value("cost").toString();
+                Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
+                if(player.getFootballerPosition() =="GK"){
+                    goalkeepers.push_back(player);
+                }
+                else if(player.getFootballerPosition()=="DF"){
+                    defenders.push_back(player);
+                }
+                else if(player.getFootballerPosition()=="MF"){
+                    midfielders.push_back(player);
+                }
+                else {
+                    attackers.push_back(player);
+                }
+            }
         }
     }
-    // if(position=="GK"){
-    //     return league.goalkeepers;
-    // }
-    // else if (position=="DF"){
-    //     return league.defenders;
-    // }
-    // else if(position=="MF"){
-    //     return league.midfielders;
-    // }
-    // else if (position=="ST")
-    // {
-    //     return league.attackers;
-    // }
-
+    league.setFootballers("GK",goalkeepers);
+    league.setFootballers("DF",defenders);
+    league.setFootballers("MF",midfielders);
+    league.setFootballers("ST",attackers);
+    return league.getFootballerData();
 }

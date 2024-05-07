@@ -18,6 +18,7 @@ Signup::Signup(QWidget *parent)
         QString teamName= QString::fromStdString(team.getTeamName());
         ui->favouriteTeamComboBox->addItem(teamName);
     }
+    files.loadFootballers();
 
 }
 

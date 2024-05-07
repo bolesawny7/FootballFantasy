@@ -3,12 +3,13 @@
 #include <vector>
 #include "../models/team.h"
 #include "../models/footballer.h"
+#include <map>
 class fileServices
 {
 public:
     fileServices();
     vector<Team>loadTeam();
-    vector<Footballer>loadFootballers(string position);
+    map <string, vector<Footballer>> loadFootballers();
 };
 
 #endif // FILESERVICES_H

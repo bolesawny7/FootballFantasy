@@ -26,11 +26,13 @@ public:
     // map <string, multimap <int, Footballer>, greater<int>> getFootballers();
     map <string, vector <Footballer>> getFootballerData();
     vector<Team> getTeams();
+    vector<Footballer>singlePosition(string position);
 
     /*-> setters <-*/
     void setPlayer(Footballer footballer);
     void updateFootballerPrice(string position, Footballer footballer, int newPrice);
     void setPoints();
+    void setFootballers(string key,vector<Footballer>);
     void setNewTeam(Team team);
 
 };

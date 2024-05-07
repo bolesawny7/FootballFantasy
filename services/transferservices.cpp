@@ -4,22 +4,31 @@
 #include "./fileservices.h"
 #include "../models/league.h"
 #include <string>
+#include <QtCore>
 #include <vector>
 
 transferservices::transferservices() {
 
 }
-vector <Footballer> transferservices::playerSearch(QString playerName){
+vector<Footballer> transferservices::playerSearch(QString position,QString playerName){
         fileServices files;
-    vector <Footballer> allplayers =files.loadFootballers("GK");
+        map <string, vector<Footballer>> allplayers =files.loadFootballers();
+        string pos=position.toStdString();
+        vector<Footballer> thisposition=allplayers[pos];
         vector<Footballer>wantedPlayers;
-        for(auto player:allplayers)
+        qDebug() << "works";
+        for(auto player:thisposition)
         {
             QString name=QString::fromStdString(player.getFootballerName());
-            name.toLower();
+            name= name.toLower();
+            qDebug() <<name<<playerName;
             if(name.contains(playerName)){
                 wantedPlayers.push_back(player);
             }
         }
+        // for (auto player:wantedPlayers){
+        //     QString name=QString::fromStdString(player.getFootballerName());
+        //     qDebug() <<name<<playerName;
+        // }
         return wantedPlayers;
 }

@@ -26,8 +26,11 @@ void MainWindow::on_loginButton_clicked()
 
 void MainWindow::on_signupButton_clicked()
 {
-    signup = new Signup(this);
+    qDebug() << "signin";
+    Signup signup;
+    signup.setModal(true);
     close();
-    signup->show();
+    signup.exec();
+
 }
 

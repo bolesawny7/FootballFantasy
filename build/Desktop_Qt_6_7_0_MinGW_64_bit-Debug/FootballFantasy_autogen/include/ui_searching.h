@@ -16,6 +16,7 @@
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -28,6 +29,7 @@ public:
     QLabel *searchLabel;
     QLineEdit *searchLineEdit;
     QComboBox *comboBox;
+    QPushButton *pushButton;
 
     void setupUi(QDialog *searching)
     {
@@ -56,6 +58,9 @@ public:
         comboBox = new QComboBox(searching);
         comboBox->setObjectName("comboBox");
         comboBox->setGeometry(QRect(240, 70, 771, 28));
+        pushButton = new QPushButton(searching);
+        pushButton->setObjectName("pushButton");
+        pushButton->setGeometry(QRect(1020, 30, 91, 29));
 
         retranslateUi(searching);
 
@@ -66,6 +71,7 @@ public:
     {
         searching->setWindowTitle(QCoreApplication::translate("searching", "Dialog", nullptr));
         searchLabel->setText(QCoreApplication::translate("searching", "search", nullptr));
+        pushButton->setText(QCoreApplication::translate("searching", "search", nullptr));
     } // retranslateUi
 
 };

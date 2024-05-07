@@ -17,7 +17,7 @@ public:
 
 private slots:
 
-    void on_searchLineEdit_editingFinished();
+    void on_pushButton_clicked();
 
 private:
     Ui::searching *ui;

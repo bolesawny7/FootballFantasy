@@ -11,25 +11,26 @@ myteam::myteam(QWidget *parent)
 {
     ui->setupUi(this);
     fileServices files;
-    vector <Footballer> goalkeepers =files.loadFootballers("GK");
+    map <string, vector<Footballer>>allPlayers =files.loadFootballers();
+    vector <Footballer> goalkeepers=allPlayers["GK"];
     for(auto goalkeeper:goalkeepers){
         QString GKName= QString::fromStdString(goalkeeper.getFootballerName());
         ui->goalkeeperComboBox->addItem(GKName);
     }
-    vector <Footballer> defenders =files.loadFootballers("DF");
+    vector <Footballer> defenders =allPlayers["DF"];;
     for(auto defender:defenders){
         QString DFName= QString::fromStdString(defender.getFootballerName());
         ui->firstDefenderComboBox->addItem(DFName);
         ui->secondDefenderComboBox->addItem(DFName);
         ui->thirdDefenderComboBox->addItem(DFName);
     }
-    vector <Footballer> midfielders =files.loadFootballers("MF");
+    vector <Footballer> midfielders =allPlayers["MF"];
     for(auto midfielder:midfielders){
         QString MFName= QString::fromStdString(midfielder.getFootballerName());
         ui->firststMidfielderComboBox->addItem(MFName);
         ui->secondMidfielderComboBox->addItem(MFName);
     }
-    vector <Footballer> attackers =files.loadFootballers("ST");
+    vector <Footballer> attackers =allPlayers["ST"];
     for(auto attacker:attackers){
         QString STName= QString::fromStdString(attacker.getFootballerName());
         ui->attackerComboBox->addItem(STName);
