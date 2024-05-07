@@ -7,21 +7,20 @@
 #include <QtCore>
 #include <vector>
 
-transferservices::transferservices() {
-
-}
-vector<Footballer> transferservices::playerSearch(QString position,QString playerName){
+QString transferservices::searchValue = "";
+transferservices::transferservices(){}
+vector<Footballer> transferservices::playerSearch(QString playerName){
         fileServices files;
         map <string, vector<Footballer>> allplayers =files.loadFootballers();
-        string pos=position.toStdString();
-        vector<Footballer> thisposition=allplayers[pos];
+        QString s=this->getSearchValue();
+        vector<Footballer> thisposition=allplayers[s.toStdString()];
         vector<Footballer>wantedPlayers;
-        qDebug() << "works";
+        // qDebug() << "works";
         for(auto player:thisposition)
         {
             QString name=QString::fromStdString(player.getFootballerName());
             name= name.toLower();
-            qDebug() <<name<<playerName;
+            // qDebug() <<name<<playerName;
             if(name.contains(playerName)){
                 wantedPlayers.push_back(player);
             }
@@ -31,4 +30,10 @@ vector<Footballer> transferservices::playerSearch(QString position,QString playe
         //     qDebug() <<name<<playerName;
         // }
         return wantedPlayers;
+}
+QString transferservices::getSearchValue(){
+    return searchValue;
+}
+void transferservices::setSearchValue(QString v){
+    this->searchValue=v;
 }

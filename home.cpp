@@ -31,10 +31,65 @@ void Home::on_pushButton_3_clicked()
 //     Footballer thePlayer= trans.playerSearch(ui->searchLineEdit);
 
 // }
-
+transferservices tran;
 
 void Home::on_pushButton_2_clicked()
 {
+    tran.setSearchValue("GK");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_4_clicked()
+{
+    tran.setSearchValue("DF");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_5_clicked()
+{
+    tran.setSearchValue("DF");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_6_clicked()
+{
+    tran.setSearchValue("DF");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_7_clicked()
+{
+    tran.setSearchValue("MF");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_8_clicked()
+{
+    tran.setSearchValue("MF");
+    searching search;
+    search.setModal(true);
+    search.exec();
+}
+
+
+void Home::on_pushButton_9_clicked()
+{
+    tran.setSearchValue("ST");
     searching search;
     search.setModal(true);
     search.exec();

@@ -3,6 +3,7 @@
 #include "./services/transferservices.h"
 #include "./models/footballer.h"
 #include <QString>
+#include <iomanip>
 using namespace std;
 searching::searching(QWidget *parent)
     : QDialog(parent)
@@ -23,15 +24,15 @@ void searching::on_pushButton_clicked()
     QString name=ui->searchLineEdit->text();
     name=name.toLower();
     qDebug() <<name;
-    vector <Footballer> players=trans.playerSearch("GK",name);
+    vector <Footballer> players=trans.playerSearch(name);
     for(auto player:players){
         ui->comboBox->clear();
         qDebug() << player.getFootballerName();
         QString Name= QString::fromStdString(player.getFootballerName());
         QString team=QString::fromStdString(player.getFootballerTeam());
-        int price=player.getFootballerPrice();
-        QString strningPrice=QString::fromStdString(std::to_string(price));
-        ui->comboBox->addItem(Name+","+strningPrice+","+team);
+        float price=player.getFootballerPrice();
+        QString strningPrice=QString::number(price, 'f', 1);
+        ui->comboBox->addItem(Name+" , "+strningPrice+","+team);
     };
 }
 

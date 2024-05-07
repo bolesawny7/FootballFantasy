@@ -92,11 +92,6 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
             QString playerTeam;
             QString playerPosition;
             QString playerCost;
-            /*    "name": "A.Becker",
-    "team": "Liverpool",
-    "position": "GK",
-    "points": 0,
-    "cost": "£5.7"*/
             for(auto i:arr)
             {
                 player = i.toObject();
@@ -127,4 +122,36 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
     league.setFootballers("MF",midfielders);
     league.setFootballers("ST",attackers);
     return league.getFootballerData();
+}
+
+
+
+
+void fileServices::writeteams(){
+    QString thisFilePathString=qApp->applicationDirPath();
+    QFileInfo thisFilePath(thisFilePathString);
+    QString thebathabsouluted=thisFilePath.absolutePath();
+    QFileInfo thisFilePathAbs(thebathabsouluted);
+    QJsonArray teams;
+    for(auto newteam:league.getTeams()){
+
+        QJsonObject team;
+
+        int sid = newteam.getTeamId();
+        string sname = newteam.getTeamName();
+
+
+        team["id"] =  sid;
+        team["name"] =  sname.data();
+
+        teams.append(team);
+
+    }
+
+    QJsonDocument doc(teams);
+    QFile file(thisFilePathAbs.absolutePath()+"/data/newTeams.json");
+    if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        file.write(doc.toJson(QJsonDocument::Indented));
+        file.close();
+    }
 }
