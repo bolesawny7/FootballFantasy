@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-15f28a5f324851446136.json",
+					"jsonFile" : "directory-.-Debug-f9620ed57133478abd0e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FootballFantasy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FootballFantasy-Debug-c1ba2de3a9f9f010029d.json",
+					"jsonFile" : "target-FootballFantasy-Debug-669e93d8952268a9478c.json",
 					"name" : "FootballFantasy",
 					"projectIndex" : 0
 				},
