@@ -5,6 +5,7 @@
 class LeagueService
 {
 private:
+    // < total pints, player>
     multimap<int, Player> laliga;
     multimap<int, Player> bundesliga;
     multimap<int, Player> seriaA;
