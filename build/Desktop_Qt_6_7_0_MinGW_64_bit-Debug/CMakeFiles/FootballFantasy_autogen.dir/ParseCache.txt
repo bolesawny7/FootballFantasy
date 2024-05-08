@@ -2524,3 +2524,5 @@ D:/projects/FootballFantasy/services/auth.cpp
 D:/projects/FootballFantasy/services/fileservices.cpp
 D:/projects/FootballFantasy/services/playersservice.h
 D:/projects/FootballFantasy/services/playersservice.cpp
+D:/projects/FootballFantasy/services/leagueservice.h
+D:/projects/FootballFantasy/services/leagueservice.cpp

@@ -402,6 +402,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+models/fantasyleague.obj: models/fantasyleague.cpp.obj
+.PHONY : models/fantasyleague.obj
+
+# target to build an object file
+models/fantasyleague.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj
+.PHONY : models/fantasyleague.cpp.obj
+
+models/fantasyleague.i: models/fantasyleague.cpp.i
+.PHONY : models/fantasyleague.i
+
+# target to preprocess a source file
+models/fantasyleague.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.i
+.PHONY : models/fantasyleague.cpp.i
+
+models/fantasyleague.s: models/fantasyleague.cpp.s
+.PHONY : models/fantasyleague.s
+
+# target to generate assembly for a file
+models/fantasyleague.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.s
+.PHONY : models/fantasyleague.cpp.s
+
 models/fixture.obj: models/fixture.cpp.obj
 .PHONY : models/fixture.obj
 
@@ -642,6 +666,30 @@ services/fileservices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.s
 .PHONY : services/fileservices.cpp.s
 
+services/leagueservice.obj: services/leagueservice.cpp.obj
+.PHONY : services/leagueservice.obj
+
+# target to build an object file
+services/leagueservice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj
+.PHONY : services/leagueservice.cpp.obj
+
+services/leagueservice.i: services/leagueservice.cpp.i
+.PHONY : services/leagueservice.i
+
+# target to preprocess a source file
+services/leagueservice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.i
+.PHONY : services/leagueservice.cpp.i
+
+services/leagueservice.s: services/leagueservice.cpp.s
+.PHONY : services/leagueservice.s
+
+# target to generate assembly for a file
+services/leagueservice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.s
+.PHONY : services/leagueservice.cpp.s
+
 services/playersservice.obj: services/playersservice.cpp.obj
 .PHONY : services/playersservice.obj
 
@@ -779,6 +827,9 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
+	@echo ... models/fantasyleague.obj
+	@echo ... models/fantasyleague.i
+	@echo ... models/fantasyleague.s
 	@echo ... models/fixture.obj
 	@echo ... models/fixture.i
 	@echo ... models/fixture.s
@@ -809,6 +860,9 @@ help:
 	@echo ... services/fileservices.obj
 	@echo ... services/fileservices.i
 	@echo ... services/fileservices.s
+	@echo ... services/leagueservice.obj
+	@echo ... services/leagueservice.i
+	@echo ... services/leagueservice.s
 	@echo ... services/playersservice.obj
 	@echo ... services/playersservice.i
 	@echo ... services/playersservice.s

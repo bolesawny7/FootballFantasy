@@ -16,7 +16,6 @@ int League::getLeagueId(){
     return leagueId;
 }
 
-// <position, vector[footballers]>
 map <string, vector <Footballer>> League:: getFootballerData(){
     return footballers;
 }
@@ -36,8 +35,6 @@ vector<Footballer> League::singlePosition(string position){
     vector <Footballer> pos=this->footballers[position];
     return pos;
 }
-
-
 
 // void League::updateFootballerPrice(string position, Footballer footballer, int newPrice) {
 //     for (auto& footballerPair : footballers) {

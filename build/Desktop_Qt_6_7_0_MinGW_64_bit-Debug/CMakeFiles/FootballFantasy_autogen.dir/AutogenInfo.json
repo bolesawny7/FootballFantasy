@@ -280,6 +280,12 @@
 			null
 		],
 		[
+			"D:/projects/FootballFantasy/models/fantasyleague.h",
+			"MU",
+			"IVK4DJNV27/moc_fantasyleague.cpp",
+			null
+		],
+		[
 			"D:/projects/FootballFantasy/models/fixture.h",
 			"MU",
 			"IVK4DJNV27/moc_fixture.cpp",
@@ -337,6 +343,12 @@
 			"D:/projects/FootballFantasy/services/fileservices.h",
 			"MU",
 			"3BYFHCGL5U/moc_fileservices.cpp",
+			null
+		],
+		[
+			"D:/projects/FootballFantasy/services/leagueservice.h",
+			"MU",
+			"3BYFHCGL5U/moc_leagueservice.cpp",
 			null
 		],
 		[
@@ -446,6 +458,7 @@
 		[ "D:/projects/FootballFantasy/login.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/main.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/mainwindow.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/fantasyleague.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/models/fixture.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/models/footballer.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/models/league.cpp", "MU", null ],
@@ -456,6 +469,7 @@
 		[ "D:/projects/FootballFantasy/searching.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/services/auth.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/services/fileservices.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/leagueservice.cpp", "MU", null ],
 		[ "D:/projects/FootballFantasy/services/playersservice.cpp", "MU", null ],
 		[
 			"D:/projects/FootballFantasy/services/transferservices.cpp",

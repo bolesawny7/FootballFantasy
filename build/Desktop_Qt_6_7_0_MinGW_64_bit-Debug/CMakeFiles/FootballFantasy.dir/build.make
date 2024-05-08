@@ -226,26 +226,11 @@ CMakeFiles/FootballFantasy.dir/models/team.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/models/team.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\models\team.cpp -o CMakeFiles\FootballFantasy.dir\models\team.cpp.s
 
-CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
-CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
-CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: D:/projects/FootballFantasy/models/league.cpp
-CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FootballFantasy.dir/models/league.cpp.obj"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/models/league.cpp.obj -MF CMakeFiles\FootballFantasy.dir\models\league.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\models\league.cpp.obj -c D:\projects\FootballFantasy\models\league.cpp
-
-CMakeFiles/FootballFantasy.dir/models/league.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/models/league.cpp.i"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\models\league.cpp > CMakeFiles\FootballFantasy.dir\models\league.cpp.i
-
-CMakeFiles/FootballFantasy.dir/models/league.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/models/league.cpp.s"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\models\league.cpp -o CMakeFiles\FootballFantasy.dir\models\league.cpp.s
-
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: D:/projects/FootballFantasy/models/fixture.cpp
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj -MF CMakeFiles\FootballFantasy.dir\models\fixture.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\models\fixture.cpp.obj -c D:\projects\FootballFantasy\models\fixture.cpp
 
 CMakeFiles/FootballFantasy.dir/models/fixture.cpp.i: cmake_force
@@ -260,7 +245,7 @@ CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj: CMakeFiles/Football
 CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj: D:/projects/FootballFantasy/Structs/PlayerStruct.cpp
 CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj -MF CMakeFiles\FootballFantasy.dir\Structs\PlayerStruct.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\Structs\PlayerStruct.cpp.obj -c D:\projects\FootballFantasy\Structs\PlayerStruct.cpp
 
 CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.i: cmake_force
@@ -275,7 +260,7 @@ CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj: CMakeFiles/Foot
 CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj: D:/projects/FootballFantasy/Structs/FootballerStruct.cpp
 CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj -MF CMakeFiles\FootballFantasy.dir\Structs\FootballerStruct.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\Structs\FootballerStruct.cpp.obj -c D:\projects\FootballFantasy\Structs\FootballerStruct.cpp
 
 CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.i: cmake_force
@@ -290,7 +275,7 @@ CMakeFiles/FootballFantasy.dir/home.cpp.obj: CMakeFiles/FootballFantasy.dir/flag
 CMakeFiles/FootballFantasy.dir/home.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/home.cpp.obj: D:/projects/FootballFantasy/home.cpp
 CMakeFiles/FootballFantasy.dir/home.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FootballFantasy.dir/home.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/FootballFantasy.dir/home.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/home.cpp.obj -MF CMakeFiles\FootballFantasy.dir\home.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\home.cpp.obj -c D:\projects\FootballFantasy\home.cpp
 
 CMakeFiles/FootballFantasy.dir/home.cpp.i: cmake_force
@@ -305,7 +290,7 @@ CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj: CMakeFiles/Footbal
 CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj: D:/projects/FootballFantasy/services/fileservices.cpp
 CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.obj -MF CMakeFiles\FootballFantasy.dir\services\fileservices.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\services\fileservices.cpp.obj -c D:\projects\FootballFantasy\services\fileservices.cpp
 
 CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.i: cmake_force
@@ -320,7 +305,7 @@ CMakeFiles/FootballFantasy.dir/myteam.cpp.obj: CMakeFiles/FootballFantasy.dir/fl
 CMakeFiles/FootballFantasy.dir/myteam.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/myteam.cpp.obj: D:/projects/FootballFantasy/myteam.cpp
 CMakeFiles/FootballFantasy.dir/myteam.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FootballFantasy.dir/myteam.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/FootballFantasy.dir/myteam.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/myteam.cpp.obj -MF CMakeFiles\FootballFantasy.dir\myteam.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\myteam.cpp.obj -c D:\projects\FootballFantasy\myteam.cpp
 
 CMakeFiles/FootballFantasy.dir/myteam.cpp.i: cmake_force
@@ -335,7 +320,7 @@ CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: CMakeFiles/Foo
 CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: D:/projects/FootballFantasy/services/transferservices.cpp
 CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj -MF CMakeFiles\FootballFantasy.dir\services\transferservices.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\services\transferservices.cpp.obj -c D:\projects\FootballFantasy\services\transferservices.cpp
 
 CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.i: cmake_force
@@ -350,7 +335,7 @@ CMakeFiles/FootballFantasy.dir/searching.cpp.obj: CMakeFiles/FootballFantasy.dir
 CMakeFiles/FootballFantasy.dir/searching.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/searching.cpp.obj: D:/projects/FootballFantasy/searching.cpp
 CMakeFiles/FootballFantasy.dir/searching.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FootballFantasy.dir/searching.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FootballFantasy.dir/searching.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/searching.cpp.obj -MF CMakeFiles\FootballFantasy.dir\searching.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\searching.cpp.obj -c D:\projects\FootballFantasy\searching.cpp
 
 CMakeFiles/FootballFantasy.dir/searching.cpp.i: cmake_force
@@ -365,7 +350,7 @@ CMakeFiles/FootballFantasy.dir/favleague.cpp.obj: CMakeFiles/FootballFantasy.dir
 CMakeFiles/FootballFantasy.dir/favleague.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/favleague.cpp.obj: D:/projects/FootballFantasy/favleague.cpp
 CMakeFiles/FootballFantasy.dir/favleague.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FootballFantasy.dir/favleague.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FootballFantasy.dir/favleague.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/favleague.cpp.obj -MF CMakeFiles\FootballFantasy.dir\favleague.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\favleague.cpp.obj -c D:\projects\FootballFantasy\favleague.cpp
 
 CMakeFiles/FootballFantasy.dir/favleague.cpp.i: cmake_force
@@ -376,26 +361,11 @@ CMakeFiles/FootballFantasy.dir/favleague.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/favleague.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\favleague.cpp -o CMakeFiles\FootballFantasy.dir\favleague.cpp.s
 
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: D:/projects/FootballFantasy/services/playersservice.cpp
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj -MF CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.obj -c D:\projects\FootballFantasy\services\playersservice.cpp
-
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.i"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\services\playersservice.cpp > CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.i
-
-CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.s"
-	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\services\playersservice.cpp -o CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.s
-
 CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
 CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: D:/projects/FootballFantasy/models/player.cpp
 CMakeFiles/FootballFantasy.dir/models/player.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FootballFantasy.dir/models/player.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FootballFantasy.dir/models/player.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/models/player.cpp.obj -MF CMakeFiles\FootballFantasy.dir\models\player.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\models\player.cpp.obj -c D:\projects\FootballFantasy\models\player.cpp
 
 CMakeFiles/FootballFantasy.dir/models/player.cpp.i: cmake_force
@@ -406,11 +376,71 @@ CMakeFiles/FootballFantasy.dir/models/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/models/player.cpp.s"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\models\player.cpp -o CMakeFiles\FootballFantasy.dir\models\player.cpp.s
 
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: D:/projects/FootballFantasy/models/fantasyleague.cpp
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj -MF CMakeFiles\FootballFantasy.dir\models\fantasyleague.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\models\fantasyleague.cpp.obj -c D:\projects\FootballFantasy\models\fantasyleague.cpp
+
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\models\fantasyleague.cpp > CMakeFiles\FootballFantasy.dir\models\fantasyleague.cpp.i
+
+CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\models\fantasyleague.cpp -o CMakeFiles\FootballFantasy.dir\models\fantasyleague.cpp.s
+
+CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
+CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
+CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: D:/projects/FootballFantasy/models/league.cpp
+CMakeFiles/FootballFantasy.dir/models/league.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FootballFantasy.dir/models/league.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/models/league.cpp.obj -MF CMakeFiles\FootballFantasy.dir\models\league.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\models\league.cpp.obj -c D:\projects\FootballFantasy\models\league.cpp
+
+CMakeFiles/FootballFantasy.dir/models/league.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/models/league.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\models\league.cpp > CMakeFiles\FootballFantasy.dir\models\league.cpp.i
+
+CMakeFiles/FootballFantasy.dir/models/league.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/models/league.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\models\league.cpp -o CMakeFiles\FootballFantasy.dir\models\league.cpp.s
+
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: D:/projects/FootballFantasy/services/playersservice.cpp
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj -MF CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.obj -c D:\projects\FootballFantasy\services\playersservice.cpp
+
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\services\playersservice.cpp > CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.i
+
+CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\services\playersservice.cpp -o CMakeFiles\FootballFantasy.dir\services\playersservice.cpp.s
+
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: D:/projects/FootballFantasy/services/leagueservice.cpp
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj -MF CMakeFiles\FootballFantasy.dir\services\leagueservice.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\services\leagueservice.cpp.obj -c D:\projects\FootballFantasy\services\leagueservice.cpp
+
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.i"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\projects\FootballFantasy\services\leagueservice.cpp > CMakeFiles\FootballFantasy.dir\services\leagueservice.cpp.i
+
+CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.s"
+	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\projects\FootballFantasy\services\leagueservice.cpp -o CMakeFiles\FootballFantasy.dir\services\leagueservice.cpp.s
+
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj: CMakeFiles/FootballFantasy.dir/flags.make
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj: CMakeFiles/FootballFantasy.dir/includes_CXX.rsp
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj: FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj: CMakeFiles/FootballFantasy.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj"
 	C:\Qt\Tools\mingw1120_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj -MF CMakeFiles\FootballFantasy.dir\FootballFantasy_autogen\EWIEGA46WW\qrc_assets.cpp.obj.d -o CMakeFiles\FootballFantasy.dir\FootballFantasy_autogen\EWIEGA46WW\qrc_assets.cpp.obj -c D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW\qrc_assets.cpp
 
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.i: cmake_force
@@ -433,7 +463,6 @@ FootballFantasy_OBJECTS = \
 "CMakeFiles/FootballFantasy.dir/signup.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/models/team.cpp.obj" \
-"CMakeFiles/FootballFantasy.dir/models/league.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj" \
@@ -443,8 +472,11 @@ FootballFantasy_OBJECTS = \
 "CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/searching.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/favleague.cpp.obj" \
-"CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/models/player.cpp.obj" \
+"CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj" \
+"CMakeFiles/FootballFantasy.dir/models/league.cpp.obj" \
+"CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj" \
+"CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj" \
 "CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj"
 
 # External object files for target FootballFantasy
@@ -460,7 +492,6 @@ FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/user.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/signup.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/footballer.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/team.cpp.obj
-FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/league.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/fixture.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/Structs/FootballerStruct.cpp.obj
@@ -470,8 +501,11 @@ FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/myteam.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/searching.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/favleague.cpp.obj
-FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/player.cpp.obj
+FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj
+FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/models/league.cpp.obj
+FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj
+FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/EWIEGA46WW/qrc_assets.cpp.obj
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/build.make
 FootballFantasy.exe: C:/Qt/6.7.0/mingw_64/lib/libQt6Widgets.a
@@ -481,7 +515,7 @@ FootballFantasy.exe: C:/Qt/6.7.0/mingw_64/lib/libQt6EntryPoint.a
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/linkLibs.rsp
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/objects1.rsp
 FootballFantasy.exe: CMakeFiles/FootballFantasy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Linking CXX executable FootballFantasy.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Linking CXX executable FootballFantasy.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FootballFantasy.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

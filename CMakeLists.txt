@@ -33,7 +33,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
 
         models/footballer.h models/footballer.cpp
         models/team.h models/team.cpp
-        models/league.h models/league.cpp
+
         models/fixture.h models/fixture.cpp
         Structs/PlayerStruct.cpp
         Structs/FootballerStruct.cpp
@@ -44,8 +44,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         services/transferservices.h services/transferservices.cpp
         searching.h searching.cpp searching.ui
         favleague.h favleague.cpp favleague.ui
-        services/playersservice.h services/playersservice.cpp
+
         models/player.h models/player.cpp
+        models/fantasyleague.h models/fantasyleague.cpp
+        models/league.h models/league.cpp
+        services/playersservice.h services/playersservice.cpp
+        services/leagueservice.h services/leagueservice.cpp
 
 
 
