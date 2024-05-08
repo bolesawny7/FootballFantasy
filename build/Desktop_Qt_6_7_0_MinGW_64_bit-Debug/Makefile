@@ -282,6 +282,30 @@ Structs/PlayerStruct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.s
 .PHONY : Structs/PlayerStruct.cpp.s
 
+favleague.obj: favleague.cpp.obj
+.PHONY : favleague.obj
+
+# target to build an object file
+favleague.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/favleague.cpp.obj
+.PHONY : favleague.cpp.obj
+
+favleague.i: favleague.cpp.i
+.PHONY : favleague.i
+
+# target to preprocess a source file
+favleague.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/favleague.cpp.i
+.PHONY : favleague.cpp.i
+
+favleague.s: favleague.cpp.s
+.PHONY : favleague.s
+
+# target to generate assembly for a file
+favleague.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/favleague.cpp.s
+.PHONY : favleague.cpp.s
+
 home.obj: home.cpp.obj
 .PHONY : home.obj
 
@@ -377,30 +401,6 @@ mainwindow.s: mainwindow.cpp.s
 mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
-
-models/fantasyleague.obj: models/fantasyleague.cpp.obj
-.PHONY : models/fantasyleague.obj
-
-# target to build an object file
-models/fantasyleague.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.obj
-.PHONY : models/fantasyleague.cpp.obj
-
-models/fantasyleague.i: models/fantasyleague.cpp.i
-.PHONY : models/fantasyleague.i
-
-# target to preprocess a source file
-models/fantasyleague.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.i
-.PHONY : models/fantasyleague.cpp.i
-
-models/fantasyleague.s: models/fantasyleague.cpp.s
-.PHONY : models/fantasyleague.s
-
-# target to generate assembly for a file
-models/fantasyleague.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/models/fantasyleague.cpp.s
-.PHONY : models/fantasyleague.cpp.s
 
 models/fixture.obj: models/fixture.cpp.obj
 .PHONY : models/fixture.obj
@@ -642,6 +642,30 @@ services/fileservices.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/fileservices.cpp.s
 .PHONY : services/fileservices.cpp.s
 
+services/playersservice.obj: services/playersservice.cpp.obj
+.PHONY : services/playersservice.obj
+
+# target to build an object file
+services/playersservice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.obj
+.PHONY : services/playersservice.cpp.obj
+
+services/playersservice.i: services/playersservice.cpp.i
+.PHONY : services/playersservice.i
+
+# target to preprocess a source file
+services/playersservice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.i
+.PHONY : services/playersservice.cpp.i
+
+services/playersservice.s: services/playersservice.cpp.s
+.PHONY : services/playersservice.s
+
+# target to generate assembly for a file
+services/playersservice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/playersservice.cpp.s
+.PHONY : services/playersservice.cpp.s
+
 services/transferservices.obj: services/transferservices.cpp.obj
 .PHONY : services/transferservices.obj
 
@@ -740,6 +764,9 @@ help:
 	@echo ... Structs/PlayerStruct.obj
 	@echo ... Structs/PlayerStruct.i
 	@echo ... Structs/PlayerStruct.s
+	@echo ... favleague.obj
+	@echo ... favleague.i
+	@echo ... favleague.s
 	@echo ... home.obj
 	@echo ... home.i
 	@echo ... home.s
@@ -752,9 +779,6 @@ help:
 	@echo ... mainwindow.obj
 	@echo ... mainwindow.i
 	@echo ... mainwindow.s
-	@echo ... models/fantasyleague.obj
-	@echo ... models/fantasyleague.i
-	@echo ... models/fantasyleague.s
 	@echo ... models/fixture.obj
 	@echo ... models/fixture.i
 	@echo ... models/fixture.s
@@ -785,6 +809,9 @@ help:
 	@echo ... services/fileservices.obj
 	@echo ... services/fileservices.i
 	@echo ... services/fileservices.s
+	@echo ... services/playersservice.obj
+	@echo ... services/playersservice.i
+	@echo ... services/playersservice.s
 	@echo ... services/transferservices.obj
 	@echo ... services/transferservices.i
 	@echo ... services/transferservices.s

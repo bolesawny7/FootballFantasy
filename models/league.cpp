@@ -16,6 +16,7 @@ int League::getLeagueId(){
     return leagueId;
 }
 
+// <position, vector[footballers]>
 map <string, vector <Footballer>> League:: getFootballerData(){
     return footballers;
 }

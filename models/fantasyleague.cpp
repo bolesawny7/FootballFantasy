@@ -33,3 +33,4 @@ void FantasyLeague:: setPoints(){
         players.insert({totalPoints, {player, gameWeekPoints}});
     }
 };
+

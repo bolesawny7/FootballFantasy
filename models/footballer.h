@@ -8,7 +8,7 @@ class Footballer
 {
 private:
     static int idCounter;
-    const int footballerId;
+    int footballerId;
     string Name;
     float Price;
     string Position;

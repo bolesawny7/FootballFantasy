@@ -6,7 +6,6 @@ adminservice::adminservice() {
     leagues.push_back(League("bundesliga"));
     leagues.push_back(League("egyptionleague"));
 }
-
 League& adminservice::getLeague(int leagueId) {
     for (int i = 0; i < leagues.size(); ++i) {
         if (leagues[i].getLeagueId() == leagueId) {
@@ -14,7 +13,6 @@ League& adminservice::getLeague(int leagueId) {
         }
     }
 }
-
 void adminservice:: updateFootballerPrice(int leagueId, string position, int footballerId, int newPrice){
     League league = getLeague(leagueId);
     for (auto& footballerPair : league.getFootballerData()) {
@@ -29,7 +27,6 @@ void adminservice:: updateFootballerPrice(int leagueId, string position, int foo
         }
     }
 }
-
 void adminservice:: updateFootballerPoints(int leagueId, string position, int footballerId, int gameWeekPoints){
     League league = getLeague(leagueId);
     for (auto& footballerPair : league.getFootballerData()) {
