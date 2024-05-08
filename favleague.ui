@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>favleague</class>
+ <widget class="QDialog" name="favleague">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1310</width>
+    <height>834</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">favleague{
+background-image: url(:/background/fantasy.png);
+}</string>
+  </property>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>169</y>
+     <width>851</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="favouriteLeagueLabel">
+      <property name="text">
+       <string>favourite league</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="favouriteLeagueComboBox">
+      <item>
+       <property name="text">
+        <string>Premier League</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>La Liga</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Seria A</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>320</y>
+     <width>201</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Next</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

@@ -9,7 +9,7 @@ class Fixture
 {
 private:
     static int idCounter;
-    int fixtureId ;
+    int fixtureId = idCounter;
     Team homeTeam;
     Team awayTeam;
     string matchDate;
@@ -17,7 +17,7 @@ private:
 public:
     /* -> constructors <-*/
     Fixture(Team homeTeam, Team awayTeam, string matchDate);
-
+    
     /* -> getters <- */
     int getFixtureId();
     Team getHomeTeam();

@@ -34,8 +34,6 @@ public:
     QPushButton *loginPage;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
-    QLabel *leagueLabel;
-    QComboBox *leagueComboBox;
     QLabel *userNameLabel;
     QLineEdit *userNameLineEdit;
     QLabel *eMailLabel;
@@ -101,88 +99,75 @@ public:
         loginPage->setGeometry(QRect(410, 420, 161, 29));
         formLayoutWidget = new QWidget(groupBox);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(80, 130, 601, 241));
+        formLayoutWidget->setGeometry(QRect(80, 130, 601, 211));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setLabelAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter);
         formLayout->setFormAlignment(Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop);
         formLayout->setContentsMargins(0, 0, 0, 0);
-        leagueLabel = new QLabel(formLayoutWidget);
-        leagueLabel->setObjectName("leagueLabel");
-
-        formLayout->setWidget(0, QFormLayout::LabelRole, leagueLabel);
-
-        leagueComboBox = new QComboBox(formLayoutWidget);
-        leagueComboBox->addItem(QString());
-        leagueComboBox->addItem(QString());
-        leagueComboBox->addItem(QString());
-        leagueComboBox->setObjectName("leagueComboBox");
-
-        formLayout->setWidget(0, QFormLayout::FieldRole, leagueComboBox);
-
         userNameLabel = new QLabel(formLayoutWidget);
         userNameLabel->setObjectName("userNameLabel");
 
-        formLayout->setWidget(1, QFormLayout::LabelRole, userNameLabel);
+        formLayout->setWidget(0, QFormLayout::LabelRole, userNameLabel);
 
         userNameLineEdit = new QLineEdit(formLayoutWidget);
         userNameLineEdit->setObjectName("userNameLineEdit");
 
-        formLayout->setWidget(1, QFormLayout::FieldRole, userNameLineEdit);
+        formLayout->setWidget(0, QFormLayout::FieldRole, userNameLineEdit);
 
         eMailLabel = new QLabel(formLayoutWidget);
         eMailLabel->setObjectName("eMailLabel");
 
-        formLayout->setWidget(2, QFormLayout::LabelRole, eMailLabel);
+        formLayout->setWidget(1, QFormLayout::LabelRole, eMailLabel);
 
         eMailLineEdit = new QLineEdit(formLayoutWidget);
         eMailLineEdit->setObjectName("eMailLineEdit");
 
-        formLayout->setWidget(2, QFormLayout::FieldRole, eMailLineEdit);
+        formLayout->setWidget(1, QFormLayout::FieldRole, eMailLineEdit);
 
         passwordLabel = new QLabel(formLayoutWidget);
         passwordLabel->setObjectName("passwordLabel");
 
-        formLayout->setWidget(3, QFormLayout::LabelRole, passwordLabel);
+        formLayout->setWidget(2, QFormLayout::LabelRole, passwordLabel);
 
         passwordLineEdit = new QLineEdit(formLayoutWidget);
         passwordLineEdit->setObjectName("passwordLineEdit");
 
-        formLayout->setWidget(3, QFormLayout::FieldRole, passwordLineEdit);
+        formLayout->setWidget(2, QFormLayout::FieldRole, passwordLineEdit);
 
         genderLabel = new QLabel(formLayoutWidget);
         genderLabel->setObjectName("genderLabel");
 
-        formLayout->setWidget(4, QFormLayout::LabelRole, genderLabel);
+        formLayout->setWidget(3, QFormLayout::LabelRole, genderLabel);
 
         genderComboBox = new QComboBox(formLayoutWidget);
         genderComboBox->addItem(QString());
         genderComboBox->addItem(QString());
         genderComboBox->setObjectName("genderComboBox");
 
-        formLayout->setWidget(4, QFormLayout::FieldRole, genderComboBox);
+        formLayout->setWidget(3, QFormLayout::FieldRole, genderComboBox);
 
         favouriteTeamLabel = new QLabel(formLayoutWidget);
         favouriteTeamLabel->setObjectName("favouriteTeamLabel");
 
-        formLayout->setWidget(5, QFormLayout::LabelRole, favouriteTeamLabel);
+        formLayout->setWidget(4, QFormLayout::LabelRole, favouriteTeamLabel);
 
         favouriteTeamComboBox = new QComboBox(formLayoutWidget);
         favouriteTeamComboBox->setObjectName("favouriteTeamComboBox");
 
-        formLayout->setWidget(5, QFormLayout::FieldRole, favouriteTeamComboBox);
+        formLayout->setWidget(4, QFormLayout::FieldRole, favouriteTeamComboBox);
 
         roleLabel = new QLabel(formLayoutWidget);
         roleLabel->setObjectName("roleLabel");
 
-        formLayout->setWidget(6, QFormLayout::LabelRole, roleLabel);
+        formLayout->setWidget(5, QFormLayout::LabelRole, roleLabel);
 
         roleComboBox = new QComboBox(formLayoutWidget);
         roleComboBox->addItem(QString());
         roleComboBox->addItem(QString());
         roleComboBox->setObjectName("roleComboBox");
 
-        formLayout->setWidget(6, QFormLayout::FieldRole, roleComboBox);
+        formLayout->setWidget(5, QFormLayout::FieldRole, roleComboBox);
 
         groupBox->raise();
         label->raise();
@@ -216,11 +201,6 @@ public:
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">already have an account?</p></body></html>", nullptr));
         loginPage->setText(QCoreApplication::translate("Signup", "Login", nullptr));
-        leagueLabel->setText(QCoreApplication::translate("Signup", "league", nullptr));
-        leagueComboBox->setItemText(0, QCoreApplication::translate("Signup", "premier league", nullptr));
-        leagueComboBox->setItemText(1, QCoreApplication::translate("Signup", "La liga", nullptr));
-        leagueComboBox->setItemText(2, QCoreApplication::translate("Signup", "Seria A", nullptr));
-
         userNameLabel->setText(QCoreApplication::translate("Signup", "User name", nullptr));
         eMailLabel->setText(QCoreApplication::translate("Signup", "E-mail", nullptr));
         passwordLabel->setText(QCoreApplication::translate("Signup", "password", nullptr));

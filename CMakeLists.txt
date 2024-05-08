@@ -29,18 +29,30 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         models/user.h models/user.cpp
         signup.h signup.cpp signup.ui
         assets.qrc
-        models/player.h models/player.cpp
-        models/fantasyleague.h models/fantasyleague.cpp
+
+
         models/footballer.h models/footballer.cpp
         models/team.h models/team.cpp
-        models/league.h models/league.cpp
+
         models/fixture.h models/fixture.cpp
         Structs/PlayerStruct.cpp
         Structs/FootballerStruct.cpp
         home.h home.cpp home.ui
-        services/footballer.h services/footballer.cpp
+
         services/fileservices.h services/fileservices.cpp
         myteam.h myteam.cpp myteam.ui
+        services/transferservices.h services/transferservices.cpp
+        searching.h searching.cpp searching.ui
+        favleague.h favleague.cpp favleague.ui
+
+        models/player.h models/player.cpp
+        models/fantasyleague.h models/fantasyleague.cpp
+        models/league.h models/league.cpp
+        services/playersservice.h services/playersservice.cpp
+        services/leagueservice.h services/leagueservice.cpp
+
+
+
 
 
     )

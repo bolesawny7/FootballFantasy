@@ -12,25 +12,28 @@ private:
     static int idCounter;
     int leagueId = idCounter;
     string Name;
-    /* map < totalPints, < player, gameWeekPoints>, reverse > */
-    multimap <int, pair <Player, int>, greater<int>> players;
+    map <string, vector<Footballer>> footballers;
+
 public:
-    vector <Footballer> goalkeepers;
-    vector <Footballer> attackers;
-    vector <Footballer> midfielders;
-    vector <Footballer> defenders;
-    vector <Team> teams;
+
     /*-> constructor <-*/
     League(string name);
+    vector <Team> teams;
 
     /*-> getters <-*/
     int getLeagueId();
     string getLeagueName();
-    multimap <int, pair <Player, int>, greater<int>> getPlayers();
+    // map <string, multimap <int, Footballer>, greater<int>> getFootballers();
+    map <string, vector <Footballer>> getFootballerData();
+    vector<Team> getTeams();
+    vector<Footballer>singlePosition(string position);
 
     /*-> setters <-*/
-    void setPlayer(Player player);
+    void setPlayer(Footballer footballer);
+    void updateFootballerPrice(string position, Footballer footballer, int newPrice);
     void setPoints();
+    void setFootballers(string key,vector<Footballer>);
+    void setNewTeam(Team team);
 
 };
 

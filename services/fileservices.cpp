@@ -6,8 +6,24 @@
 #include "../models/team.h"
 #include "../models/league.h"
 #include "../models/footballer.h"
-League league("premier league");
-fileServices::fileServices() {}
+
+
+// League league("premier league");
+
+vector <League> fileServices::leagues;
+League fileServices::favLeague("");
+
+fileServices::fileServices() {
+    leagues.push_back(League("Premier League"));
+    leagues.push_back(League("La Liga"));
+    leagues.push_back(League("Seria A"));
+}
+
+vector <League> fileServices:: getLeagues(){
+    return leagues;
+}
+
+
 vector<Team> fileServices::loadTeam(){
 
     QString thisFilePathString=qApp->applicationDirPath();
@@ -15,8 +31,9 @@ vector<Team> fileServices::loadTeam(){
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
-    qDebug() << thisFilePathAbs.absolutePath();
-    QFile file(thisFilePathAbs.absolutePath()+"/data/teams.json");
+    qDebug() << thisFilePathAbs.absolutePath()+"/data/PLTeams.json";
+    QFile file(thisFilePathAbs.absolutePath()+"/data/PLTeams.json");
+
 
 
 
@@ -29,7 +46,7 @@ vector<Team> fileServices::loadTeam(){
 
         if(JsonError.error != QJsonParseError::NoError){
             qDebug() << "Error is : " << JsonError.errorString();
-            return league.teams;
+            return favLeague.getTeams();
         }
         else {
             qDebug() << "no error";
@@ -49,24 +66,26 @@ vector<Team> fileServices::loadTeam(){
                 qDebug() << team.value("team_name").toString();
                 string name = teamName.toStdString();
                 Team newteam(name);
-                league.teams.push_back(newteam);
+                favLeague.setNewTeam(newteam);
             }
         }
-        return league.teams;
+        return favLeague.getTeams();
     }
 }
 
-vector<Footballer> fileServices::loadFootballers(string position){
+
+map <string, vector<Footballer>>  fileServices::loadFootballers(){
     QString thisFilePathString=qApp->applicationDirPath();
     QFileInfo thisFilePath(thisFilePathString);
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
     qDebug() << thisFilePathAbs.absolutePath();
-    QFile file(thisFilePathAbs.absolutePath()+"/data/players.json");
-
-
-
+    QFile file(thisFilePathAbs.absolutePath()+"/data/PLPlayers.json");
+    vector <Footballer> goalkeepers;
+    vector <Footballer> defenders;
+    vector <Footballer> midfielders;
+    vector <Footballer> attackers;
     if(file.open(QIODevice::ReadOnly)){
         QByteArray Bytes = file.readAll();
         file.close();
@@ -89,48 +108,76 @@ vector<Footballer> fileServices::loadFootballers(string position){
             QString playerName;
             QString playerTeam;
             QString playerPosition;
-            int playerCost;
-            /*    "name": "A.Becker",
-    "team": "Liverpool",
-    "position": "GK",
-    "points": 0,
-    "cost": "£5.7"*/
+            QString playerCost;
             for(auto i:arr)
             {
                 player = i.toObject();
                 playerName = player.value("name").toString();
                 playerTeam=player.value("team").toString();
                 playerPosition=player.value("position").toString();
-                playerCost=player.value("cost").toInt();
-                qDebug() << player.value("team").toString();
-                Footballer player(playerName.toStdString(),playerCost,playerPosition.toStdString());
+                playerCost=player.value("cost").toString();
+                string cost=playerCost.toStdString();
+                // qDebug() << player.value("cost").toString();
+                Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
                 if(player.getFootballerPosition() =="GK"){
-                    league.goalkeepers.push_back(player);
+                    goalkeepers.push_back(player);
                 }
                 else if(player.getFootballerPosition()=="DF"){
-                    league.defenders.push_back(player);
+                    defenders.push_back(player);
                 }
                 else if(player.getFootballerPosition()=="MF"){
-                    league.midfielders.push_back(player);
+                    midfielders.push_back(player);
                 }
                 else {
-                    league.attackers.push_back(player);
+                    attackers.push_back(player);
                 }
             }
         }
     }
-    if(position=="GK"){
-        return league.goalkeepers;
-    }
-    else if (position=="DF"){
-        return league.defenders;
-    }
-    else if(position=="MF"){
-        return league.midfielders;
-    }
-    else if (position=="ST")
-    {
-        return league.attackers;
+    favLeague.setFootballers("GK",goalkeepers);
+    favLeague.setFootballers("DF",defenders);
+    favLeague.setFootballers("MF",midfielders);
+    favLeague.setFootballers("ST",attackers);
+    return favLeague.getFootballerData();
+}
+
+
+
+
+void fileServices::writeteams(){
+    QString thisFilePathString=qApp->applicationDirPath();
+    QFileInfo thisFilePath(thisFilePathString);
+    QString thebathabsouluted=thisFilePath.absolutePath();
+    QFileInfo thisFilePathAbs(thebathabsouluted);
+    QJsonArray teams;
+    for(auto newteam:favLeague.getTeams()){
+
+        QJsonObject team;
+
+        int sid = newteam.getTeamId();
+        string sname = newteam.getTeamName();
+
+
+        team["id"] =  sid;
+        team["name"] =  sname.data();
+
+        teams.append(team);
+
     }
 
+    QJsonDocument doc(teams);
+    QFile file(thisFilePathAbs.absolutePath()+"/data/newTeams.json");
+    if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+        file.write(doc.toJson(QJsonDocument::Indented));
+        file.close();
+    }
+}
+
+League fileServices::getLeagueByName(string Lname){
+    for(auto league:fileServices::leagues){
+        if(league.getLeagueName()==Lname){
+            fileServices::favLeague=league;
+            return league;
+        }
+    }
 }

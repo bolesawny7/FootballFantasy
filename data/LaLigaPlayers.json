@@ -1,0 +1,265 @@
+[
+  {
+    "name": "Thibaut Courtois",
+    "team": "Real Madrid",
+    "position": "GK",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Jan Oblak",
+    "team": "Atlético Madrid",
+    "position": "GK",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "Yassine Bono",
+    "team": "Sevilla FC",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Ronald Araújo",
+    "team": "FC Barcelona",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Aymeric Laporte",
+    "team": "Manchester City",
+    "position": "DF",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Pau Torres",
+    "team": "Villarreal CF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "David Alaba",
+    "team": "Real Madrid",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Marcos Acuña",
+    "team": "Sevilla FC",
+    "position": "DF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Frenkie de Jong",
+    "team": "FC Barcelona",
+    "position": "MF",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "Toni Kroos",
+    "team": "Real Madrid",
+    "position": "MF",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Fede Valverde",
+    "team": "Real Madrid",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Gavi",
+    "team": "FC Barcelona",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Mikel Merino",
+    "team": "Real Sociedad",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Youssef En-Nesyri",
+    "team": "Sevilla FC",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Karim Benzema",
+    "team": "Real Madrid",
+    "position": "FW",
+    "points": 0,
+    "cost": "€12.0m"
+  },
+  {
+    "name": "Luis Suárez",
+    "team": "Atlético Madrid",
+    "position": "FW",
+    "points": 0,
+    "cost": "€9.0m"
+  },
+  {
+    "name": "Iago Aspas",
+    "team": "Celta Vigo",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "João Félix",
+    "team": "Atlético Madrid",
+    "position": "FW",
+    "points": 0,
+    "cost": "€10.0m"
+  },
+  {
+    "name": "Ángel Correa",
+    "team": "Atlético Madrid",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.0m "
+  },
+  {
+    "name": "Marc-André ter Stegen",
+    "team": "FC Barcelona",
+    "position": "GK",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Rui Silva",
+    "team": "Real Betis",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Éder Militão",
+    "team": "Real Madrid",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Antonio Rüdiger",
+    "team": "Real Madrid",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Geri Moreno",
+    "team": "Villarreal CF",
+    "position": "DF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Dani Parejo",
+    "team": "Villarreal CF",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Sergio Busquets",
+    "team": "FC Barcelona",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Pedri",
+    "team": "FC Barcelona",
+    "position": "MF",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Luka Modrić",
+    "team": "Real Madrid",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Manu Trigueros",
+    "team": "Villarreal CF",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Willian José",
+    "team": "Real Sociedad",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Alexander Isak",
+    "team": "Real Sociedad",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "João Moutinho",
+    "team": "Wolverhampton Wanderers (Loan from Valencia)",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Bryan Gil",
+    "team": "Valencia CF (Loan from Tottenham Hotspur)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Kang-in Lee",
+    "team": "RCD Mallorca",
+    "position": "MF",
+    "points": 0,
+    "cost": "€5.5m"
+  },
+  {
+    "name": "Oscar Rodríguez",
+    "team": "Sevilla FC",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Carlos Soler",
+    "team": "Valencia CF",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "José Luis Morales",
+    "team": "Levante UD",
+    "position": "FW",
+    "points": 0,
+    "cost": "€5.5m"
+  },
+  {
+    "name": "Rafa Mir",
+    "team": "Sevilla FC",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.0m"
+  }
+]

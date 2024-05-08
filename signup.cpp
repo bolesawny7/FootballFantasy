@@ -18,7 +18,7 @@ Signup::Signup(QWidget *parent)
         QString teamName= QString::fromStdString(team.getTeamName());
         ui->favouriteTeamComboBox->addItem(teamName);
     }
-
+    files.loadFootballers();
 }
 
 Signup::~Signup()
@@ -30,7 +30,6 @@ void Signup::on_signupButton_clicked()
 {
 
     signupStruct signupDto;
-    signupDto.league = ui->leagueComboBox->currentText().toStdString();
     signupDto.userName = ui->userNameLineEdit->text().toStdString();
     signupDto.email = ui->eMailLineEdit->text().toStdString();
     signupDto.password = ui->passwordLineEdit->text().toStdString();
