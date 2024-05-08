@@ -16,6 +16,8 @@ private:
     int gameWeekPoints;
     string favleague;
     vector<Footballer> fantasyTeamFootballers;
+    int totalpoints;
+
 public:
     Player(string fantasyTeamName);
     ~Player();
@@ -28,6 +30,10 @@ public:
     void setPlayer(Footballer footballer);
     void updateTeam(Footballer oldFootballerId , Footballer newFootballerId);
 
+    string getFavleague() const;
+    void setFavleague(const string &newFavleague);
+    int getTotalPoints() const;
+    void setTotalPts(int newTotalPoints);
 };
 
 #endif // PLAYER_H

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-78c0aa9a294daa2d6433.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "FootballFantasy",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "FootballFantasy::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FootballFantasy-Debug-21174c432e3fa89e5f5e.json",
+					"name" : "FootballFantasy",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FootballFantasy_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FootballFantasy_autogen-Debug-49237958c1b7dfb377c5.json",
+					"name" : "FootballFantasy_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "FootballFantasy_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-FootballFantasy_autogen_timestamp_deps-Debug-a838385c573b7cbd354c.json",
+					"name" : "FootballFantasy_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/FootballFantasy"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

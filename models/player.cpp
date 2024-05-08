@@ -5,6 +5,20 @@
 int Player::idCounter = 0;
 
 /* -> constructors & destructor <- */
+string Player::getFavleague() const
+{
+    return favleague;
+}
+
+void Player::setFavleague(const string &newFavleague)
+{
+    favleague = newFavleague;
+}
+
+int Player::getTotalPoints() const
+{
+    return totalPoints;
+}
 Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
 Player::~Player() {
     setGameWeekPoints();
@@ -20,9 +34,10 @@ void Player::setPlayer(Footballer footballer) {
     this->setBudget(this->getBudget() - footballer.getFootballerPrice());
 }
 void Player:: setGameWeekPoints(){
-    int totalPoints = 0;
+    int totalPts = 0;
     for(auto footballer: this->fantasyTeamFootballers)
-        totalPoints += footballer.getGameWeekPoints();
+        totalPts += footballer.getGameWeekPoints();
+    this->totalpoints=totalPts;
 }
 
 void Player::updateTeam(Footballer oldFootballer, Footballer newFootballer) {
