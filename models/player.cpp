@@ -17,7 +17,7 @@ void Player::setFavleague(const string &newFavleague)
 
 int Player::getTotalPoints() const
 {
-    return totalPoints;
+    return totalpoints;
 }
 Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
 Player::~Player() {

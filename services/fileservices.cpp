@@ -31,8 +31,8 @@ vector<Team> fileServices::loadTeam(){
     QString thebathabsouluted=thisFilePath.absolutePath();
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
-    qDebug() << thisFilePathAbs.absolutePath()+"/data/teams.json";
-    QFile file(thisFilePathAbs.absolutePath()+"/data/teams.json");
+    qDebug() << thisFilePathAbs.absolutePath()+"/data/PLTeams.json";
+    QFile file(thisFilePathAbs.absolutePath()+"/data/PLTeams.json");
 
 
 
@@ -81,7 +81,7 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
     QFileInfo thisFilePathAbs(thebathabsouluted);
 
     qDebug() << thisFilePathAbs.absolutePath();
-    QFile file(thisFilePathAbs.absolutePath()+"/data/players.json");
+    QFile file(thisFilePathAbs.absolutePath()+"/data/PLPlayers.json");
     vector <Footballer> goalkeepers;
     vector <Footballer> defenders;
     vector <Footballer> midfielders;

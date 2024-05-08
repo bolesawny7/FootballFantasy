@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Manuel Neuer",
+    "team": "FC Bayern Munich",
+    "position": "GK",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "Kevin Trapp",
+    "team": "Eintracht Frankfurt",
+    "position": "GK",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Dayot Upamecano",
+    "team": "FC Bayern Munich",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Nico Schlotterbeck",
+    "team": "Borussia Dortmund",
+    "position": "DF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Cristian Romero",
+    "team": "Tottenham Hotspur (Loan from Atalanta)",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Joshua Kimmich",
+    "team": "FC Bayern Munich",
+    "position": "MF",
+    "points": 0,
+    "cost": "€9.0m"
+  },
+  {
+    "name": "Jude Bellingham",
+    "team": "Borussia Dortmund",
+    "position": "MF",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Florian Wirtz",
+    "team": "Bayer 04 Leverkusen",
+    "position": "MF",
+    "points": 0,
+    "cost": "€11.0m"
+  },
+  {
+    "name": "Robert Lewandowski",
+    "team": "FC Bayern Munich",
+    "position": "FW",
+    "points": 0,
+    "cost": "€12.0m"
+  },
+  {
+    "name": "Erling Haaland",
+    "team": "Manchester City (Transferred from Borussia Dortmund)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€13.0m"
+  },
+  {
+    "name": "Patrik Schick",
+    "team": "Bayer 04 Leverkusen",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "Adeyemi Karim",
+    "team": "Red Bull Salzburg (Transferred to Borussia Dortmund)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Serge Gnabry",
+    "team": "FC Bayern Munich",
+    "position": "FW",
+    "points": 0,
+    "cost": "€10.0m"
+  },
+  {
+    "name": "Marco Reus",
+    "team": "Borussia Dortmund",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+
+  {
+    "name": "Jan Oblak",
+    "team": "Atlético Madrid (Loan from Chelsea)",
+    "position": "GK",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Konrad Laimer",
+    "team": "RB Leipzig",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+
+  {
+    "name": "Raphina",
+    "team": "FC Barcelona (Transferred from Leeds United)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€9.0m"
+  },
+  {
+    "name": "Christopher Nkunku",
+    "team": "RB Leipzig",
+    "position": "FW",
+    "points": 0,
+    "cost": "€9.5m"
+  }
+]
+[
+
+  {
+    "name": "Nico Schlotterbeck",
+    "team": "Borussia Dortmund",
+    "position": "DF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Amine Harit",
+    "team": "Olympique Marseille (Loan from Schalke 04)",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Adeyemi Karim",
+    "team": "Borussia Dortmund (Transferred from Red Bull Salzburg)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Moussa Diaby",
+    "team": "Bayer 04 Leverkusen",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+[
+  {
+    "name": "Gregor Kobel",
+    "team": "Borussia Dortmund",
+    "position": "GK",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Evan N'Dicka",
+    "team": "Eintracht Frankfurt",
+    "position": "DF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Milos Veljković",
+    "team": "Werder Bremen",
+    "position": "DF",
+    "points": 0,
+    "cost": "€5.5m"
+  },
+  {
+    "name": "Marcel Sabitzer",
+    "team": "FC Bayern Munich",
+    "position": "MF",
+    "points": 0,
+    "cost": "€8.0m"
+  },
+  {
+    "name": "Thomas Müller",
+    "team": "FC Bayern Munich",
+    "position": "MF",
+    "points": 0,
+    "cost": "€9.5m"
+  },
+  {
+    "name": "Giorginio Wijnaldum",
+    "team": "AS Roma (Loan from Paris Saint-Germain)",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "鎌田大地 (Daichi Kamada)",
+    "team": "Eintracht Frankfurt",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Florian Kainz",
+    "team": "1. FC Köln",
+    "position": "MF",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Vincenzo Grifo",
+    "team": "SC Freiburg",
+    "position": "MF",
+    "points": 0,
+    "cost": "€7.5m"
+  },
+  {
+    "name": "Andre Silva",
+    "team": "RB Leipzig",
+    "position": "FW",
+    "points": 0,
+    "cost": "€8.5m"
+  },
+  {
+    "name": "Anthony Modeste",
+    "team": " FC Köln",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Taiwo Awoniyi",
+    "team":  "FC Union Berlin",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Max Kruse",
+    "team":" VfL Wolfsburg",
+    "position": "FW",
+    "points": 0,
+    "cost": "€5.0m"
+  },
+  {
+    "name": "Dodi Lukebakio",
+    "team": "Hertha BSC (Loan from Chelsea)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.0m"
+  },
+  {
+    "name": "Karim Onisiwo",
+    "team": "Mainz 05",
+    "position": "FW",
+    "points": 0,
+    "cost": "€6.5m"
+  },
+  {
+    "name": "Marcus Ingvartsen",
+    "team": "FC Union Berlin",
+    "position": "FW",
+    "points": 0,
+    "cost": "€5.5m"
+  },
+  {
+    "name": "Randal Kolo Muani",
+    "team": "Eintracht Frankfurt",
+    "position": "FW",
+    "points": 0,
+    "cost": "€7.0m"
+  },
+  {
+    "name": "Breel Embolo",
+    "team": "AS Monaco (Loan from Borussia Mönchengladbach)",
+    "position": "FW",
+    "points": 0,
+    "cost": "€5.5m"
+}
+]
+
+
+
+

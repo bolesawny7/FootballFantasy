@@ -23,5 +23,3 @@ int Team::idCounter = 1;
  void Team:: setTeamFootballers(){
      //iterate over all players and compare their teamId with this team id - rsc
  }
-
-

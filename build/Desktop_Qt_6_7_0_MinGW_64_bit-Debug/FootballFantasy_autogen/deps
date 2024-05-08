@@ -622,6 +622,10 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/services/auth.h \
 	E:/New\ folder/FootballFantasy/services/fileservices.cpp \
 	E:/New\ folder/FootballFantasy/services/fileservices.h \
+	E:/New\ folder/FootballFantasy/services/leagueservice.cpp \
+	E:/New\ folder/FootballFantasy/services/leagueservice.h \
+	E:/New\ folder/FootballFantasy/services/playersservice.cpp \
+	E:/New\ folder/FootballFantasy/services/playersservice.h \
 	E:/New\ folder/FootballFantasy/services/transferservices.cpp \
 	E:/New\ folder/FootballFantasy/services/transferservices.h \
 	E:/New\ folder/FootballFantasy/services/userservice.cpp \

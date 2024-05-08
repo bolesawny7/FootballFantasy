@@ -7,9 +7,9 @@ class LeagueService
 {
 private:
     // < total points, player>
-    multimap<int, Player> laliga;
-    multimap<int, Player> bundesliga;
-    multimap<int, Player> PremierLeague;
+    static multimap<int, Player> laliga;
+    static multimap<int, Player> bundesliga;
+    static multimap<int, Player> PremierLeague;
 public:
     LeagueService();
     Player higherGameweekPoints();

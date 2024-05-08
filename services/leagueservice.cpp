@@ -4,6 +4,9 @@
 #include "../models/player.h"
 #include <map>
 // all players
+multimap<int, Player> LeagueService::laliga;
+multimap<int, Player> LeagueService::bundesliga;
+multimap<int, Player> LeagueService::PremierLeague;
 vector<Player>players = Playersservice::getPlayers();
 
 // separate players into multimaps by favleague member;
@@ -21,6 +24,7 @@ LeagueService::LeagueService() {
     for(auto player : players){
     }
 }
+
 string favleague2;
 Player LeagueService:: higherGameweekPoints(){
     for (auto player : players) {
