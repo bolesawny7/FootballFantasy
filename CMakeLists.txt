@@ -48,8 +48,12 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         models/player.h models/player.cpp
         models/fantasyleague.h models/fantasyleague.cpp
         models/league.h models/league.cpp
-        services/playersservice.h services/playersservice.cpp
+
         services/leagueservice.h services/leagueservice.cpp
+        utils/fantasycontext.h utils/fantasycontext.cpp
+        services/playersservice.h services/playersservice.cpp
+
+
 
 
 

@@ -786,6 +786,30 @@ signup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/signup.cpp.s
 .PHONY : signup.cpp.s
 
+utils/fantasycontext.obj: utils/fantasycontext.cpp.obj
+.PHONY : utils/fantasycontext.obj
+
+# target to build an object file
+utils/fantasycontext.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/utils/fantasycontext.cpp.obj
+.PHONY : utils/fantasycontext.cpp.obj
+
+utils/fantasycontext.i: utils/fantasycontext.cpp.i
+.PHONY : utils/fantasycontext.i
+
+# target to preprocess a source file
+utils/fantasycontext.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/utils/fantasycontext.cpp.i
+.PHONY : utils/fantasycontext.cpp.i
+
+utils/fantasycontext.s: utils/fantasycontext.cpp.s
+.PHONY : utils/fantasycontext.s
+
+# target to generate assembly for a file
+utils/fantasycontext.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/utils/fantasycontext.cpp.s
+.PHONY : utils/fantasycontext.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -875,6 +899,9 @@ help:
 	@echo ... signup.obj
 	@echo ... signup.i
 	@echo ... signup.s
+	@echo ... utils/fantasycontext.obj
+	@echo ... utils/fantasycontext.i
+	@echo ... utils/fantasycontext.s
 .PHONY : help
 
 

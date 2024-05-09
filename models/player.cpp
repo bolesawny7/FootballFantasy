@@ -19,7 +19,10 @@ int Player::getTotalPoints() const
 {
     return totalpoints;
 }
-Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
+Player::Player(signupStruct signupDto)
+    : User(signupDto), // Call User constructor with signupDto
+    fantasyTeamName(fantasyTeamName), PlayerID(++idCounter), budget(150) {}
+
 Player::~Player() {
     setGameWeekPoints();
 }

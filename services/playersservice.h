@@ -13,11 +13,12 @@ public:
     Playersservice();
 
     /* -> create <- */
-    static void setPlayers(vector<Player> players);
+    static void setPlayer(Player player);
     void addFootballerToTeam(int leagueId, string position, int footballerId, int playerId);
 
     /* -> read <- */
     static vector<Player> getPlayers();
+    bool findPlayer(loginStruct loginDto);
     Player getPlayer(int playerId);
     Footballer getFootballer(int leagueId, string position, int footballerId);
 

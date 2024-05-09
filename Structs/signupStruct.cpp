@@ -1,4 +1,5 @@
 #include <string>
+#include <optional>
 using namespace std;
 struct signupStruct {
     string league;
@@ -8,5 +9,5 @@ struct signupStruct {
     string gender;
     string favTeam;
     string role;
-
+    optional <string> fantasyTeamName;
 };

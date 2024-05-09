@@ -19,7 +19,7 @@ private:
     int totalpoints;
 
 public:
-    Player(string fantasyTeamName);
+    Player(signupStruct signup);
     ~Player();
     void setBudget(int budget);
     int getBudget();

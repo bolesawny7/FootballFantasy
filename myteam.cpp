@@ -45,7 +45,7 @@ myteam::~myteam()
 void myteam::on_save_clicked()
 {
     string Name=ui->fantasyTeamNameLineEdit->text().toStdString();
-    Player newplayer(Name);
+    // Player newplayer(Name);
     // newplayer.setPlayer(ui->goalkeeperComboBox);
     // newplayer.setPlayer(ui->firstDefenderComboBox);
     // newplayer.setPlayer(ui->secondDefenderComboBox);
