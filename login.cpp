@@ -25,7 +25,7 @@ void Login::on_loginButton_clicked()
     loginDto.email = ui->emailLineEdit->text().toStdString();
     loginDto.password = ui->passwordLineEdit->text().toStdString();
     if(auth.login(loginDto) == 0){
-        Home team;
+        myteam team;
         team.setModal(true);
         close();
         team.exec();

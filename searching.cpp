@@ -70,9 +70,9 @@ void searching::on_addPlayer_clicked()
     string name = get_name(player);
     for (auto player : this->footballPlayers) {
         if (player.getFootballerName() == name) {
-            activePlayer.fantasyTeamFootballers.push_back(player);
+            activePlayer.fantasyTeamFootballers[transferservices::position] = player;
             // qDebug() << QString::fromStdString(activePlayer.getEmail());
-            qDebug() << QString::fromStdString(activePlayer.fantasyTeamFootballers[0].getFootballerName());
+            qDebug() << QString::fromStdString(activePlayer.fantasyTeamFootballers[transferservices::position].getFootballerName());
         }
     }
 }
