@@ -11,9 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QComboBox>
 #include <QtWidgets/QDialog>
-#include <QtWidgets/QFormLayout>
 #include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -34,36 +32,31 @@ public:
     QWidget *formLayoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *goalkeeperLabel;
-    QComboBox *goalkeeperComboBox;
+    QLineEdit *pl0;
     QWidget *formLayoutWidget_3;
     QVBoxLayout *verticalLayout_3;
     QLabel *secondndDefenderLabel;
-    QComboBox *secondDefenderComboBox;
+    QLineEdit *pl2;
     QWidget *formLayoutWidget_4;
     QVBoxLayout *verticalLayout_4;
     QLabel *thirdDefenderLabel;
-    QComboBox *thirdDefenderComboBox;
+    QLineEdit *pl3;
     QWidget *formLayoutWidget_6;
     QVBoxLayout *verticalLayout_6;
     QLabel *secondMidfielderLabel;
-    QComboBox *secondMidfielderComboBox;
+    QLineEdit *pl5;
     QWidget *formLayoutWidget_5;
     QVBoxLayout *verticalLayout_5;
     QLabel *firstMidfielderLabel;
-    QComboBox *firststMidfielderComboBox;
+    QLineEdit *pl4;
     QWidget *formLayoutWidget_7;
     QVBoxLayout *verticalLayout_7;
     QLabel *attackerLabel;
-    QComboBox *attackerComboBox;
-    QPushButton *save;
+    QLineEdit *pl6;
     QWidget *formLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *firstDefenderLabel;
-    QComboBox *firstDefenderComboBox;
-    QWidget *formLayoutWidget_8;
-    QFormLayout *formLayout;
-    QLabel *fantasyTeamNameLabel;
-    QLineEdit *fantasyTeamNameLineEdit;
+    QLineEdit *pl1;
 
     void setupUi(QDialog *myteam)
     {
@@ -117,28 +110,28 @@ public:
         goalkeeperLabel = new QLabel(formLayoutWidget);
         goalkeeperLabel->setObjectName("goalkeeperLabel");
 
-        verticalLayout->addWidget(goalkeeperLabel);
+        verticalLayout->addWidget(goalkeeperLabel, 0, Qt::AlignHCenter);
 
-        goalkeeperComboBox = new QComboBox(formLayoutWidget);
-        goalkeeperComboBox->setObjectName("goalkeeperComboBox");
+        pl0 = new QLineEdit(formLayoutWidget);
+        pl0->setObjectName("pl0");
 
-        verticalLayout->addWidget(goalkeeperComboBox);
+        verticalLayout->addWidget(pl0);
 
         formLayoutWidget_3 = new QWidget(myteam);
         formLayoutWidget_3->setObjectName("formLayoutWidget_3");
-        formLayoutWidget_3->setGeometry(QRect(550, 210, 171, 57));
+        formLayoutWidget_3->setGeometry(QRect(570, 210, 171, 57));
         verticalLayout_3 = new QVBoxLayout(formLayoutWidget_3);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
         secondndDefenderLabel = new QLabel(formLayoutWidget_3);
         secondndDefenderLabel->setObjectName("secondndDefenderLabel");
 
-        verticalLayout_3->addWidget(secondndDefenderLabel);
+        verticalLayout_3->addWidget(secondndDefenderLabel, 0, Qt::AlignHCenter);
 
-        secondDefenderComboBox = new QComboBox(formLayoutWidget_3);
-        secondDefenderComboBox->setObjectName("secondDefenderComboBox");
+        pl2 = new QLineEdit(formLayoutWidget_3);
+        pl2->setObjectName("pl2");
 
-        verticalLayout_3->addWidget(secondDefenderComboBox);
+        verticalLayout_3->addWidget(pl2);
 
         formLayoutWidget_4 = new QWidget(myteam);
         formLayoutWidget_4->setObjectName("formLayoutWidget_4");
@@ -149,12 +142,12 @@ public:
         thirdDefenderLabel = new QLabel(formLayoutWidget_4);
         thirdDefenderLabel->setObjectName("thirdDefenderLabel");
 
-        verticalLayout_4->addWidget(thirdDefenderLabel);
+        verticalLayout_4->addWidget(thirdDefenderLabel, 0, Qt::AlignHCenter);
 
-        thirdDefenderComboBox = new QComboBox(formLayoutWidget_4);
-        thirdDefenderComboBox->setObjectName("thirdDefenderComboBox");
+        pl3 = new QLineEdit(formLayoutWidget_4);
+        pl3->setObjectName("pl3");
 
-        verticalLayout_4->addWidget(thirdDefenderComboBox);
+        verticalLayout_4->addWidget(pl3);
 
         formLayoutWidget_6 = new QWidget(myteam);
         formLayoutWidget_6->setObjectName("formLayoutWidget_6");
@@ -165,12 +158,12 @@ public:
         secondMidfielderLabel = new QLabel(formLayoutWidget_6);
         secondMidfielderLabel->setObjectName("secondMidfielderLabel");
 
-        verticalLayout_6->addWidget(secondMidfielderLabel);
+        verticalLayout_6->addWidget(secondMidfielderLabel, 0, Qt::AlignHCenter);
 
-        secondMidfielderComboBox = new QComboBox(formLayoutWidget_6);
-        secondMidfielderComboBox->setObjectName("secondMidfielderComboBox");
+        pl5 = new QLineEdit(formLayoutWidget_6);
+        pl5->setObjectName("pl5");
 
-        verticalLayout_6->addWidget(secondMidfielderComboBox);
+        verticalLayout_6->addWidget(pl5);
 
         formLayoutWidget_5 = new QWidget(myteam);
         formLayoutWidget_5->setObjectName("formLayoutWidget_5");
@@ -181,32 +174,29 @@ public:
         firstMidfielderLabel = new QLabel(formLayoutWidget_5);
         firstMidfielderLabel->setObjectName("firstMidfielderLabel");
 
-        verticalLayout_5->addWidget(firstMidfielderLabel);
+        verticalLayout_5->addWidget(firstMidfielderLabel, 0, Qt::AlignHCenter);
 
-        firststMidfielderComboBox = new QComboBox(formLayoutWidget_5);
-        firststMidfielderComboBox->setObjectName("firststMidfielderComboBox");
+        pl4 = new QLineEdit(formLayoutWidget_5);
+        pl4->setObjectName("pl4");
 
-        verticalLayout_5->addWidget(firststMidfielderComboBox);
+        verticalLayout_5->addWidget(pl4);
 
         formLayoutWidget_7 = new QWidget(myteam);
         formLayoutWidget_7->setObjectName("formLayoutWidget_7");
-        formLayoutWidget_7->setGeometry(QRect(580, 500, 201, 57));
+        formLayoutWidget_7->setGeometry(QRect(530, 470, 201, 57));
         verticalLayout_7 = new QVBoxLayout(formLayoutWidget_7);
         verticalLayout_7->setObjectName("verticalLayout_7");
         verticalLayout_7->setContentsMargins(0, 0, 0, 0);
         attackerLabel = new QLabel(formLayoutWidget_7);
         attackerLabel->setObjectName("attackerLabel");
 
-        verticalLayout_7->addWidget(attackerLabel);
+        verticalLayout_7->addWidget(attackerLabel, 0, Qt::AlignHCenter);
 
-        attackerComboBox = new QComboBox(formLayoutWidget_7);
-        attackerComboBox->setObjectName("attackerComboBox");
+        pl6 = new QLineEdit(formLayoutWidget_7);
+        pl6->setObjectName("pl6");
 
-        verticalLayout_7->addWidget(attackerComboBox);
+        verticalLayout_7->addWidget(pl6);
 
-        save = new QPushButton(myteam);
-        save->setObjectName("save");
-        save->setGeometry(QRect(1180, 70, 83, 29));
         formLayoutWidget_2 = new QWidget(myteam);
         formLayoutWidget_2->setObjectName("formLayoutWidget_2");
         formLayoutWidget_2->setGeometry(QRect(230, 210, 201, 57));
@@ -216,28 +206,12 @@ public:
         firstDefenderLabel = new QLabel(formLayoutWidget_2);
         firstDefenderLabel->setObjectName("firstDefenderLabel");
 
-        verticalLayout_2->addWidget(firstDefenderLabel);
+        verticalLayout_2->addWidget(firstDefenderLabel, 0, Qt::AlignHCenter);
 
-        firstDefenderComboBox = new QComboBox(formLayoutWidget_2);
-        firstDefenderComboBox->setObjectName("firstDefenderComboBox");
+        pl1 = new QLineEdit(formLayoutWidget_2);
+        pl1->setObjectName("pl1");
 
-        verticalLayout_2->addWidget(firstDefenderComboBox);
-
-        formLayoutWidget_8 = new QWidget(myteam);
-        formLayoutWidget_8->setObjectName("formLayoutWidget_8");
-        formLayoutWidget_8->setGeometry(QRect(10, 60, 331, 61));
-        formLayout = new QFormLayout(formLayoutWidget_8);
-        formLayout->setObjectName("formLayout");
-        formLayout->setContentsMargins(0, 0, 0, 0);
-        fantasyTeamNameLabel = new QLabel(formLayoutWidget_8);
-        fantasyTeamNameLabel->setObjectName("fantasyTeamNameLabel");
-
-        formLayout->setWidget(0, QFormLayout::LabelRole, fantasyTeamNameLabel);
-
-        fantasyTeamNameLineEdit = new QLineEdit(formLayoutWidget_8);
-        fantasyTeamNameLineEdit->setObjectName("fantasyTeamNameLineEdit");
-
-        formLayout->setWidget(0, QFormLayout::FieldRole, fantasyTeamNameLineEdit);
+        verticalLayout_2->addWidget(pl1);
 
 
         retranslateUi(myteam);
@@ -257,9 +231,7 @@ public:
         secondMidfielderLabel->setText(QCoreApplication::translate("myteam", "midfielder", nullptr));
         firstMidfielderLabel->setText(QCoreApplication::translate("myteam", "midfielder", nullptr));
         attackerLabel->setText(QCoreApplication::translate("myteam", "attacker", nullptr));
-        save->setText(QCoreApplication::translate("myteam", "save team", nullptr));
         firstDefenderLabel->setText(QCoreApplication::translate("myteam", "defender", nullptr));
-        fantasyTeamNameLabel->setText(QCoreApplication::translate("myteam", "Fantasy Team Name", nullptr));
     } // retranslateUi
 
 };

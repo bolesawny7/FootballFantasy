@@ -16,9 +16,13 @@ void Auth::signup(signupStruct signupDto){
         FantasyContext::setAdmin(user);
     }
 }
-bool Auth::login(loginStruct loginDto){
-    if(loginDto.role == "player")
-        player_service.findPlayer(loginDto);
-    else if(loginDto.role == "admin")
-        user_services.findUser(loginDto);
+int Auth::login(loginStruct loginDto){
+    bool pl = player_service.findPlayer(loginDto);
+    bool ad = user_services.findUser(loginDto);
+    if(pl){
+        return 0;
+    }else if(ad){
+        return 1;
+    }
+    return 2;
 }

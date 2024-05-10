@@ -36,9 +36,10 @@ namespace {
 struct qt_meta_stringdata_CLASSmyteamENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSmyteamENDCLASS = QtMocHelpers::stringData(
     "myteam",
-    "on_save_clicked",
+    "on_LeaguesButton_clicked",
     "",
-    "on_LeaguesButton_clicked"
+    "on_goalkeeperComboBox_activated",
+    "index"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -60,11 +61,11 @@ Q_CONSTINIT static const uint qt_meta_data_CLASSmyteamENDCLASS[] = {
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
        1,    0,   26,    2, 0x08,    1 /* Private */,
-       3,    0,   27,    2, 0x08,    2 /* Private */,
+       3,    1,   27,    2, 0x08,    2 /* Private */,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void,
+    QMetaType::Void, QMetaType::Int,    4,
 
        0        // eod
 };
@@ -78,10 +79,11 @@ Q_CONSTINIT const QMetaObject myteam::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSmyteamENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<myteam, std::true_type>,
-        // method 'on_save_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_LeaguesButton_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_goalkeeperComboBox_activated'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        QtPrivate::TypeAndForceComplete<int, std::false_type>
     >,
     nullptr
 } };
@@ -92,12 +94,10 @@ void myteam::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<myteam *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_save_clicked(); break;
-        case 1: _t->on_LeaguesButton_clicked(); break;
+        case 0: _t->on_LeaguesButton_clicked(); break;
         default: ;
         }
     }
-    (void)_a;
 }
 
 const QMetaObject *myteam::metaObject() const

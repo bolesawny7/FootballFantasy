@@ -1,7 +1,8 @@
 #include "player.h"
 #include "user.h"
 #include <cassert>
-
+#include <iostream>
+using namespace std;
 int Player::idCounter = 0;
 
 /* -> constructors & destructor <- */

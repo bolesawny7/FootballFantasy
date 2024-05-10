@@ -24,11 +24,19 @@ void Login::on_loginButton_clicked()
     loginStruct loginDto;
     loginDto.email = ui->emailLineEdit->text().toStdString();
     loginDto.password = ui->passwordLineEdit->text().toStdString();
-    if(auth.login(loginDto) == 1){
-        myteam team;
+    if(auth.login(loginDto) == 0){
+        Home team;
         team.setModal(true);
         close();
         team.exec();
+    } else if (auth.login(loginDto) == 1){
+        //for admin
+        Home home;
+        home.setModal(true);
+        close();
+        home.exec();
+    } else {
+        cout << "Invalid email or password" << endl;
     }
 }
 

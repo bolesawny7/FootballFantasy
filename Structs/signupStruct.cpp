@@ -6,7 +6,6 @@ struct signupStruct {
     string userName;
     string email;
     string password;
-    string gender;
     string favTeam;
     string role;
     optional <string> fantasyTeamName;

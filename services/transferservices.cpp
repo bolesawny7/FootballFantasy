@@ -8,6 +8,7 @@
 #include <vector>
 
 QString transferservices::searchValue = "";
+int transferservices::position = 0;
 transferservices::transferservices(){}
 vector<Footballer> transferservices::playerSearch(QString playerName){
         fileServices files;

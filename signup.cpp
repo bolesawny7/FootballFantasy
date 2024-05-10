@@ -19,7 +19,7 @@ Signup::Signup(QWidget *parent)
         ui->favouriteTeamComboBox->addItem(teamName);
     }
     files.loadFootballers();
-    ui->fantasyTeanNameLineEdit->setDisabled(true);
+    ui->fantasyTeanNameLineEdit->setDisabled(false);
 
 }
 
@@ -35,9 +35,9 @@ void Signup::on_signupButton_clicked()
     signupDto.userName = ui->userNameLineEdit->text().toStdString();
     signupDto.email = ui->eMailLineEdit->text().toStdString();
     signupDto.password = ui->passwordLineEdit->text().toStdString();
-    // signupDto.gender = ui->genderComboBox->currentText().toStdString();
     signupDto.favTeam = ui->favouriteTeamComboBox->currentText().toStdString();
     signupDto.role = ui->roleComboBox->currentText().toStdString();
+    signupDto.fantasyTeamName = ui->fantasyTeanNameLineEdit->text().toStdString();
     auth.signup(signupDto);
 }
 

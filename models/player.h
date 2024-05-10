@@ -15,10 +15,10 @@ private:
     string fantasyTeamName;
     int gameWeekPoints;
     string favleague;
-    vector<Footballer> fantasyTeamFootballers;
     int totalpoints;
 
 public:
+    vector<Footballer> fantasyTeamFootballers;
     Player(signupStruct signup);
     ~Player();
     void setBudget(int budget);

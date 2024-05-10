@@ -10,7 +10,7 @@ private:
     Playersservice player_service;
 public:
     Auth();
-    bool login(loginStruct loginDto);
+    int login(loginStruct loginDto);
     void signup(signupStruct signupDto);
 };
 

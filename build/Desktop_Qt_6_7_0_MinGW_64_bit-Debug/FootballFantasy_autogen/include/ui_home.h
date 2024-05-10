@@ -91,13 +91,13 @@ public:
         label->setGeometry(QRect(610, 80, 131, 20));
         pushButton_2 = new QPushButton(Home);
         pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setGeometry(QRect(610, 110, 121, 29));
+        pushButton_2->setGeometry(QRect(600, 110, 121, 29));
         label_2 = new QLabel(Home);
         label_2->setObjectName("label_2");
         label_2->setGeometry(QRect(320, 230, 131, 20));
         label_3 = new QLabel(Home);
         label_3->setObjectName("label_3");
-        label_3->setGeometry(QRect(610, 230, 131, 20));
+        label_3->setGeometry(QRect(600, 230, 131, 20));
         label_4 = new QLabel(Home);
         label_4->setObjectName("label_4");
         label_4->setGeometry(QRect(880, 230, 131, 20));
@@ -115,7 +115,7 @@ public:
         pushButton_4->setGeometry(QRect(310, 260, 121, 29));
         pushButton_5 = new QPushButton(Home);
         pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setGeometry(QRect(600, 260, 121, 29));
+        pushButton_5->setGeometry(QRect(590, 260, 121, 29));
         pushButton_6 = new QPushButton(Home);
         pushButton_6->setObjectName("pushButton_6");
         pushButton_6->setGeometry(QRect(880, 260, 121, 29));

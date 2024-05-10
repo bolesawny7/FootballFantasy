@@ -9,6 +9,7 @@ Home::Home(QWidget *parent)
     , ui(new Ui::Home)
 {
     ui->setupUi(this);
+
 }
 
 Home::~Home()
@@ -24,18 +25,12 @@ void Home::on_pushButton_3_clicked()
     team.exec();
 }
 
-
-// void Home::on_searchLineEdit_editingFinished()
-// {
-//     transferservices trans;
-//     Footballer thePlayer= trans.playerSearch(ui->searchLineEdit);
-
-// }
 transferservices tran;
 
 void Home::on_pushButton_2_clicked()
 {
     tran.setSearchValue("GK");
+    tran.position = 0;
     searching search;
     search.setModal(true);
     search.exec();
@@ -45,6 +40,7 @@ void Home::on_pushButton_2_clicked()
 void Home::on_pushButton_4_clicked()
 {
     tran.setSearchValue("DF");
+    tran.position = 1;
     searching search;
     search.setModal(true);
     search.exec();
@@ -54,6 +50,7 @@ void Home::on_pushButton_4_clicked()
 void Home::on_pushButton_5_clicked()
 {
     tran.setSearchValue("DF");
+    tran.position = 2;
     searching search;
     search.setModal(true);
     search.exec();
@@ -63,6 +60,7 @@ void Home::on_pushButton_5_clicked()
 void Home::on_pushButton_6_clicked()
 {
     tran.setSearchValue("DF");
+    tran.position = 3;
     searching search;
     search.setModal(true);
     search.exec();
@@ -72,6 +70,7 @@ void Home::on_pushButton_6_clicked()
 void Home::on_pushButton_7_clicked()
 {
     tran.setSearchValue("MF");
+    tran.position = 4;
     searching search;
     search.setModal(true);
     search.exec();
@@ -81,6 +80,7 @@ void Home::on_pushButton_7_clicked()
 void Home::on_pushButton_8_clicked()
 {
     tran.setSearchValue("MF");
+    tran.position = 5;
     searching search;
     search.setModal(true);
     search.exec();
@@ -90,6 +90,7 @@ void Home::on_pushButton_8_clicked()
 void Home::on_pushButton_9_clicked()
 {
     tran.setSearchValue("ST");
+    tran.position = 6;
     searching search;
     search.setModal(true);
     search.exec();

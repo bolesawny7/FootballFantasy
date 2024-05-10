@@ -18,11 +18,21 @@
 background-image: url(:/background/fantasy.png);
 }</string>
   </property>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>190</y>
+     <width>771</width>
+     <height>28</height>
+    </rect>
+   </property>
+  </widget>
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
      <x>240</x>
-     <y>30</y>
+     <y>150</y>
      <width>771</width>
      <height>31</height>
     </rect>
@@ -40,21 +50,24 @@ background-image: url(:/background/fantasy.png);
     </item>
    </layout>
   </widget>
-  <widget class="QComboBox" name="comboBox">
+  <widget class="QPushButton" name="addPlayer">
    <property name="geometry">
     <rect>
-     <x>240</x>
-     <y>70</y>
-     <width>771</width>
-     <height>28</height>
+     <x>450</x>
+     <y>280</y>
+     <width>351</width>
+     <height>51</height>
     </rect>
+   </property>
+   <property name="text">
+    <string>add player</string>
    </property>
   </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
      <x>1020</x>
-     <y>30</y>
+     <y>150</y>
      <width>91</width>
      <height>29</height>
     </rect>
