@@ -66,7 +66,7 @@ vector<Team> fileServices::loadTeam(){
             {
                 team = i.toObject();
                 teamName = team.value("team_name").toString();
-                qDebug() << team.value("team_name").toString();
+                // qDebug() << team.value("team_name").toString();
                 string name = teamName.toStdString();
                 Team newteam(name);
                 favLeague.setNewTeam(newteam);

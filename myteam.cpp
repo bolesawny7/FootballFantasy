@@ -6,6 +6,7 @@
 #include "./models/player.h"
 #include "./home.h"
 #include "utils/fantasycontext.h"
+#include "login.h"
 myteam::myteam(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::myteam)
@@ -59,5 +60,14 @@ void myteam::on_LeaguesButton_clicked()
     home.setModal(true);
     close();
     home.exec();
+}
+
+
+void myteam::on_pushButton_clicked()
+{
+    Login login;
+    login.setModal(true);
+    close();
+    login.exec();
 }
 

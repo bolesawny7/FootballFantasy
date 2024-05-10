@@ -103,7 +103,7 @@ public:
 
         formLayoutWidget = new QWidget(myteam);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(570, 60, 171, 57));
+        formLayoutWidget->setGeometry(QRect(580, 60, 181, 61));
         verticalLayout = new QVBoxLayout(formLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -114,12 +114,19 @@ public:
 
         pl0 = new QLineEdit(formLayoutWidget);
         pl0->setObjectName("pl0");
+        pl0->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl0->setAlignment(Qt::AlignCenter);
 
         verticalLayout->addWidget(pl0);
 
         formLayoutWidget_3 = new QWidget(myteam);
         formLayoutWidget_3->setObjectName("formLayoutWidget_3");
-        formLayoutWidget_3->setGeometry(QRect(570, 210, 171, 57));
+        formLayoutWidget_3->setGeometry(QRect(570, 210, 191, 57));
         verticalLayout_3 = new QVBoxLayout(formLayoutWidget_3);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -130,12 +137,19 @@ public:
 
         pl2 = new QLineEdit(formLayoutWidget_3);
         pl2->setObjectName("pl2");
+        pl2->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl2->setAlignment(Qt::AlignCenter);
 
         verticalLayout_3->addWidget(pl2);
 
         formLayoutWidget_4 = new QWidget(myteam);
         formLayoutWidget_4->setObjectName("formLayoutWidget_4");
-        formLayoutWidget_4->setGeometry(QRect(890, 210, 171, 57));
+        formLayoutWidget_4->setGeometry(QRect(890, 260, 191, 57));
         verticalLayout_4 = new QVBoxLayout(formLayoutWidget_4);
         verticalLayout_4->setObjectName("verticalLayout_4");
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -146,12 +160,19 @@ public:
 
         pl3 = new QLineEdit(formLayoutWidget_4);
         pl3->setObjectName("pl3");
+        pl3->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl3->setAlignment(Qt::AlignCenter);
 
         verticalLayout_4->addWidget(pl3);
 
         formLayoutWidget_6 = new QWidget(myteam);
         formLayoutWidget_6->setObjectName("formLayoutWidget_6");
-        formLayoutWidget_6->setGeometry(QRect(720, 340, 171, 57));
+        formLayoutWidget_6->setGeometry(QRect(720, 410, 171, 57));
         verticalLayout_6 = new QVBoxLayout(formLayoutWidget_6);
         verticalLayout_6->setObjectName("verticalLayout_6");
         verticalLayout_6->setContentsMargins(0, 0, 0, 0);
@@ -162,12 +183,20 @@ public:
 
         pl5 = new QLineEdit(formLayoutWidget_6);
         pl5->setObjectName("pl5");
+        pl5->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+"\n"
+""));
+        pl5->setAlignment(Qt::AlignCenter);
 
         verticalLayout_6->addWidget(pl5);
 
         formLayoutWidget_5 = new QWidget(myteam);
         formLayoutWidget_5->setObjectName("formLayoutWidget_5");
-        formLayoutWidget_5->setGeometry(QRect(390, 340, 191, 61));
+        formLayoutWidget_5->setGeometry(QRect(390, 410, 191, 61));
         verticalLayout_5 = new QVBoxLayout(formLayoutWidget_5);
         verticalLayout_5->setObjectName("verticalLayout_5");
         verticalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -178,12 +207,19 @@ public:
 
         pl4 = new QLineEdit(formLayoutWidget_5);
         pl4->setObjectName("pl4");
+        pl4->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl4->setAlignment(Qt::AlignCenter);
 
         verticalLayout_5->addWidget(pl4);
 
         formLayoutWidget_7 = new QWidget(myteam);
         formLayoutWidget_7->setObjectName("formLayoutWidget_7");
-        formLayoutWidget_7->setGeometry(QRect(530, 470, 201, 57));
+        formLayoutWidget_7->setGeometry(QRect(570, 550, 201, 57));
         verticalLayout_7 = new QVBoxLayout(formLayoutWidget_7);
         verticalLayout_7->setObjectName("verticalLayout_7");
         verticalLayout_7->setContentsMargins(0, 0, 0, 0);
@@ -194,12 +230,19 @@ public:
 
         pl6 = new QLineEdit(formLayoutWidget_7);
         pl6->setObjectName("pl6");
+        pl6->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl6->setAlignment(Qt::AlignCenter);
 
         verticalLayout_7->addWidget(pl6);
 
         formLayoutWidget_2 = new QWidget(myteam);
         formLayoutWidget_2->setObjectName("formLayoutWidget_2");
-        formLayoutWidget_2->setGeometry(QRect(230, 210, 201, 57));
+        formLayoutWidget_2->setGeometry(QRect(220, 260, 191, 57));
         verticalLayout_2 = new QVBoxLayout(formLayoutWidget_2);
         verticalLayout_2->setObjectName("verticalLayout_2");
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -210,6 +253,13 @@ public:
 
         pl1 = new QLineEdit(formLayoutWidget_2);
         pl1->setObjectName("pl1");
+        pl1->setStyleSheet(QString::fromUtf8("font-weight: bold;	\n"
+" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+""));
+        pl1->setAlignment(Qt::AlignCenter);
 
         verticalLayout_2->addWidget(pl1);
 

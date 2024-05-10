@@ -3,6 +3,7 @@
 #include "signup.h"
 #include "home.h"
 #include "myteam.h"
+#include "admin/adminmenu.h"
 #include <iostream>
 using namespace std;
 
@@ -31,10 +32,10 @@ void Login::on_loginButton_clicked()
         team.exec();
     } else if (auth.login(loginDto) == 1){
         //for admin
-        Home home;
-        home.setModal(true);
+        adminmenu admin;
+        admin.setModal(true);
         close();
-        home.exec();
+        admin.exec();
     } else {
         cout << "Invalid email or password" << endl;
     }

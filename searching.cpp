@@ -3,6 +3,7 @@
 #include "./services/transferservices.h"
 #include "./models/footballer.h"
 #include "utils/fantasycontext.h"
+#include "home.h"
 #include <QString>
 #include <iomanip>
 using namespace std;
@@ -70,11 +71,15 @@ void searching::on_addPlayer_clicked()
     string name = get_name(player);
     for (auto player : this->footballPlayers) {
         if (player.getFootballerName() == name) {
-            activePlayer.fantasyTeamFootballers[0] = player;
+            activePlayer.fantasyTeamFootballers[transferservices::position] = player;
             qDebug() << player.getFootballerName();
             qDebug() << QString::fromStdString(activePlayer.getUserName());
             qDebug() << QString::fromStdString(activePlayer.fantasyTeamFootballers[0].getFootballerName());
             FantasyContext::setActivePlayer(activePlayer);
+            Home home;
+            home.setModal(true);
+            home.exec();
+            close();
         }
     }
 }

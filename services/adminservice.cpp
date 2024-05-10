@@ -27,13 +27,27 @@ void adminservice:: updateFootballerPrice(int leagueId, string position, int foo
         }
     }
 }
-void adminservice:: updateFootballerPoints(int leagueId, string position, int footballerId, int gameWeekPoints){
+// void adminservice:: updateFootballerPoints(int leagueId, string position, int footballerId, int gameWeekPoints){
+//     League league = getLeague(leagueId);
+//     for (auto& footballerPair : league.getFootballerData()) {
+//         if (footballerPair.first == position) {
+//             for (auto& innerPair : footballerPair.second) {
+//                 if (innerPair.getFootballerId() == footballerId) {
+//                     innerPair.setGameWeekPoints(gameWeekPoints);
+//                     break;
+//                 }
+//             }
+//             break;
+//         }
+//     }
+// }
+void adminservice:: updateFootballerPoints(int leagueId, string position, int footballerId,float mins,bool yellowCards,bool redCard,int goals, int assists){
     League league = getLeague(leagueId);
     for (auto& footballerPair : league.getFootballerData()) {
         if (footballerPair.first == position) {
             for (auto& innerPair : footballerPair.second) {
                 if (innerPair.getFootballerId() == footballerId) {
-                    innerPair.setGameWeekPoints(gameWeekPoints);
+                    innerPair.setGameWeekPoints(mins,yellowCards,redCard,goals,assists);
                     break;
                 }
             }
@@ -41,6 +55,5 @@ void adminservice:: updateFootballerPoints(int leagueId, string position, int fo
         }
     }
 }
-
 
 

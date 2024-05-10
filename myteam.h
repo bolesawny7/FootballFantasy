@@ -18,7 +18,8 @@ public:
 
 private slots:
     void on_LeaguesButton_clicked();
-    void on_goalkeeperComboBox_activated(int index);
+
+    void on_pushButton_clicked();
 
 private:
     Ui::myteam *ui;
