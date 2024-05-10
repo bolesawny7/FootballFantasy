@@ -30,9 +30,9 @@ public:
     void setPlayer(Footballer footballer);
     void updateTeam(Footballer oldFootballerId , Footballer newFootballerId);
 
-    string getFavleague() const;
-    void setFavleague(const string &newFavleague);
-    int getTotalPoints() const;
+    string getFavleague();
+    void setFavleague(string newFavleague);
+    int getTotalPoints();
     void setTotalPts(int newTotalPoints);
 };
 

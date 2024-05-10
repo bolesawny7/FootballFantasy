@@ -14,7 +14,10 @@ public:
     fileServices();
     vector<Team>loadTeam();
     map <string, vector<Footballer>> loadFootballers();
-    void writeteams();
+    void writeTeams();
+    void writePlayers();
+    void storeUSerData();
+    void loadUserData();
     League getLeagueByName(string LName);
     static vector <League> getLeagues();
     static void updateLeague(League league);

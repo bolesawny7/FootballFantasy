@@ -5,17 +5,17 @@
 int Player::idCounter = 0;
 
 /* -> constructors & destructor <- */
-string Player::getFavleague() const
+string Player::getFavleague()
 {
     return favleague;
 }
 
-void Player::setFavleague(const string &newFavleague)
+void Player::setFavleague(string newFavleague)
 {
     favleague = newFavleague;
 }
 
-int Player::getTotalPoints() const
+int Player::getTotalPoints()
 {
     return totalpoints;
 }
@@ -68,3 +68,4 @@ vector<Footballer> Player::getFantasyTeamFootballers() {
 int Player:: getGameWeekPoints(){
     return gameWeekPoints;
 }
+
