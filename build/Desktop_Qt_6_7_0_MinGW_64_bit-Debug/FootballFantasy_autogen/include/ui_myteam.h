@@ -273,7 +273,7 @@ public:
     {
         myteam->setWindowTitle(QCoreApplication::translate("myteam", "Dialog", nullptr));
         pushButton_3->setText(QCoreApplication::translate("myteam", "My Team", nullptr));
-        LeaguesButton->setText(QCoreApplication::translate("myteam", "transfers", nullptr));
+        LeaguesButton->setText(QCoreApplication::translate("myteam", "Transfers", nullptr));
         pushButton->setText(QCoreApplication::translate("myteam", "Logout", nullptr));
         goalkeeperLabel->setText(QCoreApplication::translate("myteam", "goalkeeper", nullptr));
         secondndDefenderLabel->setText(QCoreApplication::translate("myteam", "defender", nullptr));

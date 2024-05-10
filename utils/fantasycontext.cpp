@@ -1,5 +1,8 @@
 #include "fantasycontext.h"
 
+string FantasyContext::searchingTeam="";
+string FantasyContext::searchingPos="";
+
 /* => initialize static members <= */
 Player FantasyContext::player = getActivePlayer();
 User FantasyContext::admin = getAdmin();

@@ -52,10 +52,10 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         services/leagueservice.h services/leagueservice.cpp
         utils/fantasycontext.h utils/fantasycontext.cpp
         services/playersservice.h services/playersservice.cpp
-        admin/adminmenu.h admin/adminmenu.cpp admin/adminmenu.ui
-        admin/teamandpos.h admin/teamandpos.cpp admin/teamandpos.ui
-        admin/updateprice.h admin/updateprice.cpp admin/updateprice.ui
-        admin/updatepoints.h admin/updatepoints.cpp admin/updatepoints.ui
+        adminmenu.h adminmenu.cpp adminmenu.ui
+        teamandpos.h teamandpos.cpp teamandpos.ui
+        updateprice.h updateprice.cpp updateprice.ui
+        updatepoints.h updatepoints.cpp updatepoints.ui
 
 
 

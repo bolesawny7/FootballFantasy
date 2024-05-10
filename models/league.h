@@ -12,9 +12,9 @@ private:
     static int idCounter;
     int leagueId = idCounter;
     string Name;
-    map <string, vector<Footballer>> footballers;
 
 public:
+    map <string, vector<Footballer>> footballers;
 
     /*-> constructor <-*/
     League(string name);

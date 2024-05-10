@@ -11,7 +11,8 @@ private:
 public:
     /* -> constructor <-*/
     Playersservice();
-
+    vector<Footballer> searchWithPositionAndTeam();
+    void updateFootballerPrice(Footballer player,bool increase,bool deacrease);
     /* -> create <- */
     static void setPlayer(Player player);
     void addFootballerToTeam(int leagueId, string position, int footballerId, int playerId);

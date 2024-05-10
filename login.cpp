@@ -3,7 +3,7 @@
 #include "signup.h"
 #include "home.h"
 #include "myteam.h"
-#include "admin/adminmenu.h"
+#include "adminmenu.h"
 #include <iostream>
 using namespace std;
 

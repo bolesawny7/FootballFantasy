@@ -258,27 +258,9 @@
 	"HEADERS" : 
 	[
 		[
-			"E:/New folder/FootballFantasy/admin/adminmenu.h",
+			"E:/New folder/FootballFantasy/adminmenu.h",
 			"MU",
-			"6AXHBYGC25/moc_adminmenu.cpp",
-			null
-		],
-		[
-			"E:/New folder/FootballFantasy/admin/teamandpos.h",
-			"MU",
-			"6AXHBYGC25/moc_teamandpos.cpp",
-			null
-		],
-		[
-			"E:/New folder/FootballFantasy/admin/updatepoints.h",
-			"MU",
-			"6AXHBYGC25/moc_updatepoints.cpp",
-			null
-		],
-		[
-			"E:/New folder/FootballFantasy/admin/updateprice.h",
-			"MU",
-			"6AXHBYGC25/moc_updateprice.cpp",
+			"EWIEGA46WW/moc_adminmenu.cpp",
 			null
 		],
 		[
@@ -402,6 +384,24 @@
 			null
 		],
 		[
+			"E:/New folder/FootballFantasy/teamandpos.h",
+			"MU",
+			"EWIEGA46WW/moc_teamandpos.cpp",
+			null
+		],
+		[
+			"E:/New folder/FootballFantasy/updatepoints.h",
+			"MU",
+			"EWIEGA46WW/moc_updatepoints.cpp",
+			null
+		],
+		[
+			"E:/New folder/FootballFantasy/updateprice.h",
+			"MU",
+			"EWIEGA46WW/moc_updateprice.cpp",
+			null
+		],
+		[
 			"E:/New folder/FootballFantasy/utils/fantasycontext.h",
 			"MU",
 			"7HEHEGDA3T/moc_fantasycontext.cpp",
@@ -485,10 +485,7 @@
 			null
 		],
 		[ "E:/New folder/FootballFantasy/Structs/PlayerStruct.cpp", "MU", null ],
-		[ "E:/New folder/FootballFantasy/admin/adminmenu.cpp", "MU", null ],
-		[ "E:/New folder/FootballFantasy/admin/teamandpos.cpp", "MU", null ],
-		[ "E:/New folder/FootballFantasy/admin/updatepoints.cpp", "MU", null ],
-		[ "E:/New folder/FootballFantasy/admin/updateprice.cpp", "MU", null ],
+		[ "E:/New folder/FootballFantasy/adminmenu.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/favleague.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/home.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/login.cpp", "MU", null ],
@@ -522,6 +519,9 @@
 		],
 		[ "E:/New folder/FootballFantasy/services/userservice.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/signup.cpp", "MU", null ],
+		[ "E:/New folder/FootballFantasy/teamandpos.cpp", "MU", null ],
+		[ "E:/New folder/FootballFantasy/updatepoints.cpp", "MU", null ],
+		[ "E:/New folder/FootballFantasy/updateprice.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/utils/fantasycontext.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],

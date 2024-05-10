@@ -31,6 +31,7 @@ FootballFantasy_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
+	C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -642,14 +643,8 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/Structs/PlayerStruct.cpp \
 	E:/New\ folder/FootballFantasy/Structs/loginStruct.cpp \
 	E:/New\ folder/FootballFantasy/Structs/signupStruct.cpp \
-	E:/New\ folder/FootballFantasy/admin/adminmenu.cpp \
-	E:/New\ folder/FootballFantasy/admin/adminmenu.h \
-	E:/New\ folder/FootballFantasy/admin/teamandpos.cpp \
-	E:/New\ folder/FootballFantasy/admin/teamandpos.h \
-	E:/New\ folder/FootballFantasy/admin/updatepoints.cpp \
-	E:/New\ folder/FootballFantasy/admin/updatepoints.h \
-	E:/New\ folder/FootballFantasy/admin/updateprice.cpp \
-	E:/New\ folder/FootballFantasy/admin/updateprice.h \
+	E:/New\ folder/FootballFantasy/adminmenu.cpp \
+	E:/New\ folder/FootballFantasy/adminmenu.h \
 	E:/New\ folder/FootballFantasy/assets.qrc \
 	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.29.2/CMakeCXXCompiler.cmake \
@@ -683,6 +678,7 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/myteam.h \
 	E:/New\ folder/FootballFantasy/searching.cpp \
 	E:/New\ folder/FootballFantasy/searching.h \
+	E:/New\ folder/FootballFantasy/services/adminservice.h \
 	E:/New\ folder/FootballFantasy/services/auth.cpp \
 	E:/New\ folder/FootballFantasy/services/auth.h \
 	E:/New\ folder/FootballFantasy/services/fileservices.cpp \
@@ -697,12 +693,15 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/services/userservice.h \
 	E:/New\ folder/FootballFantasy/signup.cpp \
 	E:/New\ folder/FootballFantasy/signup.h \
+	E:/New\ folder/FootballFantasy/teamandpos.cpp \
+	E:/New\ folder/FootballFantasy/teamandpos.h \
+	E:/New\ folder/FootballFantasy/updatepoints.cpp \
+	E:/New\ folder/FootballFantasy/updatepoints.h \
+	E:/New\ folder/FootballFantasy/updateprice.cpp \
+	E:/New\ folder/FootballFantasy/updateprice.h \
 	E:/New\ folder/FootballFantasy/utils/fantasycontext.cpp \
 	E:/New\ folder/FootballFantasy/utils/fantasycontext.h \
-	E:/New\ folder/FootballFantasy/admin/adminmenu.ui \
-	E:/New\ folder/FootballFantasy/admin/teamandpos.ui \
-	E:/New\ folder/FootballFantasy/admin/updatepoints.ui \
-	E:/New\ folder/FootballFantasy/admin/updateprice.ui \
+	E:/New\ folder/FootballFantasy/adminmenu.ui \
 	E:/New\ folder/FootballFantasy/favleague.ui \
 	E:/New\ folder/FootballFantasy/home.ui \
 	E:/New\ folder/FootballFantasy/login.ui \
@@ -710,4 +709,7 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/myteam.ui \
 	E:/New\ folder/FootballFantasy/searching.ui \
 	E:/New\ folder/FootballFantasy/signup.ui \
+	E:/New\ folder/FootballFantasy/teamandpos.ui \
+	E:/New\ folder/FootballFantasy/updatepoints.ui \
+	E:/New\ folder/FootballFantasy/updateprice.ui \
 	C:/Program\ Files/CMake/bin/cmake.exe
