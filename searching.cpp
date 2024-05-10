@@ -65,14 +65,14 @@ void searching::on_pushButton_clicked()
 
 void searching::on_addPlayer_clicked()
 {
-    Player activePlayer = FantasyContext::getActivePlayer();
     string player = ui->comboBox->currentText().toStdString();
     string name = get_name(player);
     for (auto player : this->footballPlayers) {
         if (player.getFootballerName() == name) {
-            activePlayer.fantasyTeamFootballers[transferservices::position] = player;
-            // qDebug() << QString::fromStdString(activePlayer.getEmail());
-            qDebug() << QString::fromStdString(activePlayer.fantasyTeamFootballers[transferservices::position].getFootballerName());
+            FantasyContext::getActivePlayer().fantasyTeamFootballers[0] = player;
+            qDebug() << player.getFootballerName();
+            qDebug() << QString::fromStdString(FantasyContext::getActivePlayer().getUserName());
+            qDebug() << QString::fromStdString(FantasyContext::getActivePlayer().fantasyTeamFootballers[0].getFootballerName());
         }
     }
 }
