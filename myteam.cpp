@@ -43,7 +43,7 @@ myteam::myteam(QWidget *parent)
     ui->pl5->setText(QString::fromStdString(FantasyContext::getActivePlayer().getFantasyTeamFootballers()[5].getFootballerName()));
     ui->pl5->setDisabled(true);
 
-    ui->pl6->setText(QString::fromStdString(FantasyContext::getActivePlayer().getFantasyTeamFootballers()[0].getFootballerName()));
+    ui->pl6->setText(QString::fromStdString(FantasyContext::getActivePlayer().getFantasyTeamFootballers()[6].getFootballerName()));
     ui->pl6->setDisabled(true);
 
 }
