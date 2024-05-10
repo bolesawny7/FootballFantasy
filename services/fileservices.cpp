@@ -147,150 +147,150 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
 
 
 
-void fileServices::writeTeams(){
-    QString thisFilePathString=qApp->applicationDirPath();
-    QFileInfo thisFilePath(thisFilePathString);
-    QString thebathabsouluted=thisFilePath.absolutePath();
-    QFileInfo thisFilePathAbs(thebathabsouluted);
-    QJsonArray teams;
-    for(auto newteam:favLeague.getTeams()){
+// void fileServices::writeTeams(){
+//     QString thisFilePathString=qApp->applicationDirPath();
+//     QFileInfo thisFilePath(thisFilePathString);
+//     QString thebathabsouluted=thisFilePath.absolutePath();
+//     QFileInfo thisFilePathAbs(thebathabsouluted);
+//     QJsonArray teams;
+//     for(auto newteam:favLeague.getTeams()){
 
-        QJsonObject team;
+//         QJsonObject team;
 
-        int Tid = newteam.getTeamId();
-        string Tname = newteam.getTeamName();
+//         int Tid = newteam.getTeamId();
+//         string Tname = newteam.getTeamName();
 
 
-        team["id"] =  Tid;
-        team["name"] =  Tname.data();
+//         team["id"] =  Tid;
+//         team["name"] =  Tname.data();
 
-        teams.append(team);
-    }
+//         teams.append(team);
+//     }
 
-    QJsonDocument doc(teams);
-    QFile file(thisFilePathAbs.absolutePath()+"/data/PLteams.json");
-    if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        file.write(doc.toJson(QJsonDocument::Indented));
-        file.close();
-    }
-}
+//     QJsonDocument doc(teams);
+//     QFile file(thisFilePathAbs.absolutePath()+"/data/PLteams.json");
+//     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+//         file.write(doc.toJson(QJsonDocument::Indented));
+//         file.close();
+//     }
+// }
 
-void fileServices::writePlayers(){
-    QString thisFilePathString=qApp->applicationDirPath();
-    QFileInfo thisFilePath(thisFilePathString);
-    QString thebathabsouluted=thisFilePath.absolutePath();
-    QFileInfo thisFilePathAbs(thebathabsouluted);
-    map <string, vector<Footballer>> savingPlayers=favLeague.getFootballerData();
-    vector <Footballer> goalkeepers=savingPlayers["GK"];
-    vector <Footballer> defenders=savingPlayers["DF"] ;
-    vector <Footballer> midfielders=savingPlayers["MF"];
-    vector <Footballer> attackers=savingPlayers["ST"];
-    QJsonArray players;
-    QJsonArray allPlayers;
-    for(auto newPlayer:goalkeepers){
+// void fileServices::writePlayers(){
+//     QString thisFilePathString=qApp->applicationDirPath();
+//     QFileInfo thisFilePath(thisFilePathString);
+//     QString thebathabsouluted=thisFilePath.absolutePath();
+//     QFileInfo thisFilePathAbs(thebathabsouluted);
+//     map <string, vector<Footballer>> savingPlayers=favLeague.getFootballerData();
+//     vector <Footballer> goalkeepers=savingPlayers["GK"];
+//     vector <Footballer> defenders=savingPlayers["DF"] ;
+//     vector <Footballer> midfielders=savingPlayers["MF"];
+//     vector <Footballer> attackers=savingPlayers["ST"];
+//     QJsonArray players;
+//     QJsonArray allPlayers;
+//     for(auto newPlayer:goalkeepers){
 
-        QJsonObject player;
+//         QJsonObject player;
 
-        int Pid = newPlayer.getFootballerId();
-        string Pname = newPlayer.getFootballerName();
-        string PTeamName=newPlayer.getFootballerTeam();
-        string Pposition="GK";
-        string Pcost=to_string(newPlayer.getFootballerPrice());
-        int Ppoints=newPlayer.getGameWeekPoints();
-        // {
-        //     "name": "Ederson M.",
-        //     "team": "Man City",
-        //     "position": "GK",
-        //     "points": 0,
-        //     "cost": "5.5"
-        // },
-        player["name"] =  Pname.data();
-        player["team"] =  PTeamName.data();
-        player["position"] =Pposition.data();
-        player["cost"]=Pcost.data();
-        player["points"]=Ppoints;
-        allPlayers.append(player);
-    }
-    for(auto newPlayer:defenders){
+//         int Pid = newPlayer.getFootballerId();
+//         string Pname = newPlayer.getFootballerName();
+//         string PTeamName=newPlayer.getFootballerTeam();
+//         string Pposition="GK";
+//         string Pcost=to_string(newPlayer.getFootballerPrice());
+//         int Ppoints=newPlayer.getGameWeekPoints();
+//         // {
+//         //     "name": "Ederson M.",
+//         //     "team": "Man City",
+//         //     "position": "GK",
+//         //     "points": 0,
+//         //     "cost": "5.5"
+//         // },
+//         player["name"] =  Pname.data();
+//         player["team"] =  PTeamName.data();
+//         player["position"] =Pposition.data();
+//         player["cost"]=Pcost.data();
+//         player["points"]=Ppoints;
+//         allPlayers.append(player);
+//     }
+//     for(auto newPlayer:defenders){
 
-        QJsonObject player;
+//         QJsonObject player;
 
-        int Pid = newPlayer.getFootballerId();
-        string Pname = newPlayer.getFootballerName();
-        string PTeamName=newPlayer.getFootballerTeam();
-        string Pposition="DF";
-        string Pcost=to_string(newPlayer.getFootballerPrice());
-        int Ppoints=newPlayer.getGameWeekPoints();
-        // {
-        //     "name": "Ederson M.",
-        //     "team": "Man City",
-        //     "position": "GK",
-        //     "points": 0,
-        //     "cost": "5.5"
-        // },
-        player["name"] =  Pname.data();
-        player["team"] =  PTeamName.data();
-        player["position"] =Pposition.data();
-        player["cost"]=Pcost.data();
-        player["points"]=Ppoints;
-        allPlayers.append(player);
-    }
-    for(auto newPlayer:midfielders){
+//         int Pid = newPlayer.getFootballerId();
+//         string Pname = newPlayer.getFootballerName();
+//         string PTeamName=newPlayer.getFootballerTeam();
+//         string Pposition="DF";
+//         string Pcost=to_string(newPlayer.getFootballerPrice());
+//         int Ppoints=newPlayer.getGameWeekPoints();
+//         // {
+//         //     "name": "Ederson M.",
+//         //     "team": "Man City",
+//         //     "position": "GK",
+//         //     "points": 0,
+//         //     "cost": "5.5"
+//         // },
+//         player["name"] =  Pname.data();
+//         player["team"] =  PTeamName.data();
+//         player["position"] =Pposition.data();
+//         player["cost"]=Pcost.data();
+//         player["points"]=Ppoints;
+//         allPlayers.append(player);
+//     }
+//     for(auto newPlayer:midfielders){
 
-        QJsonObject player;
+//         QJsonObject player;
 
-        int Pid = newPlayer.getFootballerId();
-        string Pname = newPlayer.getFootballerName();
-        string PTeamName=newPlayer.getFootballerTeam();
-        string Pposition="MF";
-        string Pcost=to_string(newPlayer.getFootballerPrice());
-        int Ppoints=newPlayer.getGameWeekPoints();
-        // {
-        //     "name": "Ederson M.",
-        //     "team": "Man City",
-        //     "position": "GK",
-        //     "points": 0,
-        //     "cost": "5.5"
-        // },
-        player["name"] =  Pname.data();
-        player["team"] =  PTeamName.data();
-        player["position"] =Pposition.data();
-        player["cost"]=Pcost.data();
-        player["points"]=Ppoints;
-        allPlayers.append(player);
-    }
-    for(auto newPlayer:attackers){
+//         int Pid = newPlayer.getFootballerId();
+//         string Pname = newPlayer.getFootballerName();
+//         string PTeamName=newPlayer.getFootballerTeam();
+//         string Pposition="MF";
+//         string Pcost=to_string(newPlayer.getFootballerPrice());
+//         int Ppoints=newPlayer.getGameWeekPoints();
+//         // {
+//         //     "name": "Ederson M.",
+//         //     "team": "Man City",
+//         //     "position": "GK",
+//         //     "points": 0,
+//         //     "cost": "5.5"
+//         // },
+//         player["name"] =  Pname.data();
+//         player["team"] =  PTeamName.data();
+//         player["position"] =Pposition.data();
+//         player["cost"]=Pcost.data();
+//         player["points"]=Ppoints;
+//         allPlayers.append(player);
+//     }
+//     for(auto newPlayer:attackers){
 
-        QJsonObject player;
+//         QJsonObject player;
 
-        int Pid = newPlayer.getFootballerId();
-        string Pname = newPlayer.getFootballerName();
-        string PTeamName=newPlayer.getFootballerTeam();
-        string Pposition="ST";
-        string Pcost=to_string(newPlayer.getFootballerPrice());
-        int Ppoints=newPlayer.getGameWeekPoints();
-        // {
-        //     "name": "Ederson M.",
-        //     "team": "Man City",
-        //     "position": "GK",
-        //     "points": 0,
-        //     "cost": "5.5"
-        // },
-        player["name"] =  Pname.data();
-        player["team"] =  PTeamName.data();
-        player["position"] =Pposition.data();
-        player["cost"]=Pcost.data();
-        player["points"]=Ppoints;
-        allPlayers.append(player);
-    }
+//         int Pid = newPlayer.getFootballerId();
+//         string Pname = newPlayer.getFootballerName();
+//         string PTeamName=newPlayer.getFootballerTeam();
+//         string Pposition="ST";
+//         string Pcost=to_string(newPlayer.getFootballerPrice());
+//         int Ppoints=newPlayer.getGameWeekPoints();
+//         // {
+//         //     "name": "Ederson M.",
+//         //     "team": "Man City",
+//         //     "position": "GK",
+//         //     "points": 0,
+//         //     "cost": "5.5"
+//         // },
+//         player["name"] =  Pname.data();
+//         player["team"] =  PTeamName.data();
+//         player["position"] =Pposition.data();
+//         player["cost"]=Pcost.data();
+//         player["points"]=Ppoints;
+//         allPlayers.append(player);
+//     }
 
-    QJsonDocument doc(players);
-    QFile file(thisFilePathAbs.absolutePath()+"/data/PLPlayers.json");
-    if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
-        file.write(doc.toJson(QJsonDocument::Indented));
-        file.close();
-    }
-}
+//     QJsonDocument doc(players);
+//     QFile file(thisFilePathAbs.absolutePath()+"/data/PLPlayers.json");
+//     if (file.open(QIODevice::WriteOnly | QIODevice::Text)) {
+//         file.write(doc.toJson(QJsonDocument::Indented));
+//         file.close();
+//     }
+// }
 
 
 void fileServices::loadUserData(){

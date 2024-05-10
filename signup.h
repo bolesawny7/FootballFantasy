@@ -20,6 +20,8 @@ private slots:
     void on_signupButton_clicked();
 
     void on_loginPage_clicked();
+    void on_roleComboBox_textActivated( QString arg1);
+
 private:
     Ui::Signup *ui;
     Auth auth;
