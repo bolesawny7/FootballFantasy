@@ -23,6 +23,8 @@ private slots:
 
     void on_addPlayer_clicked();
 
+    void on_luckyPLayer_clicked();
+
 private:
     Ui::searching *ui;
 };

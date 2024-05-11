@@ -23,12 +23,13 @@ QT_BEGIN_NAMESPACE
 class Ui_updateprice
 {
 public:
-    QWidget *formLayoutWidget;
-    QFormLayout *formLayout;
-    QLabel *selectplayerLabel;
-    QComboBox *selectplayerComboBox;
     QPushButton *increase;
     QPushButton *deacrease;
+    QPushButton *back;
+    QWidget *formLayoutWidget;
+    QFormLayout *formLayout;
+    QLabel *selectPlayerLabel;
+    QComboBox *selectPlayerComboBox;
 
     void setupUi(QDialog *updateprice)
     {
@@ -38,28 +39,31 @@ public:
         updateprice->setStyleSheet(QString::fromUtf8("updateprice{\n"
 "background-image: url(:/background/fantasy.png);\n"
 "}"));
-        formLayoutWidget = new QWidget(updateprice);
-        formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(160, 170, 951, 41));
-        formLayout = new QFormLayout(formLayoutWidget);
-        formLayout->setObjectName("formLayout");
-        formLayout->setContentsMargins(0, 0, 0, 0);
-        selectplayerLabel = new QLabel(formLayoutWidget);
-        selectplayerLabel->setObjectName("selectplayerLabel");
-
-        formLayout->setWidget(0, QFormLayout::LabelRole, selectplayerLabel);
-
-        selectplayerComboBox = new QComboBox(formLayoutWidget);
-        selectplayerComboBox->setObjectName("selectplayerComboBox");
-
-        formLayout->setWidget(0, QFormLayout::FieldRole, selectplayerComboBox);
-
         increase = new QPushButton(updateprice);
         increase->setObjectName("increase");
         increase->setGeometry(QRect(270, 260, 261, 29));
         deacrease = new QPushButton(updateprice);
         deacrease->setObjectName("deacrease");
         deacrease->setGeometry(QRect(690, 260, 261, 29));
+        back = new QPushButton(updateprice);
+        back->setObjectName("back");
+        back->setGeometry(QRect(80, 50, 83, 29));
+        formLayoutWidget = new QWidget(updateprice);
+        formLayoutWidget->setObjectName("formLayoutWidget");
+        formLayoutWidget->setGeometry(QRect(220, 160, 771, 31));
+        formLayout = new QFormLayout(formLayoutWidget);
+        formLayout->setObjectName("formLayout");
+        formLayout->setContentsMargins(0, 0, 0, 0);
+        selectPlayerLabel = new QLabel(formLayoutWidget);
+        selectPlayerLabel->setObjectName("selectPlayerLabel");
+
+        formLayout->setWidget(0, QFormLayout::LabelRole, selectPlayerLabel);
+
+        selectPlayerComboBox = new QComboBox(formLayoutWidget);
+        selectPlayerComboBox->setObjectName("selectPlayerComboBox");
+
+        formLayout->setWidget(0, QFormLayout::FieldRole, selectPlayerComboBox);
+
 
         retranslateUi(updateprice);
 
@@ -69,9 +73,10 @@ public:
     void retranslateUi(QDialog *updateprice)
     {
         updateprice->setWindowTitle(QCoreApplication::translate("updateprice", "Dialog", nullptr));
-        selectplayerLabel->setText(QCoreApplication::translate("updateprice", "selectplayer", nullptr));
         increase->setText(QCoreApplication::translate("updateprice", "increase price", nullptr));
         deacrease->setText(QCoreApplication::translate("updateprice", "decrease price", nullptr));
+        back->setText(QCoreApplication::translate("updateprice", "back", nullptr));
+        selectPlayerLabel->setText(QCoreApplication::translate("updateprice", "select player", nullptr));
     } // retranslateUi
 
 };

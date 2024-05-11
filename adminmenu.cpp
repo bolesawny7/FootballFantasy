@@ -15,7 +15,7 @@ adminmenu::~adminmenu()
 {
     delete ui;
 }
-
+////////hello hanona
 void adminmenu::on_updatepoints_clicked()
 {
     teamandpos select;

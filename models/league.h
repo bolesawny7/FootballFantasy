@@ -15,7 +15,7 @@ private:
 
 public:
     map <string, vector<Footballer>> footballers;
-
+    static Footballer luckywheel(vector<Footballer> footballers);
     /*-> constructor <-*/
     League(string name);
     vector <Team> teams;

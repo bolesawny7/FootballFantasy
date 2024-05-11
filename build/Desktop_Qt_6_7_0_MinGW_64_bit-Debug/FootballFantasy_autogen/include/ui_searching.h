@@ -17,6 +17,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -29,8 +30,11 @@ public:
     QFormLayout *formLayout;
     QLabel *searchLabel;
     QLineEdit *searchLineEdit;
-    QPushButton *addPlayer;
     QPushButton *pushButton;
+    QWidget *widget;
+    QVBoxLayout *verticalLayout;
+    QPushButton *addPlayer;
+    QPushButton *luckyPLayer;
 
     void setupUi(QDialog *searching)
     {
@@ -59,12 +63,25 @@ public:
 
         formLayout->setWidget(0, QFormLayout::FieldRole, searchLineEdit);
 
-        addPlayer = new QPushButton(searching);
-        addPlayer->setObjectName("addPlayer");
-        addPlayer->setGeometry(QRect(450, 280, 351, 51));
         pushButton = new QPushButton(searching);
         pushButton->setObjectName("pushButton");
         pushButton->setGeometry(QRect(1020, 150, 91, 29));
+        widget = new QWidget(searching);
+        widget->setObjectName("widget");
+        widget->setGeometry(QRect(430, 280, 411, 57));
+        verticalLayout = new QVBoxLayout(widget);
+        verticalLayout->setObjectName("verticalLayout");
+        verticalLayout->setContentsMargins(0, 0, 0, 0);
+        addPlayer = new QPushButton(widget);
+        addPlayer->setObjectName("addPlayer");
+
+        verticalLayout->addWidget(addPlayer);
+
+        luckyPLayer = new QPushButton(widget);
+        luckyPLayer->setObjectName("luckyPLayer");
+
+        verticalLayout->addWidget(luckyPLayer);
+
 
         retranslateUi(searching);
 
@@ -75,8 +92,9 @@ public:
     {
         searching->setWindowTitle(QCoreApplication::translate("searching", "Dialog", nullptr));
         searchLabel->setText(QCoreApplication::translate("searching", "search", nullptr));
-        addPlayer->setText(QCoreApplication::translate("searching", "add player", nullptr));
         pushButton->setText(QCoreApplication::translate("searching", "search", nullptr));
+        addPlayer->setText(QCoreApplication::translate("searching", "add player", nullptr));
+        luckyPLayer->setText(QCoreApplication::translate("searching", "lucky wheel", nullptr));
     } // retranslateUi
 
 };

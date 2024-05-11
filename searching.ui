@@ -50,19 +50,6 @@ background-image: url(:/background/fantasy.png);
     </item>
    </layout>
   </widget>
-  <widget class="QPushButton" name="addPlayer">
-   <property name="geometry">
-    <rect>
-     <x>450</x>
-     <y>280</y>
-     <width>351</width>
-     <height>51</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>add player</string>
-   </property>
-  </widget>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
@@ -75,6 +62,32 @@ background-image: url(:/background/fantasy.png);
    <property name="text">
     <string>search</string>
    </property>
+  </widget>
+  <widget class="QWidget" name="">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>280</y>
+     <width>411</width>
+     <height>57</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QPushButton" name="addPlayer">
+      <property name="text">
+       <string>add player</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="luckyPLayer">
+      <property name="text">
+       <string>lucky wheel</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

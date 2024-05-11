@@ -1,6 +1,7 @@
 #include "searching.h"
 #include "ui_searching.h"
 #include "./services/transferservices.h"
+#include "./services/fileservices.h"
 #include "./models/footballer.h"
 #include "utils/fantasycontext.h"
 #include "home.h"
@@ -82,5 +83,22 @@ void searching::on_addPlayer_clicked()
             home.exec();
         }
     }
+}
+
+
+void searching::on_luckyPLayer_clicked()
+{
+    ui->comboBox->clear();
+    QString pos=transferservices::searchValue;
+    vector <Footballer> allPlayers=fileServices::favLeague.footballers[pos.toStdString()];
+    Footballer luckyPlayer=fileServices::favLeague.luckywheel(allPlayers);
+    qDebug() <<luckyPlayer.getFootballerName();
+    QString Name= QString::fromStdString(luckyPlayer.getFootballerName());
+    QString team=QString::fromStdString(luckyPlayer.getFootballerTeam());
+    float price=luckyPlayer.getFootballerPrice();
+    QString strningPrice=QString::number(price, 'f', 1);
+    ui->comboBox->addItem(Name+", "+strningPrice+" ,"+team);
+    footballPlayers.push_back(luckyPlayer);
+
 }
 
