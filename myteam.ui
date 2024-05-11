@@ -419,6 +419,55 @@ font-weight: bold;
     </item>
    </layout>
   </widget>
+  <widget class="QWidget" name="formLayoutWidget_8">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>500</y>
+     <width>191</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_8">
+    <item alignment="Qt::AlignHCenter">
+     <widget class="QLabel" name="firstDefenderLabel_2">
+      <property name="text">
+       <string>Total Points</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="TotalPoints">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl1_2">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;	
+ text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
  </widget>
  <resources/>
  <connections/>

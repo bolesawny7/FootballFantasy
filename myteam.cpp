@@ -21,6 +21,9 @@ myteam::myteam(QWidget *parent)
     vector <Footballer> midfielders=savingPlayers["MF"];
     vector <Footballer> attackers=savingPlayers["ST"];
     Player activePlayer = FantasyContext::getActivePlayer();
+
+    int sum = 0;
+
     for(int i=0;i<FantasyContext::getActivePlayer().getFantasyTeamFootballers().size();i++)
     {
         for(auto newPlayer:goalkeepers){
@@ -32,13 +35,7 @@ myteam::myteam(QWidget *parent)
                 ui->pl0points->setText(QString::number(newPlayer.getGameWeekPoints()));
                 ui->pl0->setDisabled(true);
 
-                qDebug() << QString::number(i);
-
-                qDebug() << QString::fromStdString(activePlayer.getFantasyTeamFootballers()[i].getFootballerName());
-                qDebug() << QString::number(activePlayer.getFantasyTeamFootballers()[i].gameweekPoints);
-
-                qDebug() << QString::fromStdString(newPlayer.getFootballerName());
-                qDebug() << QString::number(newPlayer.getGameWeekPoints());
+                sum += newPlayer.getGameWeekPoints();
             }
         }
 
@@ -51,14 +48,18 @@ myteam::myteam(QWidget *parent)
                     ui->pl1->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl1points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl1->setDisabled(true);
+
+                    sum += newPlayer.getGameWeekPoints();
                 } else if (i == 2) {
                     ui->pl2->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl2points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl2->setDisabled(true);
+                    sum += newPlayer.getGameWeekPoints();
                 } else if (i == 3) {
                     ui->pl3->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl3points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl3->setDisabled(true);
+                    sum += newPlayer.getGameWeekPoints();
                 }
             }
         }
@@ -70,10 +71,12 @@ myteam::myteam(QWidget *parent)
                     ui->pl4->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl4points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl4->setDisabled(true);
+                    sum += newPlayer.getGameWeekPoints();
                 } else if (i == 5) {
                     ui->pl5->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl5points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl5->setDisabled(true);
+                    sum += newPlayer.getGameWeekPoints();
                 }
 
             }
@@ -86,11 +89,13 @@ myteam::myteam(QWidget *parent)
                     ui->pl6->setText(QString::fromStdString(newPlayer.getFootballerName()));
                     ui->pl6points->setText(QString::number(newPlayer.getGameWeekPoints()));
                     ui->pl6->setDisabled(true);
+                    sum += newPlayer.getGameWeekPoints();
                 }
             }
         }
     }
-    FantasyContext::setActivePlayer(activePlayer,FantasyContext::index);
+    ui->TotalPoints->setText(QString::number(sum));
+
 }
 
 myteam::~myteam()

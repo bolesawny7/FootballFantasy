@@ -64,6 +64,11 @@ public:
     QLabel *firstDefenderLabel;
     QLineEdit *pl1points;
     QLineEdit *pl1;
+    QWidget *formLayoutWidget_8;
+    QVBoxLayout *verticalLayout_8;
+    QLabel *firstDefenderLabel_2;
+    QLineEdit *TotalPoints;
+    QLineEdit *pl1_2;
 
     void setupUi(QDialog *myteam)
     {
@@ -354,6 +359,41 @@ public:
 
         verticalLayout_2->addWidget(pl1);
 
+        formLayoutWidget_8 = new QWidget(myteam);
+        formLayoutWidget_8->setObjectName("formLayoutWidget_8");
+        formLayoutWidget_8->setGeometry(QRect(80, 500, 191, 80));
+        verticalLayout_8 = new QVBoxLayout(formLayoutWidget_8);
+        verticalLayout_8->setObjectName("verticalLayout_8");
+        verticalLayout_8->setContentsMargins(0, 0, 0, 0);
+        firstDefenderLabel_2 = new QLabel(formLayoutWidget_8);
+        firstDefenderLabel_2->setObjectName("firstDefenderLabel_2");
+
+        verticalLayout_8->addWidget(firstDefenderLabel_2, 0, Qt::AlignHCenter);
+
+        TotalPoints = new QLineEdit(formLayoutWidget_8);
+        TotalPoints->setObjectName("TotalPoints");
+        TotalPoints->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        TotalPoints->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_8->addWidget(TotalPoints);
+
+        pl1_2 = new QLineEdit(formLayoutWidget_8);
+        pl1_2->setObjectName("pl1_2");
+        pl1_2->setStyleSheet(QString::fromUtf8("font-weight: bold;	\n"
+" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+""));
+        pl1_2->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_8->addWidget(pl1_2);
+
 
         retranslateUi(myteam);
 
@@ -373,6 +413,7 @@ public:
         firstMidfielderLabel->setText(QCoreApplication::translate("myteam", "midfielder", nullptr));
         attackerLabel->setText(QCoreApplication::translate("myteam", "attacker", nullptr));
         firstDefenderLabel->setText(QCoreApplication::translate("myteam", "defender", nullptr));
+        firstDefenderLabel_2->setText(QCoreApplication::translate("myteam", "Total Points", nullptr));
     } // retranslateUi
 
 };
