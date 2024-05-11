@@ -28,6 +28,7 @@ public:
     /* -> delete <- */
     void removePlayerFromTeam(int footballerId);
 
+    static void setPlayers(vector<Player> newPlayers);
 };
 
 #endif // PLAYERSSERVICE_H

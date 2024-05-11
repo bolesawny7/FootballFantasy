@@ -31,7 +31,6 @@ FootballFantasy_autogen/timestamp: \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows-windres.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/Windows.cmake \
 	C:/Program\ Files/CMake/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake \
-	C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
 	C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -678,7 +677,8 @@ FootballFantasy_autogen/timestamp: \
 	E:/New\ folder/FootballFantasy/myteam.h \
 	E:/New\ folder/FootballFantasy/searching.cpp \
 	E:/New\ folder/FootballFantasy/searching.h \
-	E:/New\ folder/FootballFantasy/services/adminservice.h \
+	E:/New\ folder/FootballFantasy/services/adminservices.cpp \
+	E:/New\ folder/FootballFantasy/services/adminservices.h \
 	E:/New\ folder/FootballFantasy/services/auth.cpp \
 	E:/New\ folder/FootballFantasy/services/auth.h \
 	E:/New\ folder/FootballFantasy/services/fileservices.cpp \

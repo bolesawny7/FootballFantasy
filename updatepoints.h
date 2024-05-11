@@ -1,6 +1,6 @@
 #ifndef UPDATEPOINTS_H
 #define UPDATEPOINTS_H
-#include "services/adminservice.h"
+
 #include <QDialog>
 
 namespace Ui {
@@ -14,6 +14,11 @@ class updatepoints : public QDialog
 public:
     explicit updatepoints(QWidget *parent = nullptr);
     ~updatepoints();
+
+private slots:
+    void on_addpoints_clicked();
+
+    void on_back_clicked();
 
 private:
     Ui::updatepoints *ui;

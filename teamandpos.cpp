@@ -1,10 +1,11 @@
 #include "teamandpos.h"
 #include "ui_teamandpos.h"
-#include "services/adminservice.h"
+#include "services/Adminservices.h"
 #include "services/fileservices.h"
 #include "models/team.h"
 #include "utils/fantasycontext.h"
 #include "updatepoints.h"
+#include "updateprice.h"
 #include <vector>
 teamandpos::teamandpos(QWidget *parent)
     : QDialog(parent)
@@ -26,8 +27,8 @@ teamandpos::~teamandpos()
 
 void teamandpos::on_pushButton_clicked()
 {
-    FantasyContext::searchingPos=ui->positionComboBox->currentText().toStdString();
-    FantasyContext::searchingTeam=ui->teamComboBox->currentText().toStdString();
+    Adminservices::searchingPos=ui->positionComboBox->currentText().toStdString();
+    Adminservices::searchingTeam=ui->teamComboBox->currentText().toStdString();
     if(ui->updateComboBox->currentText()=="points"){
         updatepoints points;
         points.setModal(true);

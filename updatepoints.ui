@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1323</width>
-    <height>657</height>
+    <width>1304</width>
+    <height>679</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -18,42 +18,10 @@
 	background-image: url(:/background/fantasy.png);
 }</string>
   </property>
-  <widget class="QWidget" name="formLayoutWidget">
-   <property name="geometry">
-    <rect>
-     <x>230</x>
-     <y>170</y>
-     <width>871</width>
-     <height>71</height>
-    </rect>
-   </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
-     <widget class="QLabel" name="selectPlayerLabel">
-      <property name="text">
-       <string>select player</string>
-      </property>
-     </widget>
-    </item>
-    <item row="0" column="1">
-     <widget class="QComboBox" name="selectPlayerComboBox"/>
-    </item>
-    <item row="1" column="0">
-     <widget class="QLabel" name="pointsForLabel">
-      <property name="text">
-       <string>points for</string>
-      </property>
-     </widget>
-    </item>
-    <item row="1" column="1">
-     <widget class="QComboBox" name="pointsForComboBox"/>
-    </item>
-   </layout>
-  </widget>
   <widget class="QPushButton" name="addpoints">
    <property name="geometry">
     <rect>
-     <x>530</x>
+     <x>500</x>
      <y>350</y>
      <width>231</width>
      <height>29</height>
@@ -67,7 +35,7 @@
    <property name="geometry">
     <rect>
      <x>50</x>
-     <y>30</y>
+     <y>40</y>
      <width>181</width>
      <height>29</height>
     </rect>
@@ -75,6 +43,38 @@
    <property name="text">
     <string>&lt;-backe</string>
    </property>
+  </widget>
+  <widget class="QWidget" name="formLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>230</x>
+     <y>180</y>
+     <width>871</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <layout class="QFormLayout" name="formLayout_2">
+    <item row="0" column="0">
+     <widget class="QLabel" name="selectPlayerLabel_2">
+      <property name="text">
+       <string>select player</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QComboBox" name="selectPlayerComboBox_2"/>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="pointsForLabel_2">
+      <property name="text">
+       <string>points for</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QComboBox" name="pointsForComboBox_2"/>
+    </item>
+   </layout>
   </widget>
  </widget>
  <resources/>

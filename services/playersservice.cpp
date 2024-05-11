@@ -6,6 +6,11 @@
 using namespace std;
 
 vector <League> leagues = fileServices::getLeagues();
+void Playersservice::setPlayers(vector<Player> newPlayers)
+{
+    players = newPlayers;
+}
+
 Playersservice::Playersservice() {}
 
 vector<Player> Playersservice:: players;
@@ -18,7 +23,7 @@ bool Playersservice:: findPlayer(loginStruct loginDto){
         cout << players[i].getEmail() << endl << loginDto.email << endl << loginDto.password << endl << players[i].getPassword() << endl;
         if(players[i].getEmail() == loginDto.email){
             if(players[i].getPassword() == loginDto.password){
-                FantasyContext::setActivePlayer(players[i]);
+                FantasyContext::setActivePlayer(players[i],i);
                 return true;
             }else
                 return false;

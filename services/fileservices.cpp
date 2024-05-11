@@ -111,6 +111,7 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
             QString playerName;
             QString playerTeam;
             QString playerPosition;
+            QString playerPoints;
             QString playerCost;
             for(auto i:arr)
             {
@@ -118,10 +119,11 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
                 playerName = player.value("name").toString();
                 playerTeam=player.value("team").toString();
                 playerPosition=player.value("position").toString();
+                playerPoints=player.value("points").toString();
                 playerCost=player.value("cost").toString();
                 string cost=playerCost.toStdString();
                 // qDebug() << player.value("cost").toString();
-                Footballer player(playerName.toStdString(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
+                Footballer player(playerName.toStdString(),playerPoints.toInt(),std::stof(cost),playerPosition.toStdString(),playerTeam.toStdString());
                 if(player.getFootballerPosition() =="GK"){
                     goalkeepers.push_back(player);
                 }

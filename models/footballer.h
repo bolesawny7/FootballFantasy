@@ -19,7 +19,7 @@ private:
 public:
     /*-> constructor <-*/
     Footballer();
-    Footballer(string Name,float price,string position, string teamName);
+    Footballer(string Name,int points,float price,string position, string teamName);
 
     /*-> getters <-*/
     string getFootballerName();

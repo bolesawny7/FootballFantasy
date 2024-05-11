@@ -55,6 +55,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         adminmenu.h adminmenu.cpp adminmenu.ui
         teamandpos.h teamandpos.cpp teamandpos.ui
         updateprice.h updateprice.cpp updateprice.ui
+
+        services/adminservices.h services/adminservices.cpp
         updatepoints.h updatepoints.cpp updatepoints.ui
 
 

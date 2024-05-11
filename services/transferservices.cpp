@@ -11,8 +11,7 @@ QString transferservices::searchValue = "";
 int transferservices::position = 0;
 transferservices::transferservices(){}
 vector<Footballer> transferservices::playerSearch(QString playerName){
-        fileServices files;
-        map <string, vector<Footballer>> allplayers =files.loadFootballers();
+        map <string, vector<Footballer>> allplayers =fileServices::favLeague.footballers;
         QString s=this->getSearchValue();
         vector<Footballer> thisposition=allplayers[s.toStdString()];
         vector<Footballer>wantedPlayers;

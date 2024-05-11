@@ -75,11 +75,11 @@ void searching::on_addPlayer_clicked()
             qDebug() << player.getFootballerName();
             qDebug() << QString::fromStdString(activePlayer.getUserName());
             qDebug() << QString::fromStdString(activePlayer.fantasyTeamFootballers[0].getFootballerName());
-            FantasyContext::setActivePlayer(activePlayer);
+            FantasyContext::setActivePlayer(activePlayer,FantasyContext::index);
             Home home;
             home.setModal(true);
-            home.exec();
             close();
+            home.exec();
         }
     }
 }

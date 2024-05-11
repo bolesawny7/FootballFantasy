@@ -23,10 +23,11 @@ class Ui_adminmenu
 {
 public:
     QTextBrowser *textBrowser;
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *updatepoints;
     QPushButton *nextGW;
+    QPushButton *logout;
 
     void setupUi(QDialog *adminmenu)
     {
@@ -43,13 +44,13 @@ public:
         textBrowser->setStyleSheet(QString::fromUtf8("background-color: rgba(255, 255, 255, 0);\n"
 "border-color: rgba(255, 255, 255, 0);\n"
 "border:none;"));
-        widget = new QWidget(adminmenu);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(450, 300, 361, 191));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(adminmenu);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(450, 300, 361, 191));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        updatepoints = new QPushButton(widget);
+        updatepoints = new QPushButton(layoutWidget);
         updatepoints->setObjectName("updatepoints");
         QSizePolicy sizePolicy(QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
         sizePolicy.setHorizontalStretch(0);
@@ -59,12 +60,19 @@ public:
 
         verticalLayout->addWidget(updatepoints);
 
-        nextGW = new QPushButton(widget);
+        nextGW = new QPushButton(layoutWidget);
         nextGW->setObjectName("nextGW");
         sizePolicy.setHeightForWidth(nextGW->sizePolicy().hasHeightForWidth());
         nextGW->setSizePolicy(sizePolicy);
 
         verticalLayout->addWidget(nextGW);
+
+        logout = new QPushButton(layoutWidget);
+        logout->setObjectName("logout");
+        sizePolicy.setHeightForWidth(logout->sizePolicy().hasHeightForWidth());
+        logout->setSizePolicy(sizePolicy);
+
+        verticalLayout->addWidget(logout);
 
 
         retranslateUi(adminmenu);
@@ -85,6 +93,7 @@ public:
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:24pt;\">Admin Mainmenu </span></p></body></html>", nullptr));
         updatepoints->setText(QCoreApplication::translate("adminmenu", "update player", nullptr));
         nextGW->setText(QCoreApplication::translate("adminmenu", "next GW", nullptr));
+        logout->setText(QCoreApplication::translate("adminmenu", "Logout", nullptr));
     } // retranslateUi
 
 };

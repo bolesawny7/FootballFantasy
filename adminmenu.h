@@ -18,6 +18,8 @@ public:
 private slots:
     void on_updatepoints_clicked();
 
+    void on_logout_clicked();
+
 private:
     Ui::adminmenu *ui;
 };

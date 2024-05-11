@@ -4,6 +4,7 @@
 #include "home.h"
 #include "myteam.h"
 #include "adminmenu.h"
+#include "./utils/fantasycontext.h"
 #include <iostream>
 using namespace std;
 
@@ -26,6 +27,7 @@ void Login::on_loginButton_clicked()
     loginDto.email = ui->emailLineEdit->text().toStdString();
     loginDto.password = ui->passwordLineEdit->text().toStdString();
     if(auth.login(loginDto) == 0){
+        qDebug() << QString::fromStdString(FantasyContext::getActivePlayer().fantasyTeamFootballers[0].getFootballerName());
         myteam team;
         team.setModal(true);
         close();

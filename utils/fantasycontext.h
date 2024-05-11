@@ -9,15 +9,15 @@ private:
     // static vector<Player>players;
     // static vector <League> leagues;
 public:
-    static string searchingTeam;
-    static string searchingPos;
+    static int index;
     FantasyContext();
     /* => getters <= */
     static Player getActivePlayer();
     static User getAdmin();
     // static vector<Player> getActivePlayers();
     /* => setters <=*/
-    static void setActivePlayer(Player player);
+    static void setActivePlayer(Player player,int index);
+    static void savePlayer();
     static void setAdmin(User newAdmin);
 
     // static void setPlayers(vector<Player> players);

@@ -32,30 +32,37 @@ public:
     QWidget *formLayoutWidget;
     QVBoxLayout *verticalLayout;
     QLabel *goalkeeperLabel;
+    QLineEdit *pl0points;
     QLineEdit *pl0;
     QWidget *formLayoutWidget_3;
     QVBoxLayout *verticalLayout_3;
     QLabel *secondndDefenderLabel;
+    QLineEdit *pl2points;
     QLineEdit *pl2;
     QWidget *formLayoutWidget_4;
     QVBoxLayout *verticalLayout_4;
     QLabel *thirdDefenderLabel;
+    QLineEdit *pl3points;
     QLineEdit *pl3;
     QWidget *formLayoutWidget_6;
     QVBoxLayout *verticalLayout_6;
     QLabel *secondMidfielderLabel;
+    QLineEdit *pl5points;
     QLineEdit *pl5;
     QWidget *formLayoutWidget_5;
     QVBoxLayout *verticalLayout_5;
     QLabel *firstMidfielderLabel;
+    QLineEdit *pl4points;
     QLineEdit *pl4;
     QWidget *formLayoutWidget_7;
     QVBoxLayout *verticalLayout_7;
     QLabel *attackerLabel;
+    QLineEdit *pl6points;
     QLineEdit *pl6;
     QWidget *formLayoutWidget_2;
     QVBoxLayout *verticalLayout_2;
     QLabel *firstDefenderLabel;
+    QLineEdit *pl1points;
     QLineEdit *pl1;
 
     void setupUi(QDialog *myteam)
@@ -103,7 +110,7 @@ public:
 
         formLayoutWidget = new QWidget(myteam);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(580, 60, 181, 61));
+        formLayoutWidget->setGeometry(QRect(580, 60, 181, 80));
         verticalLayout = new QVBoxLayout(formLayoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
@@ -111,6 +118,18 @@ public:
         goalkeeperLabel->setObjectName("goalkeeperLabel");
 
         verticalLayout->addWidget(goalkeeperLabel, 0, Qt::AlignHCenter);
+
+        pl0points = new QLineEdit(formLayoutWidget);
+        pl0points->setObjectName("pl0points");
+        pl0points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl0points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout->addWidget(pl0points);
 
         pl0 = new QLineEdit(formLayoutWidget);
         pl0->setObjectName("pl0");
@@ -126,7 +145,7 @@ public:
 
         formLayoutWidget_3 = new QWidget(myteam);
         formLayoutWidget_3->setObjectName("formLayoutWidget_3");
-        formLayoutWidget_3->setGeometry(QRect(570, 210, 191, 57));
+        formLayoutWidget_3->setGeometry(QRect(570, 210, 191, 80));
         verticalLayout_3 = new QVBoxLayout(formLayoutWidget_3);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -134,6 +153,18 @@ public:
         secondndDefenderLabel->setObjectName("secondndDefenderLabel");
 
         verticalLayout_3->addWidget(secondndDefenderLabel, 0, Qt::AlignHCenter);
+
+        pl2points = new QLineEdit(formLayoutWidget_3);
+        pl2points->setObjectName("pl2points");
+        pl2points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl2points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_3->addWidget(pl2points);
 
         pl2 = new QLineEdit(formLayoutWidget_3);
         pl2->setObjectName("pl2");
@@ -149,7 +180,7 @@ public:
 
         formLayoutWidget_4 = new QWidget(myteam);
         formLayoutWidget_4->setObjectName("formLayoutWidget_4");
-        formLayoutWidget_4->setGeometry(QRect(890, 260, 191, 57));
+        formLayoutWidget_4->setGeometry(QRect(890, 260, 191, 80));
         verticalLayout_4 = new QVBoxLayout(formLayoutWidget_4);
         verticalLayout_4->setObjectName("verticalLayout_4");
         verticalLayout_4->setContentsMargins(0, 0, 0, 0);
@@ -157,6 +188,18 @@ public:
         thirdDefenderLabel->setObjectName("thirdDefenderLabel");
 
         verticalLayout_4->addWidget(thirdDefenderLabel, 0, Qt::AlignHCenter);
+
+        pl3points = new QLineEdit(formLayoutWidget_4);
+        pl3points->setObjectName("pl3points");
+        pl3points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl3points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_4->addWidget(pl3points);
 
         pl3 = new QLineEdit(formLayoutWidget_4);
         pl3->setObjectName("pl3");
@@ -172,7 +215,7 @@ public:
 
         formLayoutWidget_6 = new QWidget(myteam);
         formLayoutWidget_6->setObjectName("formLayoutWidget_6");
-        formLayoutWidget_6->setGeometry(QRect(720, 410, 171, 57));
+        formLayoutWidget_6->setGeometry(QRect(720, 410, 171, 80));
         verticalLayout_6 = new QVBoxLayout(formLayoutWidget_6);
         verticalLayout_6->setObjectName("verticalLayout_6");
         verticalLayout_6->setContentsMargins(0, 0, 0, 0);
@@ -180,6 +223,18 @@ public:
         secondMidfielderLabel->setObjectName("secondMidfielderLabel");
 
         verticalLayout_6->addWidget(secondMidfielderLabel, 0, Qt::AlignHCenter);
+
+        pl5points = new QLineEdit(formLayoutWidget_6);
+        pl5points->setObjectName("pl5points");
+        pl5points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl5points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_6->addWidget(pl5points);
 
         pl5 = new QLineEdit(formLayoutWidget_6);
         pl5->setObjectName("pl5");
@@ -196,7 +251,7 @@ public:
 
         formLayoutWidget_5 = new QWidget(myteam);
         formLayoutWidget_5->setObjectName("formLayoutWidget_5");
-        formLayoutWidget_5->setGeometry(QRect(390, 410, 191, 61));
+        formLayoutWidget_5->setGeometry(QRect(390, 410, 191, 80));
         verticalLayout_5 = new QVBoxLayout(formLayoutWidget_5);
         verticalLayout_5->setObjectName("verticalLayout_5");
         verticalLayout_5->setContentsMargins(0, 0, 0, 0);
@@ -204,6 +259,18 @@ public:
         firstMidfielderLabel->setObjectName("firstMidfielderLabel");
 
         verticalLayout_5->addWidget(firstMidfielderLabel, 0, Qt::AlignHCenter);
+
+        pl4points = new QLineEdit(formLayoutWidget_5);
+        pl4points->setObjectName("pl4points");
+        pl4points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl4points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_5->addWidget(pl4points);
 
         pl4 = new QLineEdit(formLayoutWidget_5);
         pl4->setObjectName("pl4");
@@ -219,7 +286,7 @@ public:
 
         formLayoutWidget_7 = new QWidget(myteam);
         formLayoutWidget_7->setObjectName("formLayoutWidget_7");
-        formLayoutWidget_7->setGeometry(QRect(570, 550, 201, 57));
+        formLayoutWidget_7->setGeometry(QRect(570, 550, 201, 80));
         verticalLayout_7 = new QVBoxLayout(formLayoutWidget_7);
         verticalLayout_7->setObjectName("verticalLayout_7");
         verticalLayout_7->setContentsMargins(0, 0, 0, 0);
@@ -227,6 +294,18 @@ public:
         attackerLabel->setObjectName("attackerLabel");
 
         verticalLayout_7->addWidget(attackerLabel, 0, Qt::AlignHCenter);
+
+        pl6points = new QLineEdit(formLayoutWidget_7);
+        pl6points->setObjectName("pl6points");
+        pl6points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl6points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_7->addWidget(pl6points);
 
         pl6 = new QLineEdit(formLayoutWidget_7);
         pl6->setObjectName("pl6");
@@ -242,7 +321,7 @@ public:
 
         formLayoutWidget_2 = new QWidget(myteam);
         formLayoutWidget_2->setObjectName("formLayoutWidget_2");
-        formLayoutWidget_2->setGeometry(QRect(220, 260, 191, 57));
+        formLayoutWidget_2->setGeometry(QRect(220, 260, 191, 80));
         verticalLayout_2 = new QVBoxLayout(formLayoutWidget_2);
         verticalLayout_2->setObjectName("verticalLayout_2");
         verticalLayout_2->setContentsMargins(0, 0, 0, 0);
@@ -250,6 +329,18 @@ public:
         firstDefenderLabel->setObjectName("firstDefenderLabel");
 
         verticalLayout_2->addWidget(firstDefenderLabel, 0, Qt::AlignHCenter);
+
+        pl1points = new QLineEdit(formLayoutWidget_2);
+        pl1points->setObjectName("pl1points");
+        pl1points->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
+"	color: rgb(0, 0, 0);\n"
+"	border:none;\n"
+"	background-color: rgba(0, 0, 0, 0);\n"
+"font-weight: bold;\n"
+""));
+        pl1points->setAlignment(Qt::AlignCenter);
+
+        verticalLayout_2->addWidget(pl1points);
 
         pl1 = new QLineEdit(formLayoutWidget_2);
         pl1->setObjectName("pl1");

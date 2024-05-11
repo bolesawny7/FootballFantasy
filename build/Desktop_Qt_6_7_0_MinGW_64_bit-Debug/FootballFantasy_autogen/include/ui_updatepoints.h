@@ -23,55 +23,55 @@ QT_BEGIN_NAMESPACE
 class Ui_updatepoints
 {
 public:
-    QWidget *formLayoutWidget;
-    QFormLayout *formLayout;
-    QLabel *selectPlayerLabel;
-    QComboBox *selectPlayerComboBox;
-    QLabel *pointsForLabel;
-    QComboBox *pointsForComboBox;
     QPushButton *addpoints;
     QPushButton *back;
+    QWidget *formLayoutWidget;
+    QFormLayout *formLayout_2;
+    QLabel *selectPlayerLabel_2;
+    QComboBox *selectPlayerComboBox_2;
+    QLabel *pointsForLabel_2;
+    QComboBox *pointsForComboBox_2;
 
     void setupUi(QDialog *updatepoints)
     {
         if (updatepoints->objectName().isEmpty())
             updatepoints->setObjectName("updatepoints");
-        updatepoints->resize(1323, 657);
+        updatepoints->resize(1304, 679);
         updatepoints->setStyleSheet(QString::fromUtf8("updatepoints{\n"
 "	background-image: url(:/background/fantasy.png);\n"
 "}"));
-        formLayoutWidget = new QWidget(updatepoints);
-        formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(230, 170, 871, 71));
-        formLayout = new QFormLayout(formLayoutWidget);
-        formLayout->setObjectName("formLayout");
-        formLayout->setContentsMargins(0, 0, 0, 0);
-        selectPlayerLabel = new QLabel(formLayoutWidget);
-        selectPlayerLabel->setObjectName("selectPlayerLabel");
-
-        formLayout->setWidget(0, QFormLayout::LabelRole, selectPlayerLabel);
-
-        selectPlayerComboBox = new QComboBox(formLayoutWidget);
-        selectPlayerComboBox->setObjectName("selectPlayerComboBox");
-
-        formLayout->setWidget(0, QFormLayout::FieldRole, selectPlayerComboBox);
-
-        pointsForLabel = new QLabel(formLayoutWidget);
-        pointsForLabel->setObjectName("pointsForLabel");
-
-        formLayout->setWidget(1, QFormLayout::LabelRole, pointsForLabel);
-
-        pointsForComboBox = new QComboBox(formLayoutWidget);
-        pointsForComboBox->setObjectName("pointsForComboBox");
-
-        formLayout->setWidget(1, QFormLayout::FieldRole, pointsForComboBox);
-
         addpoints = new QPushButton(updatepoints);
         addpoints->setObjectName("addpoints");
-        addpoints->setGeometry(QRect(530, 350, 231, 29));
+        addpoints->setGeometry(QRect(500, 350, 231, 29));
         back = new QPushButton(updatepoints);
         back->setObjectName("back");
-        back->setGeometry(QRect(50, 30, 181, 29));
+        back->setGeometry(QRect(50, 40, 181, 29));
+        formLayoutWidget = new QWidget(updatepoints);
+        formLayoutWidget->setObjectName("formLayoutWidget");
+        formLayoutWidget->setGeometry(QRect(230, 180, 871, 71));
+        formLayout_2 = new QFormLayout(formLayoutWidget);
+        formLayout_2->setObjectName("formLayout_2");
+        formLayout_2->setContentsMargins(0, 0, 0, 0);
+        selectPlayerLabel_2 = new QLabel(formLayoutWidget);
+        selectPlayerLabel_2->setObjectName("selectPlayerLabel_2");
+
+        formLayout_2->setWidget(0, QFormLayout::LabelRole, selectPlayerLabel_2);
+
+        selectPlayerComboBox_2 = new QComboBox(formLayoutWidget);
+        selectPlayerComboBox_2->setObjectName("selectPlayerComboBox_2");
+
+        formLayout_2->setWidget(0, QFormLayout::FieldRole, selectPlayerComboBox_2);
+
+        pointsForLabel_2 = new QLabel(formLayoutWidget);
+        pointsForLabel_2->setObjectName("pointsForLabel_2");
+
+        formLayout_2->setWidget(1, QFormLayout::LabelRole, pointsForLabel_2);
+
+        pointsForComboBox_2 = new QComboBox(formLayoutWidget);
+        pointsForComboBox_2->setObjectName("pointsForComboBox_2");
+
+        formLayout_2->setWidget(1, QFormLayout::FieldRole, pointsForComboBox_2);
+
 
         retranslateUi(updatepoints);
 
@@ -81,10 +81,10 @@ public:
     void retranslateUi(QDialog *updatepoints)
     {
         updatepoints->setWindowTitle(QCoreApplication::translate("updatepoints", "Dialog", nullptr));
-        selectPlayerLabel->setText(QCoreApplication::translate("updatepoints", "select player", nullptr));
-        pointsForLabel->setText(QCoreApplication::translate("updatepoints", "points for", nullptr));
         addpoints->setText(QCoreApplication::translate("updatepoints", "add points", nullptr));
         back->setText(QCoreApplication::translate("updatepoints", "<-backe", nullptr));
+        selectPlayerLabel_2->setText(QCoreApplication::translate("updatepoints", "select player", nullptr));
+        pointsForLabel_2->setText(QCoreApplication::translate("updatepoints", "points for", nullptr));
     } // retranslateUi
 
 };

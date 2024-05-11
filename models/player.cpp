@@ -23,7 +23,7 @@ int Player::getTotalPoints()
 Player::Player(signupStruct signupDto)
     : User(signupDto), // Call User constructor with signupDto
     fantasyTeamName(fantasyTeamName), PlayerID(++idCounter), budget(150) {
-    Footballer f1 = {"Null",1.5,"md","z"};
+    Footballer f1 = {"Null",0,1.5,"md","z"};
     this->fantasyTeamFootballers = {f1,f1,f1,f1,f1,f1,f1};
 }
 

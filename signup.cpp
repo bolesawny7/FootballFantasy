@@ -7,7 +7,7 @@
 #include "QString"
 #include "./models/league.h"
 #include "./services/fileservices.h"
-#include "./services/adminservice.h"
+#include "./services/Adminservices.h"
 Signup::Signup(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Signup)

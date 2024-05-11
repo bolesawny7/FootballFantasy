@@ -342,6 +342,12 @@
 			null
 		],
 		[
+			"E:/New folder/FootballFantasy/services/adminservices.h",
+			"MU",
+			"3BYFHCGL5U/moc_adminservices.cpp",
+			null
+		],
+		[
 			"E:/New folder/FootballFantasy/services/auth.h",
 			"MU",
 			"3BYFHCGL5U/moc_auth.cpp",
@@ -500,6 +506,11 @@
 		[ "E:/New folder/FootballFantasy/models/user.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/myteam.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/searching.cpp", "MU", null ],
+		[
+			"E:/New folder/FootballFantasy/services/adminservices.cpp",
+			"MU",
+			null
+		],
 		[ "E:/New folder/FootballFantasy/services/auth.cpp", "MU", null ],
 		[ "E:/New folder/FootballFantasy/services/fileservices.cpp", "MU", null ],
 		[

@@ -9,7 +9,6 @@ void Auth::signup(signupStruct signupDto){
     if(signupDto.role == "player"){
         Player player(signupDto);
         player_service.setPlayer(player);
-        FantasyContext::setActivePlayer(player);
     }else if(signupDto.role == "admin"){
         User user(signupDto);
         user_services.setUser(user);

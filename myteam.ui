@@ -81,7 +81,7 @@ border-radius-top: 20px;</string>
      <x>580</x>
      <y>60</y>
      <width>181</width>
-     <height>61</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -89,6 +89,21 @@ border-radius-top: 20px;</string>
      <widget class="QLabel" name="goalkeeperLabel">
       <property name="text">
        <string>goalkeeper</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl0points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -115,7 +130,7 @@ font-weight: bold;
      <x>570</x>
      <y>210</y>
      <width>191</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -123,6 +138,21 @@ font-weight: bold;
      <widget class="QLabel" name="secondndDefenderLabel">
       <property name="text">
        <string>defender</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl2points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -149,7 +179,7 @@ font-weight: bold;
      <x>890</x>
      <y>260</y>
      <width>191</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_4">
@@ -157,6 +187,21 @@ font-weight: bold;
      <widget class="QLabel" name="thirdDefenderLabel">
       <property name="text">
        <string>defender</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl3points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -183,7 +228,7 @@ font-weight: bold;
      <x>720</x>
      <y>410</y>
      <width>171</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_6">
@@ -191,6 +236,21 @@ font-weight: bold;
      <widget class="QLabel" name="secondMidfielderLabel">
       <property name="text">
        <string>midfielder</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl5points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -218,7 +278,7 @@ font-weight: bold;
      <x>390</x>
      <y>410</y>
      <width>191</width>
-     <height>61</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -226,6 +286,21 @@ font-weight: bold;
      <widget class="QLabel" name="firstMidfielderLabel">
       <property name="text">
        <string>midfielder</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl4points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -252,7 +327,7 @@ font-weight: bold;
      <x>570</x>
      <y>550</y>
      <width>201</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_7">
@@ -260,6 +335,21 @@ font-weight: bold;
      <widget class="QLabel" name="attackerLabel">
       <property name="text">
        <string>attacker</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl6points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
@@ -286,7 +376,7 @@ font-weight: bold;
      <x>220</x>
      <y>260</y>
      <width>191</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -294,6 +384,21 @@ font-weight: bold;
      <widget class="QLabel" name="firstDefenderLabel">
       <property name="text">
        <string>defender</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl1points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
