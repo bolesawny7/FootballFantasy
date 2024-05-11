@@ -70,19 +70,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </item>
     <item>
-     <widget class="QPushButton" name="nextGW">
-      <property name="sizePolicy">
-       <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
-        <horstretch>0</horstretch>
-        <verstretch>0</verstretch>
-       </sizepolicy>
-      </property>
-      <property name="text">
-       <string>next GW</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QPushButton" name="logout">
       <property name="sizePolicy">
        <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
