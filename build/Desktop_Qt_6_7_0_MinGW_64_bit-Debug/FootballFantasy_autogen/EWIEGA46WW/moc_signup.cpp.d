@@ -1,5 +1,5 @@
-D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_signup.cpp: D:/projects/FootballFantasy/signup.h \
-  D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_signup.cpp: E:/New\ folder/FootballFantasy/signup.h \
+  E:/New\ folder/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -468,13 +468,13 @@ D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFa
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
-  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
-  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/projects/FootballFantasy/models/footballer.h \
-  D:/projects/FootballFantasy/models/player.h \
-  D:/projects/FootballFantasy/models/user.h \
-  D:/projects/FootballFantasy/services/auth.h \
-  D:/projects/FootballFantasy/services/playersservice.h \
-  D:/projects/FootballFantasy/services/userservice.h
+  E:/New\ folder/FootballFantasy/Structs/FootballerStruct.cpp \
+  E:/New\ folder/FootballFantasy/Structs/PlayerStruct.cpp \
+  E:/New\ folder/FootballFantasy/Structs/loginStruct.cpp \
+  E:/New\ folder/FootballFantasy/Structs/signupStruct.cpp \
+  E:/New\ folder/FootballFantasy/models/footballer.h \
+  E:/New\ folder/FootballFantasy/models/player.h \
+  E:/New\ folder/FootballFantasy/models/user.h \
+  E:/New\ folder/FootballFantasy/services/auth.h \
+  E:/New\ folder/FootballFantasy/services/playersservice.h \
+  E:/New\ folder/FootballFantasy/services/userservice.h

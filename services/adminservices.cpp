@@ -11,13 +11,14 @@ string Adminservices::searchingPos="";
 Adminservices::Adminservices(){
 }
 
-void Adminservices::updateFootballerPrice(Footballer player,bool increase,bool deacrease){
+void Adminservices::updateFootballerPrice(Footballer player,bool increase){
     if(increase){
         player.setFootballerPrice(player.getFootballerPrice()+0.1);
     }
     else{
         player.setFootballerPrice(player.getFootballerPrice()-0.1);
     }
+    this->updateFootballer(player);
 }
 vector <Footballer> Adminservices::searchWithPositionAndTeam(){
     string position=Adminservices::searchingPos;

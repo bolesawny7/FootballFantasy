@@ -15,7 +15,7 @@ public:
     Adminservices();
     vector<Footballer> searchWithPositionAndTeam();
     void updateFootballer(Footballer player);
-    void updateFootballerPrice(Footballer player,bool increase,bool deacrease);
+    void updateFootballerPrice(Footballer player,bool increase);
     void updateFootballerPoints(Footballer player ,string action);
 
 };

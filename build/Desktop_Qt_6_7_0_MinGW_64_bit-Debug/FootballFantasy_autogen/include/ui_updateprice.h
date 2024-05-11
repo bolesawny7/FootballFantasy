@@ -15,7 +15,6 @@
 #include <QtWidgets/QDialog>
 #include <QtWidgets/QFormLayout>
 #include <QtWidgets/QLabel>
-#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QWidget>
 
@@ -27,12 +26,10 @@ public:
     QPushButton *increase;
     QPushButton *deacrease;
     QPushButton *back;
-    QComboBox *comboBox;
-    QPushButton *pushButton;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
-    QLabel *searchLabel_3;
-    QLineEdit *searchLineEdit_3;
+    QLabel *selectPlayerLabel;
+    QComboBox *selectPlayerComboBox;
 
     void setupUi(QDialog *updateprice)
     {
@@ -51,27 +48,21 @@ public:
         back = new QPushButton(updateprice);
         back->setObjectName("back");
         back->setGeometry(QRect(80, 50, 83, 29));
-        comboBox = new QComboBox(updateprice);
-        comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(220, 200, 771, 28));
-        pushButton = new QPushButton(updateprice);
-        pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(1000, 160, 91, 29));
         formLayoutWidget = new QWidget(updateprice);
         formLayoutWidget->setObjectName("formLayoutWidget");
         formLayoutWidget->setGeometry(QRect(220, 160, 771, 31));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setContentsMargins(0, 0, 0, 0);
-        searchLabel_3 = new QLabel(formLayoutWidget);
-        searchLabel_3->setObjectName("searchLabel_3");
+        selectPlayerLabel = new QLabel(formLayoutWidget);
+        selectPlayerLabel->setObjectName("selectPlayerLabel");
 
-        formLayout->setWidget(0, QFormLayout::LabelRole, searchLabel_3);
+        formLayout->setWidget(0, QFormLayout::LabelRole, selectPlayerLabel);
 
-        searchLineEdit_3 = new QLineEdit(formLayoutWidget);
-        searchLineEdit_3->setObjectName("searchLineEdit_3");
+        selectPlayerComboBox = new QComboBox(formLayoutWidget);
+        selectPlayerComboBox->setObjectName("selectPlayerComboBox");
 
-        formLayout->setWidget(0, QFormLayout::FieldRole, searchLineEdit_3);
+        formLayout->setWidget(0, QFormLayout::FieldRole, selectPlayerComboBox);
 
 
         retranslateUi(updateprice);
@@ -85,8 +76,7 @@ public:
         increase->setText(QCoreApplication::translate("updateprice", "increase price", nullptr));
         deacrease->setText(QCoreApplication::translate("updateprice", "decrease price", nullptr));
         back->setText(QCoreApplication::translate("updateprice", "back", nullptr));
-        pushButton->setText(QCoreApplication::translate("updateprice", "search", nullptr));
-        searchLabel_3->setText(QCoreApplication::translate("updateprice", "select player", nullptr));
+        selectPlayerLabel->setText(QCoreApplication::translate("updateprice", "select player", nullptr));
     } // retranslateUi
 
 };
