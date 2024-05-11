@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Projects\FootballFantasy
+CMAKE_SOURCE_DIR = D:\projects\FootballFantasy
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
+CMAKE_BINARY_DIR = D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug
 
 # Utility rule file for FootballFantasy_autogen.
 
@@ -66,8 +66,8 @@ include CMakeFiles/FootballFantasy_autogen.dir/compiler_depend.make
 include CMakeFiles/FootballFantasy_autogen.dir/progress.make
 
 CMakeFiles/FootballFantasy_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FootballFantasy"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FootballFantasy"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/AutogenInfo.json Debug
 
 FootballFantasy_autogen: CMakeFiles/FootballFantasy_autogen
 FootballFantasy_autogen: CMakeFiles/FootballFantasy_autogen.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/FootballFantasy_autogen.dir/clean:
 .PHONY : CMakeFiles/FootballFantasy_autogen.dir/clean
 
 CMakeFiles/FootballFantasy_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Projects\FootballFantasy D:\Projects\FootballFantasy D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles\FootballFantasy_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\projects\FootballFantasy D:\projects\FootballFantasy D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\CMakeFiles\FootballFantasy_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/FootballFantasy_autogen.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.obj: \
- D:\Projects\FootballFantasy\Structs\PlayerStruct.cpp \
+ D:\projects\FootballFantasy\Structs\PlayerStruct.cpp \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \

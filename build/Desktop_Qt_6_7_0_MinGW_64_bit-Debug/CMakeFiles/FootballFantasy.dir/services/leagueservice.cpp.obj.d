@@ -1,6 +1,6 @@
 CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: \
- D:\Projects\FootballFantasy\services\leagueservice.cpp \
- D:\Projects\FootballFantasy\services\leagueservice.h \
+ D:\projects\FootballFantasy\services\leagueservice.cpp \
+ D:\projects\FootballFantasy\services\leagueservice.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_algobase.h \
@@ -48,7 +48,7 @@ CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
- D:/Projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/player.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stringfwd.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/char_traits.h \
@@ -127,9 +127,9 @@ CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/exception \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/exception_ptr.h \
@@ -137,14 +137,14 @@ CMakeFiles/FootballFantasy.dir/services/leagueservice.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
- D:/Projects/FootballFantasy/models/fantasyleague.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:/Projects/FootballFantasy/services/playersservice.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:/projects/FootballFantasy/models/fantasyleague.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/services/playersservice.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/player.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/assert.h \

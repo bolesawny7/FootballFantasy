@@ -1,5 +1,5 @@
-D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_login.cpp: D:/Projects/FootballFantasy/login.h \
-  D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_login.cpp: D:/projects/FootballFantasy/login.h \
+  D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -468,13 +468,13 @@ D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFa
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
-  D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
-  D:/Projects/FootballFantasy/models/footballer.h \
-  D:/Projects/FootballFantasy/models/player.h \
-  D:/Projects/FootballFantasy/models/user.h \
-  D:/Projects/FootballFantasy/services/auth.h \
-  D:/Projects/FootballFantasy/services/playersservice.h \
-  D:/Projects/FootballFantasy/services/userservice.h
+  D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/player.h \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/auth.h \
+  D:/projects/FootballFantasy/services/playersservice.h \
+  D:/projects/FootballFantasy/services/userservice.h

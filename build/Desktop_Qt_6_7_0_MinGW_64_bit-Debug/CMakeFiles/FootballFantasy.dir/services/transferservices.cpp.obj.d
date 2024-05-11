@@ -1,7 +1,7 @@
 CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: \
- D:\Projects\FootballFantasy\services\transferservices.cpp \
- D:\Projects\FootballFantasy\services\transferservices.h \
- D:/Projects/FootballFantasy/models/footballer.h \
+ D:\projects\FootballFantasy\services\transferservices.cpp \
+ D:\projects\FootballFantasy\services\transferservices.h \
+ D:/projects/FootballFantasy/models/footballer.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -273,23 +273,23 @@ CMakeFiles/FootballFantasy.dir/services/transferservices.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Projects/FootballFantasy/services/fileservices.h \
- D:/Projects/FootballFantasy/models/team.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/league.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
- D:/Projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/services/fileservices.h \
+ D:/projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/league.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:/projects/FootballFantasy/models/team.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_map.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
- D:/Projects/FootballFantasy/models/league.h \
+ D:/projects/FootballFantasy/models/league.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QtCore \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QtCoreDepends \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qglobal.h \

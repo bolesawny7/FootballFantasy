@@ -1,6 +1,6 @@
 CMakeFiles/FootballFantasy.dir/models/team.cpp.obj: \
- D:\Projects\FootballFantasy\models\team.cpp \
- D:\Projects\FootballFantasy\models\team.h \
+ D:\projects\FootballFantasy\models\team.cpp \
+ D:\projects\FootballFantasy\models\team.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -113,4 +113,4 @@ CMakeFiles/FootballFantasy.dir/models/team.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- D:\Projects\FootballFantasy\models\footballer.h
+ D:\projects\FootballFantasy\models\footballer.h

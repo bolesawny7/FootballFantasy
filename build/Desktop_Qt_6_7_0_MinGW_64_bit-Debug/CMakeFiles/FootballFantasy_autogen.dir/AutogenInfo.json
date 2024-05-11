@@ -1,16 +1,16 @@
 {
-	"BUILD_DIR" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen",
-	"CMAKE_BINARY_DIR" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/Projects/FootballFantasy",
+	"BUILD_DIR" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen",
+	"CMAKE_BINARY_DIR" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/projects/FootballFantasy",
 	"CMAKE_EXECUTABLE" : "C:/Qt/Tools/CMake_64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/Projects/FootballFantasy/CMakeLists.txt",
-		"D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
+		"D:/projects/FootballFantasy/CMakeLists.txt",
+		"D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystem.cmake.in",
-		"D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
+		"D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeMinGWFindMake.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
@@ -62,7 +62,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Compiler/GNU-FindBinUtils.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -77,7 +77,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in",
-		"D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake",
+		"D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeRCCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake",
@@ -93,7 +93,7 @@
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in",
-		"D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
+		"D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/3.27.7/CMakeCXXCompiler.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake",
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake",
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6/Qt6ConfigVersionImpl.cmake",
@@ -314,173 +314,173 @@
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.7.0/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginAdditionalTargetInfo.cmake",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
-		"D:/Projects/FootballFantasy/assets.qrc"
+		"D:/projects/FootballFantasy/assets.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/Projects/FootballFantasy",
+	"CMAKE_SOURCE_DIR" : "D:/projects/FootballFantasy",
 	"DEP_FILE" : "",
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
 		[
-			"D:/Projects/FootballFantasy/adminmenu.h",
+			"D:/projects/FootballFantasy/adminmenu.h",
 			"MU",
 			"EWIEGA46WW/moc_adminmenu.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/favleague.h",
+			"D:/projects/FootballFantasy/favleague.h",
 			"MU",
 			"EWIEGA46WW/moc_favleague.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/home.h",
+			"D:/projects/FootballFantasy/home.h",
 			"MU",
 			"EWIEGA46WW/moc_home.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/login.h",
+			"D:/projects/FootballFantasy/login.h",
 			"MU",
 			"EWIEGA46WW/moc_login.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/mainwindow.h",
+			"D:/projects/FootballFantasy/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/fantasyleague.h",
+			"D:/projects/FootballFantasy/models/fantasyleague.h",
 			"MU",
 			"IVK4DJNV27/moc_fantasyleague.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/fixture.h",
+			"D:/projects/FootballFantasy/models/fixture.h",
 			"MU",
 			"IVK4DJNV27/moc_fixture.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/footballer.h",
+			"D:/projects/FootballFantasy/models/footballer.h",
 			"MU",
 			"IVK4DJNV27/moc_footballer.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/league.h",
+			"D:/projects/FootballFantasy/models/league.h",
 			"MU",
 			"IVK4DJNV27/moc_league.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/player.h",
+			"D:/projects/FootballFantasy/models/player.h",
 			"MU",
 			"IVK4DJNV27/moc_player.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/team.h",
+			"D:/projects/FootballFantasy/models/team.h",
 			"MU",
 			"IVK4DJNV27/moc_team.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/models/user.h",
+			"D:/projects/FootballFantasy/models/user.h",
 			"MU",
 			"IVK4DJNV27/moc_user.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/myteam.h",
+			"D:/projects/FootballFantasy/myteam.h",
 			"MU",
 			"EWIEGA46WW/moc_myteam.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/searching.h",
+			"D:/projects/FootballFantasy/searching.h",
 			"MU",
 			"EWIEGA46WW/moc_searching.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/adminservices.h",
+			"D:/projects/FootballFantasy/services/adminservices.h",
 			"MU",
 			"3BYFHCGL5U/moc_adminservices.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/auth.h",
+			"D:/projects/FootballFantasy/services/auth.h",
 			"MU",
 			"3BYFHCGL5U/moc_auth.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/fileservices.h",
+			"D:/projects/FootballFantasy/services/fileservices.h",
 			"MU",
 			"3BYFHCGL5U/moc_fileservices.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/leagueservice.h",
+			"D:/projects/FootballFantasy/services/leagueservice.h",
 			"MU",
 			"3BYFHCGL5U/moc_leagueservice.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/playersservice.h",
+			"D:/projects/FootballFantasy/services/playersservice.h",
 			"MU",
 			"3BYFHCGL5U/moc_playersservice.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/transferservices.h",
+			"D:/projects/FootballFantasy/services/transferservices.h",
 			"MU",
 			"3BYFHCGL5U/moc_transferservices.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/services/userservice.h",
+			"D:/projects/FootballFantasy/services/userservice.h",
 			"MU",
 			"3BYFHCGL5U/moc_userservice.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/signup.h",
+			"D:/projects/FootballFantasy/signup.h",
 			"MU",
 			"EWIEGA46WW/moc_signup.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/teamandpos.h",
+			"D:/projects/FootballFantasy/teamandpos.h",
 			"MU",
 			"EWIEGA46WW/moc_teamandpos.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/updatepoints.h",
+			"D:/projects/FootballFantasy/updatepoints.h",
 			"MU",
 			"EWIEGA46WW/moc_updatepoints.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/updateprice.h",
+			"D:/projects/FootballFantasy/updateprice.h",
 			"MU",
 			"EWIEGA46WW/moc_updateprice.cpp",
 			null
 		],
 		[
-			"D:/Projects/FootballFantasy/utils/fantasycontext.h",
+			"D:/projects/FootballFantasy/utils/fantasycontext.h",
 			"MU",
 			"7HEHEGDA3T/moc_fantasycontext.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -536,56 +536,56 @@
 		"-c",
 		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
-	"PARALLEL" : 6,
-	"PARSE_CACHE_FILE" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/ParseCache.txt",
+	"PARALLEL" : 4,
+	"PARSE_CACHE_FILE" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "C:/Qt/6.7.0/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 7,
-	"SETTINGS_FILE" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/CMakeFiles/FootballFantasy_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
 		[
-			"D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp",
+			"D:/projects/FootballFantasy/Structs/FootballerStruct.cpp",
 			"MU",
 			null
 		],
-		[ "D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/adminmenu.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/favleague.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/home.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/login.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/main.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/mainwindow.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/fantasyleague.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/fixture.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/footballer.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/league.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/player.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/team.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/models/user.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/myteam.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/searching.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/services/adminservices.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/services/auth.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/services/fileservices.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/services/leagueservice.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/services/playersservice.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/Structs/PlayerStruct.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/adminmenu.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/favleague.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/home.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/login.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/main.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/mainwindow.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/fantasyleague.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/fixture.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/footballer.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/league.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/player.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/team.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/models/user.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/myteam.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/searching.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/adminservices.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/auth.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/fileservices.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/leagueservice.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/services/playersservice.cpp", "MU", null ],
 		[
-			"D:/Projects/FootballFantasy/services/transferservices.cpp",
+			"D:/projects/FootballFantasy/services/transferservices.cpp",
 			"MU",
 			null
 		],
-		[ "D:/Projects/FootballFantasy/services/userservice.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/signup.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/teamandpos.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/updatepoints.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/updateprice.cpp", "MU", null ],
-		[ "D:/Projects/FootballFantasy/utils/fantasycontext.cpp", "MU", null ]
+		[ "D:/projects/FootballFantasy/services/userservice.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/signup.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/teamandpos.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/updatepoints.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/updateprice.cpp", "MU", null ],
+		[ "D:/projects/FootballFantasy/utils/fantasycontext.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

@@ -1369,8 +1369,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-		"source" : "D:/Projects/FootballFantasy"
+		"build" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/projects/FootballFantasy"
 	},
 	"version" : 
 	{

@@ -1,6 +1,6 @@
 CMakeFiles/FootballFantasy.dir/updatepoints.cpp.obj: \
- D:\Projects\FootballFantasy\updatepoints.cpp \
- D:\Projects\FootballFantasy\updatepoints.h \
+ D:\projects\FootballFantasy\updatepoints.cpp \
+ D:\projects\FootballFantasy\updatepoints.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -361,7 +361,7 @@ CMakeFiles/FootballFantasy.dir/updatepoints.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
- D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_updatepoints.h \
+ D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_updatepoints.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
@@ -412,19 +412,19 @@ CMakeFiles/FootballFantasy.dir/updatepoints.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qabstractbutton.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/services/adminservices.h \
- D:/Projects/FootballFantasy/models/league.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
- D:/Projects/FootballFantasy/models/team.h \
- D:/Projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/services/adminservices.h \
+ D:/projects/FootballFantasy/models/league.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:/projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/models/footballer.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h \
- D:/Projects/FootballFantasy/services/transferservices.h \
- D:/Projects/FootballFantasy/adminmenu.h
+ D:/projects/FootballFantasy/services/transferservices.h \
+ D:/projects/FootballFantasy/adminmenu.h

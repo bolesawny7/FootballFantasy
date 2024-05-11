@@ -34,6 +34,14 @@ void teamandpos::on_pushButton_clicked()
         points.setModal(true);
         close();
         points.exec();
+    }else{
+        updateprice price;
+        price.setModal(true);
+        close();
+        price.exec();
     }
 }
+
+
+
 

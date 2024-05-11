@@ -7,6 +7,8 @@
 #include "./home.h"
 #include "utils/fantasycontext.h"
 #include "services/fileservices.h"
+#include "./services/leagueservice.h"
+#include "./services/playersservice.h"
 #include "login.h"
 myteam::myteam(QWidget *parent)
     : QDialog(parent)
@@ -23,6 +25,7 @@ myteam::myteam(QWidget *parent)
     Player activePlayer = FantasyContext::getActivePlayer();
 
     int sum = 0;
+
 
     for(int i=0;i<FantasyContext::getActivePlayer().getFantasyTeamFootballers().size();i++)
     {
@@ -94,8 +97,74 @@ myteam::myteam(QWidget *parent)
             }
         }
     }
-    ui->TotalPoints->setText(QString::number(sum));
 
+    int playerGameweekPoints = 0;
+    int maxGameweekPoints = 0;
+    string nameOfHigherGameweekPoints = "";
+    int maxtotalPoints = 0;
+    string nameOfTotalPoints = "";
+    vector <Player> allPlayers = Playersservice::getPlayers();
+    for(auto player: allPlayers){
+        int sum2 = 0;
+        for(int i=0;i<player.getFantasyTeamFootballers().size();i++)
+        {
+
+            for(auto newPlayer:goalkeepers){
+                if(player.getFantasyTeamFootballers()[i].getFootballerName() == newPlayer.getFootballerName()){
+                    player.getFantasyTeamFootballers()[i].gameweekPoints = newPlayer.getGameWeekPoints();
+                    sum2 += newPlayer.getGameWeekPoints();
+                }
+            }
+
+            for(auto newPlayer:defenders){
+                if(player.getFantasyTeamFootballers()[i].getFootballerName()==newPlayer.getFootballerName()){
+                    player.getFantasyTeamFootballers()[i]=newPlayer;
+
+                    if (i == 1)
+                    {
+                        sum2 += newPlayer.getGameWeekPoints();
+                    } else if (i == 2) {
+                        sum2 += newPlayer.getGameWeekPoints();
+                    } else if (i == 3) {
+
+                        sum2 += newPlayer.getGameWeekPoints();
+                    }
+                }
+            }
+            for(auto newPlayer:midfielders){
+                if(player.getFantasyTeamFootballers()[i].getFootballerName()==newPlayer.getFootballerName()){
+                    player.getFantasyTeamFootballers()[i]=newPlayer;
+                    if (i == 4)
+                    {
+                        sum2 += newPlayer.getGameWeekPoints();
+                    } else if (i == 5) {
+                        sum2 += newPlayer.getGameWeekPoints();
+                    }
+
+                }
+            }
+            for(auto newPlayer:attackers){
+                if(player.getFantasyTeamFootballers()[i].getFootballerName()==newPlayer.getFootballerName()){
+                    player.getFantasyTeamFootballers()[i]=newPlayer;
+                    if (i == 6)
+                    {
+                        sum2 += newPlayer.getGameWeekPoints();
+                    }
+                }
+            }
+        }
+        if(maxGameweekPoints < sum2){
+            nameOfHigherGameweekPoints = player.getUserName() ;
+             maxGameweekPoints = sum2;
+        }
+
+    }
+\
+    ui->TotalPoints->setText(QString::number(sum));
+    ui->higherGameWeekName->setText(QString::fromStdString(nameOfHigherGameweekPoints));
+    ui->higherGameWeekPoints->setText(QString::number(maxGameweekPoints));
+    // ui->totalPointsName->setText(QString::fromStdString(nameOfTotalPoints));
+    // ui->totalPoints->setText(QString::number(maxtotalPoints));
 }
 
 myteam::~myteam()

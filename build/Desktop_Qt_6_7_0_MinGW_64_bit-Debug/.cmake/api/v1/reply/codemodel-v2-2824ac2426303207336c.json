@@ -42,7 +42,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "FootballFantasy::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-FootballFantasy-Debug-9d72778f28d1491a9315.json",
+					"jsonFile" : "target-FootballFantasy-Debug-53c2f642a2ae48fb6585.json",
 					"name" : "FootballFantasy",
 					"projectIndex" : 0
 				},
@@ -59,8 +59,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
-		"source" : "D:/Projects/FootballFantasy"
+		"build" : "D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug",
+		"source" : "D:/projects/FootballFantasy"
 	},
 	"version" : 
 	{

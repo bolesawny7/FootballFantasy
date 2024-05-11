@@ -1,5 +1,6 @@
-D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_updateprice.cpp: D:/Projects/FootballFantasy/updateprice.h \
-  D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/EWIEGA46WW/moc_updateprice.cpp: D:/projects/FootballFantasy/updateprice.h \
+  D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/moc_predefs.h \
+  C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20functional.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20memory.h \
   C:/Qt/6.7.0/mingw_64/include/QtCore/q20type_traits.h \
@@ -347,4 +348,14 @@ D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFa
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
-  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h
+  C:/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
+  D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+  D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+  D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+  D:/projects/FootballFantasy/models/footballer.h \
+  D:/projects/FootballFantasy/models/league.h \
+  D:/projects/FootballFantasy/models/player.h \
+  D:/projects/FootballFantasy/models/team.h \
+  D:/projects/FootballFantasy/models/user.h \
+  D:/projects/FootballFantasy/services/adminservices.h

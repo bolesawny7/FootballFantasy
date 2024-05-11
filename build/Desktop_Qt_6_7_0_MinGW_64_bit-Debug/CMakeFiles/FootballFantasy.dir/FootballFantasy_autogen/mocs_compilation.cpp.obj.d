@@ -1,7 +1,7 @@
 CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj: \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\mocs_compilation.cpp \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_adminmenu.cpp \
- D:/Projects/FootballFantasy/adminmenu.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\mocs_compilation.cpp \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_adminmenu.cpp \
+ D:/projects/FootballFantasy/adminmenu.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -363,24 +363,24 @@ CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj:
  C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qtmochelpers.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_favleague.cpp \
- D:/Projects/FootballFantasy/favleague.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_home.cpp \
- D:/Projects/FootballFantasy/home.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_login.cpp \
- D:/Projects/FootballFantasy/login.h \
- D:/Projects/FootballFantasy/services/auth.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/services/userservice.h \
- D:/Projects/FootballFantasy/services/playersservice.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_favleague.cpp \
+ D:/projects/FootballFantasy/favleague.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_home.cpp \
+ D:/projects/FootballFantasy/home.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_login.cpp \
+ D:/projects/FootballFantasy/login.h \
+ D:/projects/FootballFantasy/services/auth.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/services/userservice.h \
+ D:/projects/FootballFantasy/services/playersservice.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cfloat \
@@ -502,23 +502,29 @@ CMakeFiles/FootballFantasy.dir/FootballFantasy_autogen/mocs_compilation.cpp.obj:
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/fs_ops.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/memory_resource \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/uses_allocator_args.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- D:/Projects/FootballFantasy/mainwindow.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ D:/projects/FootballFantasy/mainwindow.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtabwidget.h \
- D:/Projects/FootballFantasy/login.h D:/Projects/FootballFantasy/signup.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_myteam.cpp \
- D:/Projects/FootballFantasy/myteam.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_searching.cpp \
- D:/Projects/FootballFantasy/searching.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_signup.cpp \
- D:/Projects/FootballFantasy/signup.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_teamandpos.cpp \
- D:/Projects/FootballFantasy/teamandpos.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_updatepoints.cpp \
- D:/Projects/FootballFantasy/updatepoints.h \
- D:\Projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_updateprice.cpp \
- D:/Projects/FootballFantasy/updateprice.h
+ D:/projects/FootballFantasy/login.h D:/projects/FootballFantasy/signup.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_myteam.cpp \
+ D:/projects/FootballFantasy/myteam.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_searching.cpp \
+ D:/projects/FootballFantasy/searching.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_signup.cpp \
+ D:/projects/FootballFantasy/signup.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_teamandpos.cpp \
+ D:/projects/FootballFantasy/teamandpos.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_updatepoints.cpp \
+ D:/projects/FootballFantasy/updatepoints.h \
+ D:\projects\FootballFantasy\build\Desktop_Qt_6_7_0_MinGW_64_bit-Debug\FootballFantasy_autogen\EWIEGA46WW/moc_updateprice.cpp \
+ D:/projects/FootballFantasy/updateprice.h \
+ D:/projects/FootballFantasy/services/adminservices.h \
+ D:/projects/FootballFantasy/models/league.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/team.h \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
+ C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h

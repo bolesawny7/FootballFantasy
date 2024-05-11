@@ -1,6 +1,6 @@
 CMakeFiles/FootballFantasy.dir/adminmenu.cpp.obj: \
- D:\Projects\FootballFantasy\adminmenu.cpp \
- D:\Projects\FootballFantasy\adminmenu.h \
+ D:\projects\FootballFantasy\adminmenu.cpp \
+ D:\projects\FootballFantasy\adminmenu.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QDialog \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qdialog.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -361,7 +361,7 @@ CMakeFiles/FootballFantasy.dir/adminmenu.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qsizepolicy.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.7.0/mingw_64/include/QtGui/qbitmap.h \
- D:/Projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_adminmenu.h \
+ D:/projects/FootballFantasy/build/Desktop_Qt_6_7_0_MinGW_64_bit-Debug/FootballFantasy_autogen/include/ui_adminmenu.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QVariant \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qvariant.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QApplication \
@@ -400,27 +400,27 @@ CMakeFiles/FootballFantasy.dir/adminmenu.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qgridlayout.h \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/QWidget \
  C:/Qt/6.7.0/mingw_64/include/QtWidgets/qwidget.h \
- D:\Projects\FootballFantasy\services/Adminservices.h \
- D:/Projects/FootballFantasy/models/league.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
- D:/Projects/FootballFantasy/models/team.h \
- D:/Projects/FootballFantasy/models/footballer.h \
+ D:\projects\FootballFantasy\services/Adminservices.h \
+ D:/projects/FootballFantasy/models/league.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:/projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/models/footballer.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h \
- D:\Projects\FootballFantasy\teamandpos.h \
- D:\Projects\FootballFantasy\login.h \
- D:/Projects/FootballFantasy/services/auth.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/services/userservice.h \
- D:/Projects/FootballFantasy/services/playersservice.h \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/player.h \
+ D:\projects\FootballFantasy\teamandpos.h \
+ D:\projects\FootballFantasy\login.h \
+ D:/projects/FootballFantasy/services/auth.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/services/userservice.h \
+ D:/projects/FootballFantasy/services/playersservice.h \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/player.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/stdc++.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cassert \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cfloat \

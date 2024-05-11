@@ -1,7 +1,7 @@
 CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj: \
- D:\Projects\FootballFantasy\services\adminservices.cpp \
- D:\Projects\FootballFantasy\services\Adminservices.h \
- D:/Projects/FootballFantasy/models/league.h \
+ D:\projects\FootballFantasy\services\adminservices.cpp \
+ D:\projects\FootballFantasy\services\Adminservices.h \
+ D:/projects/FootballFantasy/models/league.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
@@ -109,15 +109,15 @@ CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/cerrno \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/charconv.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/basic_string.tcc \
- D:/Projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/player.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/vector \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_uninitialized.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_vector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_bvector.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/vector.tcc \
- D:/Projects/FootballFantasy/models/footballer.h \
- D:/Projects/FootballFantasy/models/user.h \
- D:/Projects/FootballFantasy/Structs/signupStruct.cpp \
+ D:/projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/user.h \
+ D:/projects/FootballFantasy/Structs/signupStruct.cpp \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/optional \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/utility \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_relops.h \
@@ -127,10 +127,10 @@ CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/typeinfo \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/nested_exception.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/enable_special_members.h \
- D:/Projects/FootballFantasy/Structs/loginStruct.cpp \
- D:/Projects/FootballFantasy/Structs/PlayerStruct.cpp \
- D:/Projects/FootballFantasy/Structs/FootballerStruct.cpp \
- D:/Projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/Structs/loginStruct.cpp \
+ D:/projects/FootballFantasy/Structs/PlayerStruct.cpp \
+ D:/projects/FootballFantasy/Structs/FootballerStruct.cpp \
+ D:/projects/FootballFantasy/models/team.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/map \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_tree.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ext/aligned_buffer.h \
@@ -142,7 +142,7 @@ CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj: \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/stl_multimap.h \
  C:/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/erase_if.h \
- D:/Projects/FootballFantasy/models/footballer.h \
+ D:/projects/FootballFantasy/models/footballer.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QString \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qchar.h \
@@ -286,11 +286,11 @@ CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj: \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstring.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstringconverter.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Projects/FootballFantasy/models/player.h \
- D:\Projects\FootballFantasy\services\fileservices.h \
- D:/Projects/FootballFantasy/models/team.h \
- D:/Projects/FootballFantasy/utils/fantasycontext.h \
- D:/Projects/FootballFantasy/models/player.h \
+ D:/projects/FootballFantasy/models/player.h \
+ D:\projects\FootballFantasy\services\fileservices.h \
+ D:/projects/FootballFantasy/models/team.h \
+ D:/projects/FootballFantasy/utils/fantasycontext.h \
+ D:/projects/FootballFantasy/models/player.h \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QtCore \
  C:/Qt/6.7.0/mingw_64/include/QtCore/QtCoreDepends \
  C:/Qt/6.7.0/mingw_64/include/QtCore/qglobal.h \
