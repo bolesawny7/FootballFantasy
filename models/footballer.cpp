@@ -2,9 +2,10 @@
 #include "team.h"
 
 /*-> constructor <-*/
-Footballer::Footballer(string name, float price, string position, string teamName): footballerId(idCounter++){
+Footballer::Footballer(string name,int points, float price, string position, string teamName): footballerId(idCounter++){
     this->Name=name;
     this->Price=price;
+    this->gameweekPoints= points;
     this->Position=position;
     this->teamName = teamName;
 };

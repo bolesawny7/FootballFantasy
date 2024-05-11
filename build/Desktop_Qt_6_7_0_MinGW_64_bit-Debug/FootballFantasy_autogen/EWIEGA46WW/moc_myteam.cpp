@@ -36,9 +36,9 @@ namespace {
 struct qt_meta_stringdata_CLASSmyteamENDCLASS_t {};
 constexpr auto qt_meta_stringdata_CLASSmyteamENDCLASS = QtMocHelpers::stringData(
     "myteam",
-    "on_save_clicked",
+    "on_LeaguesButton_clicked",
     "",
-    "on_LeaguesButton_clicked"
+    "on_pushButton_clicked"
 );
 #else  // !QT_MOC_HAS_STRINGDATA
 #error "qtmochelpers.h not found or too old."
@@ -78,9 +78,9 @@ Q_CONSTINIT const QMetaObject myteam::staticMetaObject = { {
     qt_incomplete_metaTypeArray<qt_meta_stringdata_CLASSmyteamENDCLASS_t,
         // Q_OBJECT / Q_GADGET
         QtPrivate::TypeAndForceComplete<myteam, std::true_type>,
-        // method 'on_save_clicked'
-        QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_LeaguesButton_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_pushButton_clicked'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -92,8 +92,8 @@ void myteam::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void
         auto *_t = static_cast<myteam *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->on_save_clicked(); break;
-        case 1: _t->on_LeaguesButton_clicked(); break;
+        case 0: _t->on_LeaguesButton_clicked(); break;
+        case 1: _t->on_pushButton_clicked(); break;
         default: ;
         }
     }

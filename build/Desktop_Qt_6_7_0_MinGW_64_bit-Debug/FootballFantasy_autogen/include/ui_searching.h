@@ -24,11 +24,12 @@ QT_BEGIN_NAMESPACE
 class Ui_searching
 {
 public:
+    QComboBox *comboBox;
     QWidget *formLayoutWidget;
     QFormLayout *formLayout;
     QLabel *searchLabel;
     QLineEdit *searchLineEdit;
-    QComboBox *comboBox;
+    QPushButton *addPlayer;
     QPushButton *pushButton;
 
     void setupUi(QDialog *searching)
@@ -39,9 +40,12 @@ public:
         searching->setStyleSheet(QString::fromUtf8("searching{\n"
 "background-image: url(:/background/fantasy.png);\n"
 "}"));
+        comboBox = new QComboBox(searching);
+        comboBox->setObjectName("comboBox");
+        comboBox->setGeometry(QRect(240, 190, 771, 28));
         formLayoutWidget = new QWidget(searching);
         formLayoutWidget->setObjectName("formLayoutWidget");
-        formLayoutWidget->setGeometry(QRect(240, 30, 771, 31));
+        formLayoutWidget->setGeometry(QRect(240, 150, 771, 31));
         formLayout = new QFormLayout(formLayoutWidget);
         formLayout->setObjectName("formLayout");
         formLayout->setContentsMargins(0, 0, 0, 0);
@@ -55,12 +59,12 @@ public:
 
         formLayout->setWidget(0, QFormLayout::FieldRole, searchLineEdit);
 
-        comboBox = new QComboBox(searching);
-        comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(240, 70, 771, 28));
+        addPlayer = new QPushButton(searching);
+        addPlayer->setObjectName("addPlayer");
+        addPlayer->setGeometry(QRect(450, 280, 351, 51));
         pushButton = new QPushButton(searching);
         pushButton->setObjectName("pushButton");
-        pushButton->setGeometry(QRect(1020, 30, 91, 29));
+        pushButton->setGeometry(QRect(1020, 150, 91, 29));
 
         retranslateUi(searching);
 
@@ -71,6 +75,7 @@ public:
     {
         searching->setWindowTitle(QCoreApplication::translate("searching", "Dialog", nullptr));
         searchLabel->setText(QCoreApplication::translate("searching", "search", nullptr));
+        addPlayer->setText(QCoreApplication::translate("searching", "add player", nullptr));
         pushButton->setText(QCoreApplication::translate("searching", "search", nullptr));
     } // retranslateUi
 

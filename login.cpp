@@ -3,6 +3,8 @@
 #include "signup.h"
 #include "home.h"
 #include "myteam.h"
+#include "adminmenu.h"
+#include "./utils/fantasycontext.h"
 #include <iostream>
 using namespace std;
 
@@ -24,11 +26,20 @@ void Login::on_loginButton_clicked()
     loginStruct loginDto;
     loginDto.email = ui->emailLineEdit->text().toStdString();
     loginDto.password = ui->passwordLineEdit->text().toStdString();
-    if(auth.login(loginDto) == 1){
+    if(auth.login(loginDto) == 0){
+        qDebug() << QString::fromStdString(FantasyContext::getActivePlayer().fantasyTeamFootballers[0].getFootballerName());
         myteam team;
         team.setModal(true);
         close();
         team.exec();
+    } else if (auth.login(loginDto) == 1){
+        //for admin
+        adminmenu admin;
+        admin.setModal(true);
+        close();
+        admin.exec();
+    } else {
+        cout << "Invalid email or password" << endl;
     }
 }
 

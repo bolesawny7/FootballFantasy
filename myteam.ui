@@ -56,7 +56,7 @@ background-color: rgb(0, 255, 135);
 border-radius-top: 20px;</string>
       </property>
       <property name="text">
-       <string>transfers</string>
+       <string>Transfers</string>
       </property>
      </widget>
     </item>
@@ -78,14 +78,14 @@ border-radius-top: 20px;</string>
   <widget class="QWidget" name="formLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>570</x>
+     <x>580</x>
      <y>60</y>
-     <width>171</width>
-     <height>57</height>
+     <width>181</width>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="goalkeeperLabel">
       <property name="text">
        <string>goalkeeper</string>
@@ -93,21 +93,48 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="goalkeeperComboBox"/>
+     <widget class="QLineEdit" name="pl0points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl0">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
   <widget class="QWidget" name="formLayoutWidget_3">
    <property name="geometry">
     <rect>
-     <x>550</x>
+     <x>570</x>
      <y>210</y>
-     <width>171</width>
-     <height>57</height>
+     <width>191</width>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="secondndDefenderLabel">
       <property name="text">
        <string>defender</string>
@@ -115,7 +142,34 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="secondDefenderComboBox"/>
+     <widget class="QLineEdit" name="pl2points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl2">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -123,13 +177,13 @@ border-radius-top: 20px;</string>
    <property name="geometry">
     <rect>
      <x>890</x>
-     <y>210</y>
-     <width>171</width>
-     <height>57</height>
+     <y>260</y>
+     <width>191</width>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_4">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="thirdDefenderLabel">
       <property name="text">
        <string>defender</string>
@@ -137,7 +191,34 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="thirdDefenderComboBox"/>
+     <widget class="QLineEdit" name="pl3points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl3">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -145,13 +226,13 @@ border-radius-top: 20px;</string>
    <property name="geometry">
     <rect>
      <x>720</x>
-     <y>340</y>
+     <y>410</y>
      <width>171</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_6">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="secondMidfielderLabel">
       <property name="text">
        <string>midfielder</string>
@@ -159,7 +240,35 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="secondMidfielderComboBox"/>
+     <widget class="QLineEdit" name="pl5points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl5">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
@@ -167,13 +276,13 @@ border-radius-top: 20px;</string>
    <property name="geometry">
     <rect>
      <x>390</x>
-     <y>340</y>
+     <y>410</y>
      <width>191</width>
-     <height>61</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_5">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="firstMidfielderLabel">
       <property name="text">
        <string>midfielder</string>
@@ -181,21 +290,48 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="firststMidfielderComboBox"/>
+     <widget class="QLineEdit" name="pl4points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl4">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>
   <widget class="QWidget" name="formLayoutWidget_7">
    <property name="geometry">
     <rect>
-     <x>580</x>
-     <y>500</y>
+     <x>570</x>
+     <y>550</y>
      <width>201</width>
-     <height>57</height>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_7">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="attackerLabel">
       <property name="text">
        <string>attacker</string>
@@ -203,34 +339,48 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="attackerComboBox"/>
+     <widget class="QLineEdit" name="pl6points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="pl6">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
-  </widget>
-  <widget class="QPushButton" name="save">
-   <property name="geometry">
-    <rect>
-     <x>1180</x>
-     <y>70</y>
-     <width>83</width>
-     <height>29</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>save team</string>
-   </property>
   </widget>
   <widget class="QWidget" name="formLayoutWidget_2">
    <property name="geometry">
     <rect>
-     <x>230</x>
-     <y>210</y>
-     <width>201</width>
-     <height>57</height>
+     <x>220</x>
+     <y>260</y>
+     <width>191</width>
+     <height>80</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_2">
-    <item>
+    <item alignment="Qt::AlignHCenter">
      <widget class="QLabel" name="firstDefenderLabel">
       <property name="text">
        <string>defender</string>
@@ -238,29 +388,34 @@ border-radius-top: 20px;</string>
      </widget>
     </item>
     <item>
-     <widget class="QComboBox" name="firstDefenderComboBox"/>
-    </item>
-   </layout>
-  </widget>
-  <widget class="QWidget" name="formLayoutWidget_8">
-   <property name="geometry">
-    <rect>
-     <x>10</x>
-     <y>60</y>
-     <width>331</width>
-     <height>61</height>
-    </rect>
-   </property>
-   <layout class="QFormLayout" name="formLayout">
-    <item row="0" column="0">
-     <widget class="QLabel" name="fantasyTeamNameLabel">
-      <property name="text">
-       <string>Fantasy Team Name</string>
+     <widget class="QLineEdit" name="pl1points">
+      <property name="styleSheet">
+       <string notr="true"> text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+font-weight: bold;
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
       </property>
      </widget>
     </item>
-    <item row="0" column="1">
-     <widget class="QLineEdit" name="fantasyTeamNameLineEdit"/>
+    <item>
+     <widget class="QLineEdit" name="pl1">
+      <property name="styleSheet">
+       <string notr="true">font-weight: bold;	
+ text-align: center; 	
+	color: rgb(0, 0, 0);
+	border:none;
+	background-color: rgba(0, 0, 0, 0);
+</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
     </item>
    </layout>
   </widget>

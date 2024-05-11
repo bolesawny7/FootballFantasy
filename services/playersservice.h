@@ -11,13 +11,15 @@ private:
 public:
     /* -> constructor <-*/
     Playersservice();
-
+    vector<Footballer> searchWithPositionAndTeam();
+    void updateFootballerPrice(Footballer player,bool increase,bool deacrease);
     /* -> create <- */
-    static void setPlayers(vector<Player> players);
+    static void setPlayer(Player player);
     void addFootballerToTeam(int leagueId, string position, int footballerId, int playerId);
 
     /* -> read <- */
     static vector<Player> getPlayers();
+    bool findPlayer(loginStruct loginDto);
     Player getPlayer(int playerId);
     Footballer getFootballer(int leagueId, string position, int footballerId);
 
@@ -26,6 +28,7 @@ public:
     /* -> delete <- */
     void removePlayerFromTeam(int footballerId);
 
+    static void setPlayers(vector<Player> newPlayers);
 };
 
 #endif // PLAYERSSERVICE_H

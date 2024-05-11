@@ -6,6 +6,7 @@ class transferservices
 {
 public:
      static QString searchValue;
+    static int position;
     QString getSearchValue();
     void setSearchValue(QString position);
     transferservices();

@@ -4979,56 +4979,56 @@
   {
     "name": "Chong",
     "team": "Luton",
-    "points": 73,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Ugochukwu",
     "team": "Chelsea",
-    "points": 11,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Clark",
     "team": "Liverpool",
-    "points": 5,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "McConnell",
     "team": "Liverpool",
-    "points": 3,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Forson",
     "team": "Man Utd",
-    "points": 6,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Onyango",
     "team": "Everton",
-    "points": 1,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Brooks",
     "team": "Sheffield Utd",
-    "points": 22,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Oné",
     "team": "Sheffield Utd",
-    "points": 1,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
@@ -5042,14 +5042,14 @@
   {
     "name": "Chirewa",
     "team": "Wolves",
-    "points": 7,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
   {
     "name": "Peck",
     "team": "Sheffield Utd",
-    "points": 1,
+    "points": 0,
     "cost": "4.4",
     "position": "MF"
   },
@@ -5070,7 +5070,7 @@
   {
     "name": "Nakamba",
     "team": "Luton",
-    "points": 21,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
@@ -5091,42 +5091,42 @@
   {
     "name": "Baptiste",
     "team": "Brentford",
-    "points": 19,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Ahamada",
     "team": "Crystal Palace",
-    "points": 17,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Riedewald",
     "team": "Crystal Palace",
-    "points": 10,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Lukić",
     "team": "Fulham",
-    "points": 40,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Hannibal",
     "team": "Man Utd",
-    "points": 11,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Ritchie",
     "team": "Newcastle",
-    "points": 16,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
@@ -5154,21 +5154,21 @@
   {
     "name": "Boubacar Traore",
     "team": "Wolves",
-    "points": 23,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Doak",
     "team": "Liverpool",
-    "points": 1,
+    "points": 0,
     "cost": "4.3",
     "position": "MF"
   },
   {
     "name": "Yarmoliuk",
     "team": "Brentford",
-    "points": 30,
+    "points": 0,
     "cost": "4.2",
     "position": "MF"
   },
@@ -5182,35 +5182,35 @@
   {
     "name": "Andrey",
     "team": "Chelsea",
-    "points": 1,
+    "points": 0,
     "cost": "4.2",
     "position": "MF"
   },
   {
     "name": "Chukwuemeka",
     "team": "Chelsea",
-    "points": 16,
+    "points": 0,
     "cost": "4.2",
     "position": "MF"
   },
   {
     "name": "Pellistri",
     "team": "Man Utd",
-    "points": 13,
+    "points": 0,
     "cost": "4.2",
     "position": "MF"
   },
   {
     "name": "Anderson",
     "team": "Newcastle",
-    "points": 32,
+    "points": 0,
     "cost": "4.2",
     "position": "MF"
   },
   {
     "name": "Haaland",
     "team": "Man City",
-    "points": 179,
+    "points": 0,
     "cost": "14.1",
     "position": "ST"
   },
@@ -5224,84 +5224,84 @@
   {
     "name": "Watkins",
     "team": "Aston Villa",
-    "points": 219,
+    "points": 0,
     "cost": "9.0",
     "position": "ST"
   },
   {
     "name": "Isak",
     "team": "Newcastle",
-    "points": 147,
+    "points": 0,
     "cost": "8.3",
     "position": "ST"
   },
   {
     "name": "Toney",
     "team": "Brentford",
-    "points": 50,
+    "points": 0,
     "cost": "7.8",
     "position": "ST"
   },
   {
     "name": "Wilson",
     "team": "Newcastle",
-    "points": 63,
+    "points": 0,
     "cost": "7.8",
     "position": "ST"
   },
   {
     "name": "G.Jesus",
     "team": "Arsenal",
-    "points": 79,
+    "points": 0,
     "cost": "7.7",
     "position": "ST"
   },
   {
     "name": "Darwin",
     "team": "Liverpool",
-    "points": 129,
+    "points": 0,
     "cost": "7.6",
     "position": "ST"
   },
   {
     "name": "Mitrović",
     "team": "Fulham",
-    "points": 1,
+    "points": 0,
     "cost": "7.4",
     "position": "ST"
   },
   {
     "name": "Solanke",
     "team": "Bournemouth",
-    "points": 166,
+    "points": 0,
     "cost": "7.3",
     "position": "ST"
   },
   {
     "name": "Nkunku",
     "team": "Chelsea",
-    "points": 19,
+    "points": 0,
     "cost": "7.2",
     "position": "ST"
   },
   {
     "name": "Gakpo",
     "team": "Liverpool",
-    "points": 86,
+    "points": 0,
     "cost": "7.1",
     "position": "ST"
   },
   {
     "name": "Højlund",
     "team": "Man Utd",
-    "points": 95,
+    "points": 0,
     "cost": "7.1",
     "position": "ST"
   },
   {
     "name": "N.Jackson",
     "team": "Chelsea",
-    "points": 111,
+    "points": 0,
     "cost": "6.9",
     "position": "ST"
   },
@@ -5322,7 +5322,7 @@
   {
     "name": "J.Alvarez",
     "team": "Man City",
-    "points": 147,
+    "points": 0,
     "cost": "6.4",
     "position": "ST"
   },
@@ -5336,14 +5336,14 @@
   {
     "name": "Awoniyi",
     "team": "Nott'm Forest",
-    "points": 64,
+    "points": 0,
     "cost": "6.3",
     "position": "ST"
   },
   {
     "name": "Werner",
     "team": "Spurs",
-    "points": 46,
+    "points": 0,
     "cost": "6.3",
     "position": "ST"
   },
@@ -5357,49 +5357,49 @@
   {
     "name": "Calvert-Lewin",
     "team": "Everton",
-    "points": 87,
+    "points": 0,
     "cost": "5.8",
     "position": "ST"
   },
   {
     "name": "Wissa",
     "team": "Brentford",
-    "points": 110,
+    "points": 0,
     "cost": "5.7",
     "position": "ST"
   },
   {
     "name": "Ferguson",
     "team": "Brighton",
-    "points": 69,
+    "points": 0,
     "cost": "5.7",
     "position": "ST"
   },
   {
     "name": "Welbeck",
     "team": "Brighton",
-    "points": 66,
+    "points": 0,
     "cost": "5.7",
     "position": "ST"
   },
   {
     "name": "Antonio",
     "team": "West Ham",
-    "points": 72,
+    "points": 0,
     "cost": "5.7",
     "position": "ST"
   },
   {
     "name": "Beto",
     "team": "Everton",
-    "points": 48,
+    "points": 0,
     "cost": "5.7",
     "position": "ST"
   },
   {
     "name": "Cunha",
     "team": "Wolves",
-    "points": 126,
+    "points": 0,
     "cost": "5.6",
     "position": "ST"
   },
@@ -5427,84 +5427,84 @@
   {
     "name": "Ings",
     "team": "West Ham",
-    "points": 33,
+    "points": 0,
     "cost": "5.5",
     "position": "ST"
   },
   {
     "name": "McBurnie",
     "team": "Sheffield Utd",
-    "points": 66,
+    "points": 0,
     "cost": "5.4",
     "position": "ST"
   },
   {
     "name": "Veliz",
     "team": "Spurs",
-    "points": 11,
+    "points": 0,
     "cost": "5.4",
     "position": "ST"
   },
   {
     "name": "Rodriguez",
     "team": "Burnley",
-    "points": 40,
+    "points": 0,
     "cost": "5.3",
     "position": "ST"
   },
   {
     "name": "Edouard",
     "team": "Crystal Palace",
-    "points": 77,
+    "points": 0,
     "cost": "5.3",
     "position": "ST"
   },
   {
     "name": "João Pedro",
     "team": "Brighton",
-    "points": 92,
+    "points": 0,
     "cost": "5.2",
     "position": "ST"
   },
   {
     "name": "Fábio Silva",
     "team": "Wolves",
-    "points": 8,
+    "points": 0,
     "cost": "5.2",
     "position": "ST"
   },
   {
     "name": "Mateta",
     "team": "Crystal Palace",
-    "points": 130,
+    "points": 0,
     "cost": "5.1",
     "position": "ST"
   },
   {
     "name": "T.Bénie",
     "team": "Sheffield Utd",
-    "points": 11,
+    "points": 0,
     "cost": "5.1",
     "position": "ST"
   },
   {
     "name": "Amdouni",
     "team": "Burnley",
-    "points": 81,
+    "points": 0,
     "cost": "5.1",
     "position": "ST"
   },
   {
     "name": "Nketiah",
     "team": "Arsenal",
-    "points": 71,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
   {
     "name": "Duran",
     "team": "Aston Villa",
-    "points": 35,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
@@ -5518,28 +5518,28 @@
   {
     "name": "D.D.Fofana",
     "team": "Burnley",
-    "points": 48,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
   {
     "name": "Raúl",
     "team": "Fulham",
-    "points": 58,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
   {
     "name": "Origi",
     "team": "Nott'm Forest",
-    "points": 25,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
   {
     "name": "Enes Ünal",
     "team": "Bournemouth",
-    "points": 33,
+    "points": 0,
     "cost": "5.0",
     "position": "ST"
   },
@@ -5553,63 +5553,63 @@
   {
     "name": "Obafemi",
     "team": "Burnley",
-    "points": 2,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Broja",
     "team": "Fulham",
-    "points": 34,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Maupay",
     "team": "Brentford",
-    "points": 76,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Brewster",
     "team": "Sheffield Utd",
-    "points": 9,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Kalajdžić",
     "team": "Wolves",
-    "points": 24,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Brown",
     "team": "Luton",
-    "points": 39,
+    "points": 0,
     "cost": "4.9",
     "position": "ST"
   },
   {
     "name": "Adebayo",
     "team": "Luton",
-    "points": 81,
+    "points": 0,
     "cost": "4.8",
     "position": "ST"
   },
   {
     "name": "Morris",
     "team": "Luton",
-    "points": 138,
+    "points": 0,
     "cost": "4.8",
     "position": "ST"
   },
   {
     "name": "Ogbene",
     "team": "Luton",
-    "points": 75,
+    "points": 0,
     "cost": "4.8",
     "position": "ST"
   },
@@ -5623,7 +5623,7 @@
   {
     "name": "Wood",
     "team": "Nott'm Forest",
-    "points": 114,
+    "points": 0,
     "cost": "4.8",
     "position": "ST"
   },
@@ -5637,28 +5637,28 @@
   {
     "name": "Y. Chermiti",
     "team": "Everton",
-    "points": 13,
+    "points": 0,
     "cost": "4.8",
     "position": "ST"
   },
   {
     "name": "Foster",
     "team": "Burnley",
-    "points": 69,
+    "points": 0,
     "cost": "4.7",
     "position": "ST"
   },
   {
     "name": "Moore",
     "team": "Bournemouth",
-    "points": 14,
+    "points": 0,
     "cost": "4.6",
     "position": "ST"
   },
   {
     "name": "Semenyo",
     "team": "Bournemouth",
-    "points": 102,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5693,14 +5693,14 @@
   {
     "name": "Muniz",
     "team": "Fulham",
-    "points": 92,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "Vinícius",
     "team": "Fulham",
-    "points": 22,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5742,21 +5742,21 @@
   {
     "name": "Burstow",
     "team": "Chelsea",
-    "points": 2,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "Scarlett",
     "team": "Spurs",
-    "points": 2,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "Cannon",
     "team": "Everton",
-    "points": 1,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5784,14 +5784,14 @@
   {
     "name": "Deivid",
     "team": "Chelsea",
-    "points": 2,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "Fraser",
     "team": "Wolves",
-    "points": 7,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5812,21 +5812,21 @@
   {
     "name": "Donley",
     "team": "Spurs",
-    "points": 2,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "Parkinson",
     "team": "Newcastle",
-    "points": 1,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
   {
     "name": "O’Mahony",
     "team": "Brighton",
-    "points": 2,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5861,7 +5861,7 @@
   {
     "name": "Ribeiro",
     "team": "Nott'm Forest",
-    "points": 3,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5910,7 +5910,7 @@
   {
     "name": "Wheatley",
     "team": "Man Utd",
-    "points": 1,
+    "points": 0,
     "cost": "4.5",
     "position": "ST"
   },
@@ -5952,49 +5952,49 @@
   {
     "name": "Hackford",
     "team": "Sheffield Utd",
-    "points": 2,
+    "points": 0,
     "cost": "4.4",
     "position": "ST"
   },
   {
     "name": "Ndiweni",
     "team": "Newcastle",
-    "points": 1,
+    "points": 0,
     "cost": "4.4",
     "position": "ST"
   },
   {
     "name": "Woodrow",
     "team": "Luton",
-    "points": 30,
+    "points": 0,
     "cost": "4.3",
     "position": "ST"
   },
   {
     "name": "Osula",
     "team": "Sheffield Utd",
-    "points": 25,
+    "points": 0,
     "cost": "4.3",
     "position": "ST"
   },
   {
     "name": "Danns",
     "team": "Liverpool",
-    "points": 1,
+    "points": 0,
     "cost": "4.3",
     "position": "ST"
   },
   {
     "name": "Archer",
     "team": "Sheffield Utd",
-    "points": 76,
+    "points": 0,
     "cost": "4.2",
     "position": "ST"
   },
   {
     "name": "Mubama",
     "team": "West Ham",
-    "points": 5,
+    "points": 0,
     "cost": "4.1",
     "position": "ST"
   }

@@ -7,6 +7,7 @@
 #include "QString"
 #include "./models/league.h"
 #include "./services/fileservices.h"
+#include "./services/Adminservices.h"
 Signup::Signup(QWidget *parent)
     : QDialog(parent)
     , ui(new Ui::Signup)
@@ -19,6 +20,8 @@ Signup::Signup(QWidget *parent)
         ui->favouriteTeamComboBox->addItem(teamName);
     }
     files.loadFootballers();
+    ui->fantasyTeanNameLineEdit->setDisabled(false);
+
 }
 
 Signup::~Signup()
@@ -33,9 +36,9 @@ void Signup::on_signupButton_clicked()
     signupDto.userName = ui->userNameLineEdit->text().toStdString();
     signupDto.email = ui->eMailLineEdit->text().toStdString();
     signupDto.password = ui->passwordLineEdit->text().toStdString();
-    signupDto.gender = ui->genderComboBox->currentText().toStdString();
     signupDto.favTeam = ui->favouriteTeamComboBox->currentText().toStdString();
     signupDto.role = ui->roleComboBox->currentText().toStdString();
+    signupDto.fantasyTeamName = ui->fantasyTeanNameLineEdit->text().toStdString();
     auth.signup(signupDto);
 }
 
@@ -48,4 +51,15 @@ void Signup::on_loginPage_clicked()
 }
 
 
+
+
+void Signup::on_roleComboBox_textActivated(QString arg1)
+{
+    if(arg1 =="player"){
+        ui->fantasyTeanNameLineEdit->setDisabled(false);
+    }
+    else{
+        ui->fantasyTeanNameLineEdit->setDisabled(true);
+    }
+}
 

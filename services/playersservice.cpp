@@ -1,13 +1,36 @@
 #include "playersservice.h"
 #include <cassert>
 #include "../models/league.h"
+#include "../utils/fantasycontext.h"
 #include "./fileservices.h"
 using namespace std;
 
 vector <League> leagues = fileServices::getLeagues();
+void Playersservice::setPlayers(vector<Player> newPlayers)
+{
+    players = newPlayers;
+}
+
 Playersservice::Playersservice() {}
 
 vector<Player> Playersservice:: players;
+
+bool Playersservice:: findPlayer(loginStruct loginDto){
+    for(int i = 0; i < players.size(); i++){
+        cout << players[i].getEmail() << endl;
+    }
+    for(int i = 0; i < players.size(); i++){
+        cout << players[i].getEmail() << endl << loginDto.email << endl << loginDto.password << endl << players[i].getPassword() << endl;
+        if(players[i].getEmail() == loginDto.email){
+            if(players[i].getPassword() == loginDto.password){
+                FantasyContext::setActivePlayer(players[i],i);
+                return true;
+            }else
+                return false;
+        }
+    }
+    return false;
+}
 
 Player Playersservice:: getPlayer(int playerId){
     for(auto player: players)
@@ -15,6 +38,8 @@ Player Playersservice:: getPlayer(int playerId){
             return player;
     assert(true == 0);
 }
+
+
 
 Footballer Playersservice:: getFootballer(int leagueId, string position, int footballerId){
     // iterate 3 times
@@ -37,8 +62,8 @@ Footballer Playersservice:: getFootballer(int leagueId, string position, int foo
     assert(true == 0);
 }
 
-void Playersservice:: setPlayers(vector<Player> allplayers){
-    Playersservice:: players = allplayers;
+void Playersservice:: setPlayer(Player player){
+    Playersservice:: players.push_back(player);
 }
 vector<Player> Playersservice:: getPlayers(){
     return players;

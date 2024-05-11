@@ -1,25 +1,32 @@
 #include "player.h"
 #include "user.h"
 #include <cassert>
-
+#include <iostream>
+using namespace std;
 int Player::idCounter = 0;
 
 /* -> constructors & destructor <- */
-string Player::getFavleague() const
+string Player::getFavleague()
 {
     return favleague;
 }
 
-void Player::setFavleague(const string &newFavleague)
+void Player::setFavleague(string newFavleague)
 {
     favleague = newFavleague;
 }
 
-int Player::getTotalPoints() const
+int Player::getTotalPoints()
 {
     return totalpoints;
 }
-Player::Player(string fantasyTeamName) : User(signupStruct()), PlayerID(idCounter++), budget(150), fantasyTeamName(fantasyTeamName) {}
+Player::Player(signupStruct signupDto)
+    : User(signupDto), // Call User constructor with signupDto
+    fantasyTeamName(fantasyTeamName), PlayerID(++idCounter), budget(150) {
+    Footballer f1 = {"Null",0,1.5,"md","z"};
+    this->fantasyTeamFootballers = {f1,f1,f1,f1,f1,f1,f1};
+}
+
 Player::~Player() {
     setGameWeekPoints();
 }
@@ -65,3 +72,4 @@ vector<Footballer> Player::getFantasyTeamFootballers() {
 int Player:: getGameWeekPoints(){
     return gameWeekPoints;
 }
+

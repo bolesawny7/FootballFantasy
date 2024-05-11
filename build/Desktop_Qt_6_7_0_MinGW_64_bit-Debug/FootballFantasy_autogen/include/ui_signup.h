@@ -40,12 +40,12 @@ public:
     QLineEdit *eMailLineEdit;
     QLabel *passwordLabel;
     QLineEdit *passwordLineEdit;
-    QLabel *genderLabel;
-    QComboBox *genderComboBox;
     QLabel *favouriteTeamLabel;
     QComboBox *favouriteTeamComboBox;
     QLabel *roleLabel;
     QComboBox *roleComboBox;
+    QLabel *fantasyTeanNameLabel;
+    QLineEdit *fantasyTeanNameLineEdit;
 
     void setupUi(QDialog *Signup)
     {
@@ -135,39 +135,37 @@ public:
 
         formLayout->setWidget(2, QFormLayout::FieldRole, passwordLineEdit);
 
-        genderLabel = new QLabel(formLayoutWidget);
-        genderLabel->setObjectName("genderLabel");
-
-        formLayout->setWidget(3, QFormLayout::LabelRole, genderLabel);
-
-        genderComboBox = new QComboBox(formLayoutWidget);
-        genderComboBox->addItem(QString());
-        genderComboBox->addItem(QString());
-        genderComboBox->setObjectName("genderComboBox");
-
-        formLayout->setWidget(3, QFormLayout::FieldRole, genderComboBox);
-
         favouriteTeamLabel = new QLabel(formLayoutWidget);
         favouriteTeamLabel->setObjectName("favouriteTeamLabel");
 
-        formLayout->setWidget(4, QFormLayout::LabelRole, favouriteTeamLabel);
+        formLayout->setWidget(3, QFormLayout::LabelRole, favouriteTeamLabel);
 
         favouriteTeamComboBox = new QComboBox(formLayoutWidget);
         favouriteTeamComboBox->setObjectName("favouriteTeamComboBox");
 
-        formLayout->setWidget(4, QFormLayout::FieldRole, favouriteTeamComboBox);
+        formLayout->setWidget(3, QFormLayout::FieldRole, favouriteTeamComboBox);
 
         roleLabel = new QLabel(formLayoutWidget);
         roleLabel->setObjectName("roleLabel");
 
-        formLayout->setWidget(5, QFormLayout::LabelRole, roleLabel);
+        formLayout->setWidget(4, QFormLayout::LabelRole, roleLabel);
 
         roleComboBox = new QComboBox(formLayoutWidget);
         roleComboBox->addItem(QString());
         roleComboBox->addItem(QString());
         roleComboBox->setObjectName("roleComboBox");
 
-        formLayout->setWidget(5, QFormLayout::FieldRole, roleComboBox);
+        formLayout->setWidget(4, QFormLayout::FieldRole, roleComboBox);
+
+        fantasyTeanNameLabel = new QLabel(formLayoutWidget);
+        fantasyTeanNameLabel->setObjectName("fantasyTeanNameLabel");
+
+        formLayout->setWidget(5, QFormLayout::LabelRole, fantasyTeanNameLabel);
+
+        fantasyTeanNameLineEdit = new QLineEdit(formLayoutWidget);
+        fantasyTeanNameLineEdit->setObjectName("fantasyTeanNameLineEdit");
+
+        formLayout->setWidget(5, QFormLayout::FieldRole, fantasyTeanNameLineEdit);
 
         groupBox->raise();
         label->raise();
@@ -204,15 +202,12 @@ public:
         userNameLabel->setText(QCoreApplication::translate("Signup", "User name", nullptr));
         eMailLabel->setText(QCoreApplication::translate("Signup", "E-mail", nullptr));
         passwordLabel->setText(QCoreApplication::translate("Signup", "password", nullptr));
-        genderLabel->setText(QCoreApplication::translate("Signup", "Gender", nullptr));
-        genderComboBox->setItemText(0, QCoreApplication::translate("Signup", "male", nullptr));
-        genderComboBox->setItemText(1, QCoreApplication::translate("Signup", "female", nullptr));
-
         favouriteTeamLabel->setText(QCoreApplication::translate("Signup", "favourite Team", nullptr));
         roleLabel->setText(QCoreApplication::translate("Signup", "role", nullptr));
-        roleComboBox->setItemText(0, QCoreApplication::translate("Signup", "user", nullptr));
+        roleComboBox->setItemText(0, QCoreApplication::translate("Signup", "player", nullptr));
         roleComboBox->setItemText(1, QCoreApplication::translate("Signup", "admin", nullptr));
 
+        fantasyTeanNameLabel->setText(QCoreApplication::translate("Signup", "fantasy tean name", nullptr));
     } // retranslateUi
 
 };

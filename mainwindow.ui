@@ -22,8 +22,8 @@ background-image: url(:/background/fantasy.png);
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>370</y>
+      <x>460</x>
+      <y>260</y>
       <width>311</width>
       <height>171</height>
      </rect>
