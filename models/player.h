@@ -17,7 +17,7 @@ private:
     string favleague;
     int totalpoints;
 
-public:
+public:    
     vector<Footballer> fantasyTeamFootballers;
     Player(signupStruct signup);
     ~Player();

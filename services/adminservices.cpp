@@ -36,7 +36,7 @@ Footballer Adminservices::singlePlayerSearch(QString playerName){
     string s= Adminservices::searchingPos;
     vector<Footballer> thisposition=allplayers[s];
 
-    qDebug() <<thisposition[0].getFootballerName();
+    // qDebug() <<thisposition[0].getFootballerName();
     for(auto myplayer:thisposition)
     {
         QString name=QString::fromStdString(myplayer.getFootballerName());
@@ -56,16 +56,9 @@ void Adminservices::updateFootballer(Footballer player){
         // qDebug() <<name<<playerName;
         if(thisposition[i].getFootballerName()==player.getFootballerName()){
             thisposition[i]=player;
-            qDebug() <<thisposition[i].getGameWeekPoints();
+            // qDebug() <<thisposition[i].getGameWeekPoints();
             break;
         }
-    }
-    for(auto myplayer:thisposition)
-    {
-        // qDebug() <<name<<playerName;
-            qDebug() <<myplayer.getFootballerName();
-            qDebug() <<myplayer.getGameWeekPoints();
-
     }
     fileServices::favLeague.footballers[s]=thisposition;
 
@@ -182,7 +175,7 @@ void Adminservices:: updateFootballerPoints(Footballer player ,string action){
             player.setGameWeekPoints(player.getGameWeekPoints()-3);
         }
     }
-    qDebug() <<player.getGameWeekPoints();
+    // qDebug() <<player.getGameWeekPoints();
     this->updateFootballer(player);
 }
 

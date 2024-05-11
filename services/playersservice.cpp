@@ -24,6 +24,7 @@ bool Playersservice:: findPlayer(loginStruct loginDto){
         if(players[i].getEmail() == loginDto.email){
             if(players[i].getPassword() == loginDto.password){
                 FantasyContext::setActivePlayer(players[i],i);
+
                 return true;
             }else
                 return false;

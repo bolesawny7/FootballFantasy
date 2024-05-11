@@ -92,7 +92,7 @@ map <string, vector<Footballer>>  fileServices::loadFootballers(){
     if(file.open(QIODevice::ReadOnly)){
         QByteArray Bytes = file.readAll();
         file.close();
-        qDebug()<<"here";
+        // qDebug()<<"here";
         QJsonParseError JsonError;
         QJsonDocument Document =QJsonDocument::fromJson(Bytes, &JsonError);
 

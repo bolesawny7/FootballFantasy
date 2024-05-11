@@ -282,6 +282,30 @@ Structs/PlayerStruct.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/Structs/PlayerStruct.cpp.s
 .PHONY : Structs/PlayerStruct.cpp.s
 
+adminmenu.obj: adminmenu.cpp.obj
+.PHONY : adminmenu.obj
+
+# target to build an object file
+adminmenu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/adminmenu.cpp.obj
+.PHONY : adminmenu.cpp.obj
+
+adminmenu.i: adminmenu.cpp.i
+.PHONY : adminmenu.i
+
+# target to preprocess a source file
+adminmenu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/adminmenu.cpp.i
+.PHONY : adminmenu.cpp.i
+
+adminmenu.s: adminmenu.cpp.s
+.PHONY : adminmenu.s
+
+# target to generate assembly for a file
+adminmenu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/adminmenu.cpp.s
+.PHONY : adminmenu.cpp.s
+
 favleague.obj: favleague.cpp.obj
 .PHONY : favleague.obj
 
@@ -618,6 +642,30 @@ searching.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/searching.cpp.s
 .PHONY : searching.cpp.s
 
+services/adminservices.obj: services/adminservices.cpp.obj
+.PHONY : services/adminservices.obj
+
+# target to build an object file
+services/adminservices.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.obj
+.PHONY : services/adminservices.cpp.obj
+
+services/adminservices.i: services/adminservices.cpp.i
+.PHONY : services/adminservices.i
+
+# target to preprocess a source file
+services/adminservices.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.i
+.PHONY : services/adminservices.cpp.i
+
+services/adminservices.s: services/adminservices.cpp.s
+.PHONY : services/adminservices.s
+
+# target to generate assembly for a file
+services/adminservices.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/services/adminservices.cpp.s
+.PHONY : services/adminservices.cpp.s
+
 services/auth.obj: services/auth.cpp.obj
 .PHONY : services/auth.obj
 
@@ -786,6 +834,78 @@ signup.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/signup.cpp.s
 .PHONY : signup.cpp.s
 
+teamandpos.obj: teamandpos.cpp.obj
+.PHONY : teamandpos.obj
+
+# target to build an object file
+teamandpos.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/teamandpos.cpp.obj
+.PHONY : teamandpos.cpp.obj
+
+teamandpos.i: teamandpos.cpp.i
+.PHONY : teamandpos.i
+
+# target to preprocess a source file
+teamandpos.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/teamandpos.cpp.i
+.PHONY : teamandpos.cpp.i
+
+teamandpos.s: teamandpos.cpp.s
+.PHONY : teamandpos.s
+
+# target to generate assembly for a file
+teamandpos.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/teamandpos.cpp.s
+.PHONY : teamandpos.cpp.s
+
+updatepoints.obj: updatepoints.cpp.obj
+.PHONY : updatepoints.obj
+
+# target to build an object file
+updatepoints.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updatepoints.cpp.obj
+.PHONY : updatepoints.cpp.obj
+
+updatepoints.i: updatepoints.cpp.i
+.PHONY : updatepoints.i
+
+# target to preprocess a source file
+updatepoints.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updatepoints.cpp.i
+.PHONY : updatepoints.cpp.i
+
+updatepoints.s: updatepoints.cpp.s
+.PHONY : updatepoints.s
+
+# target to generate assembly for a file
+updatepoints.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updatepoints.cpp.s
+.PHONY : updatepoints.cpp.s
+
+updateprice.obj: updateprice.cpp.obj
+.PHONY : updateprice.obj
+
+# target to build an object file
+updateprice.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updateprice.cpp.obj
+.PHONY : updateprice.cpp.obj
+
+updateprice.i: updateprice.cpp.i
+.PHONY : updateprice.i
+
+# target to preprocess a source file
+updateprice.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updateprice.cpp.i
+.PHONY : updateprice.cpp.i
+
+updateprice.s: updateprice.cpp.s
+.PHONY : updateprice.s
+
+# target to generate assembly for a file
+updateprice.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FootballFantasy.dir\build.make CMakeFiles/FootballFantasy.dir/updateprice.cpp.s
+.PHONY : updateprice.cpp.s
+
 utils/fantasycontext.obj: utils/fantasycontext.cpp.obj
 .PHONY : utils/fantasycontext.obj
 
@@ -836,6 +956,9 @@ help:
 	@echo ... Structs/PlayerStruct.obj
 	@echo ... Structs/PlayerStruct.i
 	@echo ... Structs/PlayerStruct.s
+	@echo ... adminmenu.obj
+	@echo ... adminmenu.i
+	@echo ... adminmenu.s
 	@echo ... favleague.obj
 	@echo ... favleague.i
 	@echo ... favleague.s
@@ -878,6 +1001,9 @@ help:
 	@echo ... searching.obj
 	@echo ... searching.i
 	@echo ... searching.s
+	@echo ... services/adminservices.obj
+	@echo ... services/adminservices.i
+	@echo ... services/adminservices.s
 	@echo ... services/auth.obj
 	@echo ... services/auth.i
 	@echo ... services/auth.s
@@ -899,6 +1025,15 @@ help:
 	@echo ... signup.obj
 	@echo ... signup.i
 	@echo ... signup.s
+	@echo ... teamandpos.obj
+	@echo ... teamandpos.i
+	@echo ... teamandpos.s
+	@echo ... updatepoints.obj
+	@echo ... updatepoints.i
+	@echo ... updatepoints.s
+	@echo ... updateprice.obj
+	@echo ... updateprice.i
+	@echo ... updateprice.s
 	@echo ... utils/fantasycontext.obj
 	@echo ... utils/fantasycontext.i
 	@echo ... utils/fantasycontext.s

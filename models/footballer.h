@@ -15,8 +15,8 @@ private:
     int teamId;
     string teamName;
     int totalPoints = 0;
-    int gameweekPoints;
 public:
+    int gameweekPoints;
     /*-> constructor <-*/
     Footballer();
     Footballer(string Name,int points,float price,string position, string teamName);
