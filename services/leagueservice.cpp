@@ -2,6 +2,7 @@
 #include "./playersservice.h"
 #include <vector>
 #include "../models/player.h"
+#include "../utils/fantasycontext.h"
 #include <map>
 // all players
 multimap<int, Player> LeagueService::laliga;
@@ -25,7 +26,7 @@ LeagueService::LeagueService() {
     }
 }
 
-string favleague2;
+string favleague2 = FantasyContext::getActivePlayer().getFavleague();
 Player LeagueService:: higherGameweekPoints(){
     for (auto player : players) {
         if(player.getFavleague()=="laliga"){

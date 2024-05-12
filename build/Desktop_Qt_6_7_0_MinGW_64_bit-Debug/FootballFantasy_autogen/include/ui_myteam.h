@@ -69,11 +69,6 @@ public:
     QLabel *firstDefenderLabel_2;
     QLineEdit *TotalPoints;
     QLineEdit *pl1_2;
-    QWidget *formLayoutWidget_9;
-    QVBoxLayout *verticalLayout_9;
-    QLabel *firstDefenderLabel_3;
-    QLineEdit *totalPointsName;
-    QLineEdit *totalPoints;
     QWidget *formLayoutWidget_10;
     QVBoxLayout *verticalLayout_10;
     QLabel *firstDefenderLabel_4;
@@ -404,41 +399,6 @@ public:
 
         verticalLayout_8->addWidget(pl1_2);
 
-        formLayoutWidget_9 = new QWidget(myteam);
-        formLayoutWidget_9->setObjectName("formLayoutWidget_9");
-        formLayoutWidget_9->setGeometry(QRect(1070, 610, 191, 80));
-        verticalLayout_9 = new QVBoxLayout(formLayoutWidget_9);
-        verticalLayout_9->setObjectName("verticalLayout_9");
-        verticalLayout_9->setContentsMargins(0, 0, 0, 0);
-        firstDefenderLabel_3 = new QLabel(formLayoutWidget_9);
-        firstDefenderLabel_3->setObjectName("firstDefenderLabel_3");
-
-        verticalLayout_9->addWidget(firstDefenderLabel_3, 0, Qt::AlignHCenter);
-
-        totalPointsName = new QLineEdit(formLayoutWidget_9);
-        totalPointsName->setObjectName("totalPointsName");
-        totalPointsName->setStyleSheet(QString::fromUtf8(" text-align: center; 	\n"
-"	color: rgb(0, 0, 0);\n"
-"	border:none;\n"
-"	background-color: rgba(0, 0, 0, 0);\n"
-"font-weight: bold;\n"
-""));
-        totalPointsName->setAlignment(Qt::AlignCenter);
-
-        verticalLayout_9->addWidget(totalPointsName);
-
-        totalPoints = new QLineEdit(formLayoutWidget_9);
-        totalPoints->setObjectName("totalPoints");
-        totalPoints->setStyleSheet(QString::fromUtf8("font-weight: bold;	\n"
-" text-align: center; 	\n"
-"	color: rgb(0, 0, 0);\n"
-"	border:none;\n"
-"	background-color: rgba(0, 0, 0, 0);\n"
-""));
-        totalPoints->setAlignment(Qt::AlignCenter);
-
-        verticalLayout_9->addWidget(totalPoints);
-
         formLayoutWidget_10 = new QWidget(myteam);
         formLayoutWidget_10->setObjectName("formLayoutWidget_10");
         formLayoutWidget_10->setGeometry(QRect(860, 610, 191, 80));
@@ -494,8 +454,6 @@ public:
         attackerLabel->setText(QCoreApplication::translate("myteam", "attacker", nullptr));
         firstDefenderLabel->setText(QCoreApplication::translate("myteam", "defender", nullptr));
         firstDefenderLabel_2->setText(QCoreApplication::translate("myteam", "Total Points", nullptr));
-        firstDefenderLabel_3->setText(QCoreApplication::translate("myteam", "higher total points", nullptr));
-        totalPointsName->setText(QString());
         firstDefenderLabel_4->setText(QCoreApplication::translate("myteam", "higher gameWeek points", nullptr));
     } // retranslateUi
 

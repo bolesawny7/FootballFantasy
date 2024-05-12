@@ -17,7 +17,7 @@ private:
 public:
     /* -> constructors <-*/
     Fixture(Team homeTeam, Team awayTeam, string matchDate);
-    
+
     /* -> getters <- */
     int getFixtureId();
     Team getHomeTeam();

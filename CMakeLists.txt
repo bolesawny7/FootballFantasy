@@ -34,7 +34,7 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         models/footballer.h models/footballer.cpp
         models/team.h models/team.cpp
 
-        models/fixture.h models/fixture.cpp
+
         Structs/PlayerStruct.cpp
         Structs/FootballerStruct.cpp
         home.h home.cpp home.ui
@@ -46,18 +46,21 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         favleague.h favleague.cpp favleague.ui
 
         models/player.h models/player.cpp
-        models/fantasyleague.h models/fantasyleague.cpp
+
         models/league.h models/league.cpp
 
         services/leagueservice.h services/leagueservice.cpp
         utils/fantasycontext.h utils/fantasycontext.cpp
-        services/playersservice.h services/playersservice.cpp
+
         adminmenu.h adminmenu.cpp adminmenu.ui
         teamandpos.h teamandpos.cpp teamandpos.ui
         updateprice.h updateprice.cpp updateprice.ui
 
         services/adminservices.h services/adminservices.cpp
         updatepoints.h updatepoints.cpp updatepoints.ui
+        models/fantasyleague.h models/fantasyleague.cpp
+        models/fixture.h models/fixture.cpp
+        services/playersservice.h services/playersservice.cpp
 
 
 

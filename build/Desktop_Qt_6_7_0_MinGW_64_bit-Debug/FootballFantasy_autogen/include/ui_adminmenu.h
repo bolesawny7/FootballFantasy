@@ -26,7 +26,6 @@ public:
     QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QPushButton *updatepoints;
-    QPushButton *nextGW;
     QPushButton *logout;
 
     void setupUi(QDialog *adminmenu)
@@ -60,13 +59,6 @@ public:
 
         verticalLayout->addWidget(updatepoints);
 
-        nextGW = new QPushButton(layoutWidget);
-        nextGW->setObjectName("nextGW");
-        sizePolicy.setHeightForWidth(nextGW->sizePolicy().hasHeightForWidth());
-        nextGW->setSizePolicy(sizePolicy);
-
-        verticalLayout->addWidget(nextGW);
-
         logout = new QPushButton(layoutWidget);
         logout->setObjectName("logout");
         sizePolicy.setHeightForWidth(logout->sizePolicy().hasHeightForWidth());
@@ -92,7 +84,6 @@ public:
 "</style></head><body style=\" font-family:'Segoe UI'; font-size:9pt; font-weight:400; font-style:normal;\">\n"
 "<p align=\"center\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:24pt;\">Admin Mainmenu </span></p></body></html>", nullptr));
         updatepoints->setText(QCoreApplication::translate("adminmenu", "update player", nullptr));
-        nextGW->setText(QCoreApplication::translate("adminmenu", "next GW", nullptr));
         logout->setText(QCoreApplication::translate("adminmenu", "Logout", nullptr));
     } // retranslateUi
 
